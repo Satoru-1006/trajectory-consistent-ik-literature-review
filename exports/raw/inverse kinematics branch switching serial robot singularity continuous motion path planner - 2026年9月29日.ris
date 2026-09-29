@@ -1,0 +1,297 @@
+TY  - JOUR
+AU  - Gao, Meng
+AU  - Wang, Meijing
+AU  - Jiang, Da
+AU  - Li, Erkang
+AU  - Xu, Donglai
+AU  - Zhao, Fu-Qun
+AU  - Jin, Xiao-Dong
+TI  - Singularity Analysis and Mode-Switching Planning of a Symmetrical Multi-Arm Robot
+PY  - 2025
+DA  - 
+JO  - Electronics
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/electronics14061131
+UR  - https://consensus.app/papers/singularity-analysis-and-modeswitching-planning-of-a-gao-wang/c2dce4a4bcc35c7f912a1ac1552ed21c/
+ER  - 
+TY  - JOUR
+AU  - Boschi, Ivan
+AU  - De Toni, A.
+AU  - Di Leva, Roberto
+AU  - Ida’, E.
+AU  - Carricato, Marco
+TI  - Handling Transitions Across Singularities for UR-Like Serial Robots
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 2714
+EP  - 2721
+DO  - 10.1109/lra.2026.3653295
+UR  - https://consensus.app/papers/handling-transitions-across-singularities-for-urlike-boschi-toni/8c5bd288ea885f74bdc311f03afc8a2b/
+ER  - 
+TY  - JOUR
+AU  - Milenkovic, Paul
+AU  - Wang, Zi-Nan
+AU  - Rodriguez, J.
+TI  - Encountering singularities of a serial robot along continuous paths at high precision
+PY  - 2023
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1016/j.mechmachtheory.2022.105224
+UR  - https://consensus.app/papers/encountering-singularities-of-a-serial-robot-along-milenkovic-wang/5268ab7582b25213ab668a5f706e1e14/
+ER  - 
+TY  - JOUR
+AU  - Salunkhe, Durgesh Haribhau
+AU  - Marauli, Tobias
+AU  - Müller, A.
+AU  - Chablat, D.
+AU  - Wenger, P.
+TI  - Kinematic issues in 6R cuspidal robots, guidelines for path planning and deciding cuspidality
+PY  - 2024
+DA  - 
+JO  - The International Journal of Robotics Research
+VL  - 44
+SP  - 1035
+EP  - 1054
+DO  - 10.1177/02783649241293481
+UR  - https://consensus.app/papers/kinematic-issues-in-6r-cuspidal-robots-guidelines-for-path-salunkhe-marauli/05c87ca85bcf55ad9fba065037fdf7bb/
+ER  - 
+TY  - JOUR
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - Path Planning and Optimization for Cuspidal 6R Manipulators
+PY  - 2025
+DA  - 
+JO  - ArXiv
+VL  - abs/2501.18505
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2501.18505
+UR  - https://consensus.app/papers/path-planning-and-optimization-for-cuspidal-6r-elias-wen/019bd42d3d7f52908d71f5d2575d22de/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Xuanming
+AU  - Chen, Lei
+AU  - Dong, Weian
+AU  - Li, Chunxu
+TI  - Optimizing Redundant Robot Kinematics and Motion Planning via Advanced D-H Analysis and Enhanced Artificial Potential Fields
+PY  - 2024
+DA  - 
+JO  - Electronics
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/electronics13163304
+UR  - https://consensus.app/papers/optimizing-redundant-robot-kinematics-and-motion-zhang-chen/ac5bd04573a950079942fc6ab44f5962/
+ER  - 
+TY  - JOUR
+AU  - Villalobos, Jessica
+AU  - Sanchez, Irma
+AU  - Martell, F.
+TI  - Singularity Analysis and Complete Methods to Compute the Inverse Kinematics for a 6-DOF UR/TM-Type Robot
+PY  - 2022
+DA  - 
+JO  - Robotics
+VL  - 11
+SP  - 137
+EP  - 
+DO  - 10.3390/robotics11060137
+UR  - https://consensus.app/papers/singularity-analysis-and-complete-methods-to-compute-the-villalobos-sanchez/2df7e142c9785d3ebe68ae592caef339/
+ER  - 
+TY  - JOUR
+AU  - Liu, Qi
+AU  - Huang, Tian
+TI  - Inverse kinematics of a 5-axis hybrid robot with non-singular tool path generation
+PY  - 2019
+DA  - 
+JO  - Robotics and Computer-Integrated Manufacturing
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1016/j.rcim.2018.06.003
+UR  - https://consensus.app/papers/inverse-kinematics-of-a-5axis-hybrid-robot-with-liu-huang/901352a62d225f35abee0529a59152aa/
+ER  - 
+TY  - JOUR
+AU  - Liu, Hui
+AU  - Li, Yunfan
+AU  - Yang, Zhaofeng
+AU  - Shen, Yue
+TI  - Fast Path Planning for Kinematic Smoothing of Robotic Manipulator Motion
+PY  - 2025
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 25
+SP  - 
+EP  - 
+DO  - 10.3390/s25175598
+UR  - https://consensus.app/papers/fast-path-planning-for-kinematic-smoothing-of-robotic-liu-li/3c563ffbb107584aa27b0dfa79e8143c/
+ER  - 
+TY  - JOUR
+AU  - Zaplana, I.
+TI  - Solving robotic kinematic problems: singularities and inverse kinematics
+PY  - 2018
+DA  - 
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.5821/dissertation-2117-168571
+UR  - https://consensus.app/papers/solving-robotic-kinematic-problems-singularities-and-zaplana/86f0ea8ba4ee5855aaf818a5e92ea263/
+ER  - 
+TY  - JOUR
+AU  - Dulęba, I.
+TI  - Singularity-Robust Inverse Kinematics for Serial Manipulators
+PY  - 2023
+DA  - 
+JO  - Journal of Automation, Mobile Robotics and Intelligent Systems
+VL  - 17
+SP  - 38
+EP  - 45
+DO  - 10.14313/jamris/3-2023/21
+UR  - https://consensus.app/papers/singularityrobust-inverse-kinematics-for-serial-dul%C4%99ba/a077a6a6433456e1b61dbf3ce9060437/
+ER  - 
+TY  - JOUR
+AU  - Chavdarov, I.
+AU  - Naydenov, Bozhidar
+TI  - Algorithm for Determining the Types of Inverse Kinematics Solutions for Sequential Planar Robots and Their Representation in the Configuration Space
+PY  - 2022
+DA  - 
+JO  - Algorithms
+VL  - 15
+SP  - 469
+EP  - 
+DO  - 10.3390/a15120469
+UR  - https://consensus.app/papers/algorithm-for-determining-the-types-of-inverse-kinematics-chavdarov-naydenov/90a458e245e0531ba72918600316ea81/
+ER  - 
+TY  - JOUR
+AU  - Dulęba, I.
+AU  - Karcz-Dulęba, I.
+TI  - Many Faces of Singularities in Robotics
+PY  - 2023
+DA  - 
+JO  - Pomiary Automatyka Robotyka
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.14313/par_247/19
+UR  - https://consensus.app/papers/many-faces-of-singularities-in-robotics-dul%C4%99ba-karcz-dul%C4%99ba/bbaaee10c4055127baa7705754826481/
+ER  - 
+TY  - JOUR
+AU  - Zhong, Jie
+AU  - Wang, Tao
+AU  - Cheng, Lianglun
+TI  - Collision-free path planning for welding manipulator via hybrid algorithm of deep reinforcement learning and inverse kinematics
+PY  - 2021
+DA  - 
+JO  - Complex & Intelligent Systems
+VL  - 8
+SP  - 1899
+EP  - 1912
+DO  - 10.1007/s40747-021-00366-1
+UR  - https://consensus.app/papers/collisionfree-path-planning-for-welding-manipulator-via-zhong-wang/20c01e653b245360ad68ce96ab8cafee/
+ER  - 
+TY  - JOUR
+AU  - Nguyen, D.
+AU  - Nguyen, V.
+AU  - Truong
+AU  - Nguyen, V.
+TI  - Multi-Solution Inverse Kinematics for Robotic Manipulators via Permutation-Invariant Set Prediction
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 9803
+EP  - 9810
+DO  - 10.1109/lra.2026.3703280
+UR  - https://consensus.app/papers/multisolution-inverse-kinematics-for-robotic-nguyen-nguyen/a3b6adaed37259d29dff35b5303e8b96/
+ER  - 
+TY  - JOUR
+AU  - Li, Yulin
+AU  - Miyazaki, Tetsuro
+AU  - Yamamoto, Yoshiki
+AU  - Kawashima, Kenji
+TI  - S-RRT*-based Obstacle Avoidance Autonomous Motion Planner for Continuum-rigid Manipulator
+PY  - 2024
+DA  - 
+JO  - ArXiv
+VL  - abs/2409.19110
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2409.19110
+UR  - https://consensus.app/papers/srrtbased-obstacle-avoidance-autonomous-motion-planner-li-miyazaki/76c213ce62f55086b4703da72e2e0cf0/
+ER  - 
+TY  - JOUR
+AU  - Zhao, Guojun
+AU  - Jiang, Du
+AU  - Liu, Xin
+AU  - Tong, Xiliang
+AU  - Sun, Ying
+AU  - Tao, Bo
+AU  - Kong, Jianyi
+AU  - Yun, Juntong
+AU  - Liu, Y.
+AU  - Fang, Zifan
+TI  - A Tandem Robotic Arm Inverse Kinematic Solution Based on an Improved Particle Swarm Algorithm
+PY  - 2022
+DA  - 
+JO  - Frontiers in Bioengineering and Biotechnology
+VL  - 10
+SP  - 
+EP  - 
+DO  - 10.3389/fbioe.2022.832829
+UR  - https://consensus.app/papers/a-tandem-robotic-arm-inverse-kinematic-solution-based-on-an-zhao-jiang/15afcbed82515fcd8b012681f92e9cb8/
+ER  - 
+TY  - JOUR
+AU  - Yang, Jiahao
+AU  - Yan, Shenhao
+AU  - Feng, Fan
+AU  - Yao, Chengsi
+AU  - Wang, Ge
+AU  - Mai, Zhixin
+AU  - Zhao, Yiming
+AU  - Han, Yatong
+TI  - MimicIK: Real-Time Generative Inverse Kinematics from Teleoperation with FK Consistency
+PY  - 2026
+DA  - 
+JO  - ArXiv
+VL  - abs/2606.15148
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2606.15148
+UR  - https://consensus.app/papers/mimicik-realtime-generative-inverse-kinematics-from-yang-yan/88e3051936785b439fa2586027c15229/
+ER  - 
+TY  - JOUR
+AU  - Bayoume, Mustafa Osman
+AU  - Abdelgeliel, M.
+AU  - Saber, E.
+AU  - El-Gamal, H.
+TI  - Optimized inverse kinematics solutions for a 6-DOF robot
+PY  - 2026
+DA  - 
+JO  - Scientific Reports
+VL  - 16
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-026-51032-w
+UR  - https://consensus.app/papers/optimized-inverse-kinematics-solutions-for-a-6dof-robot-bayoume-abdelgeliel/c82b89748c1a50dbb7a37f7b04073aa4/
+ER  - 
+TY  - JOUR
+AU  - Wang, Helin
+AU  - Zhou, Zida
+AU  - Zhong, X.
+AU  - Chen, Qi
+TI  - Singular Configuration Analysis and Singularity Avoidance with Application in an Intelligent Robotic Manipulator
+PY  - 2022
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 22
+SP  - 
+EP  - 
+DO  - 10.3390/s22031239
+UR  - https://consensus.app/papers/singular-configuration-analysis-and-singularity-wang-zhou/b7ed95861cbf5ab3853fba73ee582820/
+ER  - 

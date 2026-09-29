@@ -1,0 +1,289 @@
+﻿TY  - JOUR
+AU  - Atawnih, Abdelrahem
+AU  - Papageorgiou, Dimitrios
+AU  - Doulgeri, Z.
+TI  - Kinematic control of redundant robots with guaranteed joint limit avoidance
+JO  - Robotics Auton. Syst.
+PY  - 2016
+DO  - 10.1016/j.robot.2016.01.006
+UR  - https://doi.org/10.1016/j.robot.2016.01.006
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Miyata, Shogo
+AU  - Miyahara, Sho
+AU  - Nenchev, D.
+TI  - Analytical formula for the pseudoinverse and its application for singular path tracking with a class of redundant robotic limbs
+JO  - Advanced Robotics
+PY  - 2017
+DO  - 10.1080/01691864.2017.1285721
+UR  - https://doi.org/10.1080/01691864.2017.1285721
+AB  - Graphical Abstract
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zaplana, I.
+AU  - Basañez, L.
+TI  - A novel closed-form solution for the inverse kinematics of redundant manipulators through workspace analysis
+JO  - Mechanism and Machine Theory
+PY  - 2018
+DO  - 10.1016/j.mechmachtheory.2017.12.005
+UR  - https://doi.org/10.1016/j.mechmachtheory.2017.12.005
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+JO  - Mechanism and Machine Theory
+PY  - 2018
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://doi.org/10.1016/j.mechmachtheory.2017.10.025
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zaplana, I.
+AU  - Hadfield, Hugo
+AU  - Lasenby, Joan
+TI  - Closed-form solutions for the inverse kinematics of serial robots using conformal geometric algebra
+JO  - Mechanism and Machine Theory
+PY  - 2022
+DO  - 10.1016/j.mechmachtheory.2022.104835
+UR  - https://doi.org/10.1016/j.mechmachtheory.2022.104835
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Joo, D.
+AU  - Yeom, Ki-Won
+TI  - Improved Hybrid Trajectory Tracking Algorithm for a 3-link Manipulator Using Artificial Neural Network and Kalman Filter
+PY  - 2021
+DO  - 10.18178/ijmerr.10.2.60-66
+UR  - https://doi.org/10.18178/ijmerr.10.2.60-66
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Milenkovic, Paul
+TI  - Optimal path crossing the orientation exclusion zone of a robot with offset wrist
+JO  - Robotica
+PY  - 2021
+DO  - 10.1017/s0263574721000461
+UR  - https://doi.org/10.1017/s0263574721000461
+AB  - Abstract An unexpected path reversal is discovered for a serial robot with an offset-axis wrist over a finite range of proximity to the wrist singularity. This is replicated by a kinematic model. A prior spherical-wrist method transits the singularity with limited joint rate and acceleration under a constant rate of tool traversal. Accurate position is maintained by controlling a small deviation in orientation. Extensions to the method for an offset wrist (1) find the least-maximum deviation, (2) identify and locate where a path reversal occurs, and (3) use this point to control step size in a high-order predictor-correction path following procedure.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Patkó, Dóra
+AU  - Zelei, A.
+TI  - Velocity and acceleration level inverse kinematic calculation alternatives for redundant manipulators
+JO  - Meccanica
+PY  - 2021
+DO  - 10.1007/s11012-020-01305-z
+UR  - https://doi.org/10.1007/s11012-020-01305-z
+AB  - Abstract For both non-redundant and redundant systems, the inverse kinematics (IK) calculation is a fundamental step in the control algorithm of fully actuated serial manipulators. The tool-center-point (TCP) position is given and the joint coordinates are determined by the IK. Depending on the task, robotic manipulators can be kinematically redundant. That is when the desired task possesses lower dimensions than the degrees-of-freedom of a redundant manipulator. The IK calculation can be implemented numerically in several alternative ways not only in case of the redundant but also in the non-redundant case. We study the stability properties and the feasibility of a tracking error feedback and a direct tracking error elimination approach of the numerical implementation of IK calculation both on velocity and acceleration levels. The feedback approach expresses the joint position increment stepwise based on the local velocity or acceleration of the desired TCP trajectory and linear feedback terms. In the direct error elimination concept, the increment of the joint position is directly given by the approximate error between the desired and the realized TCP position, by assuming constant TCP velocity or acceleration. We investigate the possibility of the implementation of the direct method on acceleration level. The investigated IK methods are unified in a framework that utilizes the idea of the auxiliary input. Our closed form results and numerical case study examples show the stability properties, benefits and disadvantages of the assessed IK implementations.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Zichun
+AU  - Li, Yuntao
+AU  - Yang, Xiaoyu
+AU  - Zhao, Zhiyuan
+AU  - Zhao, Jingdong
+AU  - Liu, Hong
+TI  - A Combined Inverse Kinematics Algorithm Using FABRIK with Optimization
+JO  - Journal of Intelligent & Robotic Systems
+PY  - 2022
+DO  - 10.1007/s10846-023-01895-2
+UR  - https://doi.org/10.1007/s10846-023-01895-2
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Kang, Mincheul
+AU  - Yoon, Sung-Eui
+TI  - Analysis and acceleration of TORM: optimization-based planning for path-wise inverse kinematics
+JO  - Autonomous Robots
+PY  - 2022
+DO  - 10.1007/s10514-022-10040-1
+UR  - https://doi.org/10.1007/s10514-022-10040-1
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Milenkovic, Paul
+AU  - Wang, Zi-Nan
+AU  - Rodriguez, J.
+TI  - Encountering singularities of a serial robot along continuous paths at high precision
+JO  - Mechanism and Machine Theory
+PY  - 2023
+DO  - 10.1016/j.mechmachtheory.2022.105224
+UR  - https://doi.org/10.1016/j.mechmachtheory.2022.105224
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Mamunuzzaman, Mir
+AU  - Mareczek, Jörg
+TI  - Preliminary Results on Controllability of Serial Robot-Manipulators in Singular Configurations
+PY  - 2023
+DO  - 10.5220/0012238000003543
+UR  - https://doi.org/10.5220/0012238000003543
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Bai, Ye
+AU  - Hsieh, Sheng-Jen
+TI  - A hybrid method using FABRIK and custom ANN in solving inverse kinematic for generic serial robot manipulator
+JO  - The International Journal of Advanced Manufacturing Technology
+PY  - 2024
+DO  - 10.1007/s00170-023-12928-3
+UR  - https://doi.org/10.1007/s00170-023-12928-3
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CHAP
+AU  - Mueller, Andreas
+TI  - Analytically Informed Inverse Kinematics Solution at Singularities
+JO  - Springer Proceedings in Advanced Robotics
+PY  - 2024
+DO  - 10.1007/978-3-031-64057-5_29
+UR  - https://doi.org/10.1007/978-3-031-64057-5_29
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Li, Yu
+AU  - Wang, Liang
+TI  - Comprehensive research and analysis on obstacle–singularity–joint limit avoidance of redundant robot
+JO  - International Journal of Advanced Robotic Systems
+PY  - 2024
+DO  - 10.1177/17298806241233910
+UR  - https://doi.org/10.1177/17298806241233910
+AB  - Redundant robots can complete other tasks while performing main task and have excellent motion performance. Although redundant robots have redundancy characteristics, they may still fall into singular configuration or cannot overcome joint limits due to the limitation of their own structure and motion law. Besides, currently, most of the research mainly focus on obstacle avoidance at the end of the robot. So comprehensive study is conducted on avoidance of obstacle, singularity, and joint limit of redundant robot. Firstly, the kinematics model of robot is obtained by D-H matrix method. Space vector distance method is proposed to calculate the position relationship between robot and obstacle, and potential function is constructed. Based on gradient projection method, using the damped generalized inverse and the weighted norm method, the mathematical models of obstacle avoidance, singularity avoidance, and joint limit avoidance are constructed. The simulation results show that the robot can avoid the obstacle in three-dimensional redundant space. At the same time, manipulability and minimum singular value of the robot are always positive. After adding the function of avoiding joint limit, during the whole control process, the motion range of joint angle is reduced and the angular velocity is relatively small, which ensure the motion stability of robot. Namely, the singular configuration and joint limit of robot are avoided. The research is of great significance for practical application of redundant robot.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Abbes, Manel
+AU  - Poisson, Gérard
+TI  - Geometric Approach for Inverse Kinematics of the FANUC CRX Collaborative Robot
+JO  - Robotics
+PY  - 2024
+DO  - 10.3390/robotics13060091
+UR  - https://doi.org/10.3390/robotics13060091
+AB  - Because they are safe and easy to use, collaborative robots are revolutionizing many sectors, including industry, medicine, and agriculture. Controlling their dynamics, movements, and postures are key points in this evolution. Inverse kinematics is then crucial for robot motion planning. In 6R serial robots, achieving a desired pose is possible with different joint combinations. In this paper, our focus lies in studying forward and, mainly, inverse kinematics of the FANUC CRX-10iA cobot, a 6R cobotic arm with a non-spherical wrist. Its specific structural parameters implies that no analytical solutions exist except for some particular situations. FANUC does not provide the complete set of inverse kinematic solutions, even when 16 solutions are possible, only 8 of them are provided in Roboguide software. Furthermore, the existing literature on joints-to-workspace mapping for CRX cobots is currently very limited. It either lacks or provides partial or inconsistent inverse kinematics analysis. We present and detail a novel fully geometric method for numerically solving inverse kinematics meeting the requirement of high precision and a fast response. This approach provides both the exact number of inverse kinematics solutions and the sets of joint angles even for singular configuration. Its effectiveness was verified through simulations using the Roboguide Software and experimentation on the actual CRX-10iA cobot. Several examples (8, 12, or 16 inverse kinematic solutions) have enabled us to validate and prove the robustness and reliability of this geometric approach.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Chen, Yu
+AU  - Cai, Yilin
+AU  - Xu, Jinyun
+AU  - Ren, Z.
+AU  - Shi, Guanya
+AU  - Choset, H.
+TI  - Propagative Distance Optimization for Constrained Inverse Kinematics
+JO  - ArXiv
+PY  - 2024
+DO  - 10.48550/arxiv.2406.11572
+UR  - https://doi.org/10.48550/arxiv.2406.11572
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Yin, Ting
+AU  - Sha, J.
+AU  - Xiang-Long
+AU  - Zhang, Yifei
+AU  - Yang, Wen-Long
+AU  - Li, Jian-Xue
+TI  - Continuous Gradient Projection Method for Kinematically Efficient Redundancy Resolution in 7-DOF Spray Painting Systems
+JO  - 2026 IEEE International Conference on Mechatronics and Automation (ICMA)
+PY  - 2026
+DO  - 10.1109/icma69663.2026.11647426
+UR  - https://doi.org/10.1109/icma69663.2026.11647426
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-UNCERTAIN
+N1  - screening_decision=UNCERTAIN_FULLTEXT
+N1  - abstract_source=missing
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 

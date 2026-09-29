@@ -1,0 +1,298 @@
+TY  - JOUR
+AU  - Malhan, R.
+AU  - Thakar, Shantanu
+AU  - Kabir, A.
+AU  - Rajendran, Pradeep
+AU  - Bhatt, P.
+AU  - Gupta, Satyandra
+TI  - Generation of Configuration Space Trajectories Over Semi-Constrained Cartesian Paths for Robotic Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE Transactions on Automation Science and Engineering
+VL  - 20
+SP  - 193
+EP  - 205
+DO  - 10.1109/tase.2022.3144673
+UR  - https://consensus.app/papers/generation-of-configuration-space-trajectories-over-malhan-thakar/a9c9019964a457c1a1916c17abcddad9/
+ER  - 
+TY  - JOUR
+AU  - Wen, Yalun
+AU  - Pagilla, P.
+TI  - Path-Constrained and Collision-Free Optimal Trajectory Planning for Robot Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE Transactions on Automation Science and Engineering
+VL  - 20
+SP  - 763
+EP  - 774
+DO  - 10.1109/tase.2022.3169989
+UR  - https://consensus.app/papers/pathconstrained-and-collisionfree-optimal-trajectory-wen-pagilla/cd2c658f468c5426bd7effeb4e0e8f8c/
+ER  - 
+TY  - JOUR
+AU  - Lang, Ye-Xing
+AU  - Liu, Jiaxin
+AU  - Xiao, Quan
+AU  - Tang, Jia-Neng
+AU  - Chen, Yuan-Jun
+AU  - Dian, S.
+TI  - Obstacle-Avoidance Planning in C-Space for Continuum Manipulator Based on IRRT-Connect
+PY  - 2025
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 25
+SP  - 
+EP  - 
+DO  - 10.3390/s25103081
+UR  - https://consensus.app/papers/obstacleavoidance-planning-in-cspace-for-continuum-lang-liu/8affc6c67c3b5e468e6c39f4e51c0898/
+ER  - 
+TY  - JOUR
+AU  - Wu, Guanglei
+AU  - Zhang, Ning
+TI  - Kinematically Constrained Jerk–Continuous S-Curve Trajectory Planning in Joint Space for Industrial Robots
+PY  - 2023
+DA  - 
+JO  - Electronics
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/electronics12051135
+UR  - https://consensus.app/papers/kinematically-constrained-jerk%E2%80%93continuous-scurve-wu-zhang/3657aeb737f45404bb2be2d9857514a6/
+ER  - 
+TY  - JOUR
+AU  - Qian, Chen
+AU  - Yao, Jianjun
+AU  - Zhang, Yi-Kun
+TI  - Time-Jerk Optimal Robotic Trajectory Planning Under Jerk and Continuity Constraints via Convex Optimization
+PY  - 2025
+DA  - 
+JO  - Actuators
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/act14060272
+UR  - https://consensus.app/papers/timejerk-optimal-robotic-trajectory-planning-under-jerk-qian-yao/edfd2367549752b39ef92cd5e008c51e/
+ER  - 
+TY  - JOUR
+AU  - Liu, Tian-Liang
+AU  - Yang, Taiwei
+AU  - Xu, Wenfu
+AU  - Mylonas, G.
+AU  - Liang, Bin
+TI  - Efficient Inverse Kinematics and Planning of a Hybrid Active and Passive Cable-Driven Segmented Manipulator
+PY  - 2021
+DA  - 
+JO  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+VL  - 52
+SP  - 4233
+EP  - 4246
+DO  - 10.1109/tsmc.2021.3095152
+UR  - https://consensus.app/papers/efficient-inverse-kinematics-and-planning-of-a-hybrid-liu-yang/910290b6a41c5c4a83143f2c84c5cab9/
+ER  - 
+TY  - JOUR
+AU  - He, Chunlai
+AU  - Liu, Yunfei
+AU  - Cheng, Shuo
+TI  - Singularity Configuration Pass Algorithm of Manipulator Based on PVT Trajectory Planning
+PY  - 2021
+DA  - 
+JO  - 2021 6th International Conference on Control, Robotics and Cybernetics (CRC)
+VL  - 
+SP  - 137
+EP  - 143
+DO  - 10.1109/crc52766.2021.9620142
+UR  - https://consensus.app/papers/singularity-configuration-pass-algorithm-of-manipulator-he-liu/9aea8d7f9afc5173b33f632be5f0bbeb/
+ER  - 
+TY  - JOUR
+AU  - Kang, Mincheul
+AU  - Yoon, Sung-Eui
+TI  - Analysis and acceleration of TORM: optimization-based planning for path-wise inverse kinematics
+PY  - 2022
+DA  - 
+JO  - Autonomous Robots
+VL  - 46
+SP  - 599
+EP  - 615
+DO  - 10.1007/s10514-022-10040-1
+UR  - https://consensus.app/papers/analysis-and-acceleration-of-torm-optimizationbased-kang-yoon/547f4d1ae1e35763a5f3914bbea1f328/
+ER  - 
+TY  - JOUR
+AU  - Oelerich, Thies
+AU  - Hartl-Nesic, Christian
+AU  - Beck, F.
+AU  - Kugi, Andreas
+TI  - BoundPlanner: A Convex-Set-Based Approach to Bounded Manipulator Trajectory Planning
+PY  - 2025
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 10
+SP  - 5393
+EP  - 5400
+DO  - 10.1109/lra.2025.3558450
+UR  - https://consensus.app/papers/boundplanner-a-convexsetbased-approach-to-bounded-oelerich-hartl-nesic/cb38ca71376359a2938246647ca5b990/
+ER  - 
+TY  - JOUR
+AU  - Malik, Aryslan
+AU  - Lischuk, Yevgeniy
+AU  - Henderson, T.
+AU  - Prazenica, Richard
+TI  - A Deep Reinforcement-Learning Approach for Inverse Kinematics Solution of a High Degree of Freedom Robotic Manipulator
+PY  - 2022
+DA  - 
+JO  - Robotics
+VL  - 11
+SP  - 44
+EP  - 
+DO  - 10.3390/robotics11020044
+UR  - https://consensus.app/papers/a-deep-reinforcementlearning-approach-for-inverse-malik-lischuk/e4c42939d6705f1080637624b69f3f54/
+ER  - 
+TY  - JOUR
+AU  - Bai, Zheng-Feng
+AU  - Niu, Yuxin
+AU  - Kong, Qingfeng
+TI  - Kinematic analysis and trajectory planning of multi-segment continuum manipulator
+PY  - 2024
+DA  - 
+JO  - Journal of Mechanisms and Robotics
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1115/1.4067229
+UR  - https://consensus.app/papers/kinematic-analysis-and-trajectory-planning-of-bai-niu/778506be281e5b109ea1e00b4d2dcf94/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Yi
+AU  - Wang, Hong-Guang
+TI  - Redundancy-Based Motion Planning with Task Constraints for Robot Manipulators
+PY  - 2025
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 25
+SP  - 
+EP  - 
+DO  - 10.3390/s25061900
+UR  - https://consensus.app/papers/redundancybased-motion-planning-with-task-constraints-zhang-wang/51a341359fe0595f91977df01a700be3/
+ER  - 
+TY  - JOUR
+AU  - Shen, Henghua
+AU  - Xie, Wen-Fang
+AU  - Tang, Jianyu
+AU  - Zhou, Tao
+TI  - Adaptive Manipulability-Based Path Planning Strategy for Industrial Robot Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE/ASME Transactions on Mechatronics
+VL  - 28
+SP  - 1742
+EP  - 1753
+DO  - 10.1109/tmech.2022.3231467
+UR  - https://consensus.app/papers/adaptive-manipulabilitybased-path-planning-strategy-for-shen-xie/de8129700092512992e8951e90544d74/
+ER  - 
+TY  - JOUR
+AU  - Reiter, Alexander
+AU  - Mueller, Andreas
+AU  - Gattringer, H.
+TI  - On Higher Order Inverse Kinematics Methods in Time-Optimal Trajectory Planning for Kinematically Redundant Manipulators
+PY  - 2018
+DA  - 
+JO  - IEEE Transactions on Industrial Informatics
+VL  - 14
+SP  - 1681
+EP  - 1690
+DO  - 10.1109/tii.2018.2792002
+UR  - https://consensus.app/papers/on-higher-order-inverse-kinematics-methods-in-timeoptimal-reiter-mueller/13201c3886315896916d07c6cf20514f/
+ER  - 
+TY  - JOUR
+AU  - Oelerich, Thies
+AU  - Beck, F.
+AU  - Hartl-Nesic, Christian
+AU  - Kugi, Andreas
+TI  - BoundMPC: Cartesian path following with error bounds based on model predictive control in the joint space
+PY  - 2024
+DA  - 
+JO  - The International Journal of Robotics Research
+VL  - 44
+SP  - 1287
+EP  - 1316
+DO  - 10.1177/02783649241309354
+UR  - https://consensus.app/papers/boundmpc-cartesian-path-following-with-error-bounds-based-oelerich-beck/36597eb672755110ae2cbcfa8805a44d/
+ER  - 
+TY  - JOUR
+AU  - Wang, Yuxuan
+TI  - Obstacle Avoidance Trajectory Planning for SCARA Manipulators based on Analytical Kinematics and Improved APF
+PY  - 2026
+DA  - 
+JO  - Scientific Journal of Intelligent Systems Research
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.54691/qy5c5064
+UR  - https://consensus.app/papers/obstacle-avoidance-trajectory-planning-for-scara-wang/5867afc62b3e598e9535ebae9f92c20b/
+ER  - 
+TY  - JOUR
+AU  - Cui, C.
+AU  - Wang, Jingyuan
+AU  - Zhang, Haozhe
+AU  - Wu, Hai-Yu
+AU  - Wang, Danni
+AU  - Miao, Xin-Ge
+AU  - Xu, Chao
+AU  - Zhou, Chun-Lin
+TI  - An Articulated Continuum Robot for Turbine Blade Inspection With Kinematics Enabling Constraint‐Aware Motion Planning and Execution
+PY  - 2026
+DA  - 
+JO  - IET Cyber-Systems and Robotics
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1049/csy2.70046
+UR  - https://consensus.app/papers/an-articulated-continuum-robot-for-turbine-blade-cui-wang/e4a62792437753f8a63620c34505704b/
+ER  - 
+TY  - JOUR
+AU  - Yin, Zhihang
+AU  - Wu, Fa
+AU  - Wang, Ziqiang
+AU  - Yang, Jianmin
+AU  - Tan, Jiyong
+AU  - Kong, Dexing
+TI  - Dynamic Programming-Based Offline Redundancy Resolution of Redundant Manipulators Along Prescribed Paths with Real-Time Adjustment
+PY  - 2024
+DA  - 
+JO  - ArXiv
+VL  - abs/2411.17052
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2411.17052
+UR  - https://consensus.app/papers/dynamic-programmingbased-offline-redundancy-resolution-yin-wu/a54604d32d3a521abcf4b08996ff33cf/
+ER  - 
+TY  - JOUR
+AU  - Magraoui, R.
+AU  - Hadi, Osmani El
+AU  - Mohammed, Ouali
+TI  - TRAJECTORY PLANNING AND SIMULATION OF A 6-DOF ROBOTIC MANIPULATOR
+PY  - 2026
+DA  - 
+JO  - Veredas do Direito
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.18623/rvd.v23.6446
+UR  - https://consensus.app/papers/trajectory-planning-and-simulation-of-a-6dof-robotic-magraoui-hadi/a71ca0c67d8e5731a05cce937d473b98/
+ER  - 
+TY  - JOUR
+AU  - Liu, Yong
+AU  - Li, Xiang
+AU  - Jiang, Pei-Yang
+AU  - Du, Z.
+AU  - Wu, Zhe
+AU  - Sun, Boxi
+AU  - Huang, Xin-Yan
+TI  - Evolutionary multi-objective trajectory optimization for a redundant robot in Cartesian space considering obstacle avoidance
+PY  - 2022
+DA  - 
+JO  - Mechanical Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.5194/ms-13-41-2022
+UR  - https://consensus.app/papers/evolutionary-multiobjective-trajectory-optimization-liu-li/c4b74374adb5509ca333ba7890f2c10d/
+ER  - 

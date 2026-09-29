@@ -1,0 +1,304 @@
+TY  - JOUR
+AU  - Zhang, Yachen
+AU  - Kikuuwe, Ryo
+TI  - Ensuring Viability: A QP-based Inverse Kinematics for Handling Joint Range, Velocity and Acceleration Limits, as Well as Whole-body Collision Avoidance
+PY  - 2026
+DA  - 
+JO  - Journal of Intelligent & Robotic Systems
+VL  - 112
+SP  - 
+EP  - 
+DO  - 10.1007/s10846-025-02335-z
+UR  - https://consensus.app/papers/ensuring-viability-a-qpbased-inverse-kinematics-for-zhang-kikuuwe/ca02db575e615cc58e19c604d21e3c96/
+ER  - 
+TY  - JOUR
+AU  - Chen, Yu
+AU  - Cai, Yilin
+AU  - Xu, Jinyun
+AU  - Ren, Z.
+AU  - Shi, Guanya
+AU  - Choset, H.
+TI  - Propagative Distance Optimization for Constrained Inverse Kinematics
+PY  - 2024
+DA  - 
+JO  - ArXiv
+VL  - abs/2406.11572
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2406.11572
+UR  - https://consensus.app/papers/propagative-distance-optimization-for-constrained-chen-cai/75b93ec958ba55f4a66724ad27b720c1/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Linlin
+AU  - Du, Huibin
+AU  - Qin, Z.
+AU  - Zhao, Yue-Jing
+AU  - Yang, Guang
+TI  - Real-time optimized inverse kinematics of redundant robots under inequality constraints
+PY  - 2024
+DA  - 
+JO  - Scientific Reports
+VL  - 14
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-024-81174-8
+UR  - https://consensus.app/papers/realtime-optimized-inverse-kinematics-of-redundant-zhang-du/4daa1d17d3b554e48ecaad4139126d13/
+ER  - 
+TY  - JOUR
+AU  - Ni, Shihao
+AU  - Chen, Wei-Dong
+AU  - Ju, Hehua
+AU  - Chen, Ti
+TI  - Coordinated trajectory planning of a dual-arm space robot with multiple avoidance constraints
+PY  - 2022
+DA  - 
+JO  - Acta Astronautica
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1016/j.actaastro.2022.03.024
+UR  - https://consensus.app/papers/coordinated-trajectory-planning-of-a-dualarm-space-robot-ni-chen/8a23f7c1fe9b51cf8edccd6509de94af/
+ER  - 
+TY  - JOUR
+AU  - Liu, Yong
+AU  - Li, Xiang
+AU  - Jiang, Pei-Yang
+AU  - Du, Z.
+AU  - Wu, Zhe
+AU  - Sun, Boxi
+AU  - Huang, Xin-Yan
+TI  - Evolutionary multi-objective trajectory optimization for a redundant robot in Cartesian space considering obstacle avoidance
+PY  - 2022
+DA  - 
+JO  - Mechanical Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.5194/ms-13-41-2022
+UR  - https://consensus.app/papers/evolutionary-multiobjective-trajectory-optimization-liu-li/c4b74374adb5509ca333ba7890f2c10d/
+ER  - 
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 317
+EP  - 334
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://consensus.app/papers/positionbased-kinematics-for-7dof-serial-manipulators-faria-ferreira/dfa8ecc058b157cdb6626cd6c6b9a79d/
+ER  - 
+TY  - JOUR
+AU  - Trutman, Pavel
+AU  - Din, M. El
+AU  - Henrion, D.
+AU  - Pajdla, T.
+TI  - Globally Optimal Solution to Inverse Kinematics of 7DOF Serial Manipulator
+PY  - 2020
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 7
+SP  - 6012
+EP  - 6019
+DO  - 10.1109/lra.2022.3163444
+UR  - https://consensus.app/papers/globally-optimal-solution-to-inverse-kinematics-of-7dof-trutman-din/f39e0a6d80a4580d8e75ad8bad8bbe91/
+ER  - 
+TY  - JOUR
+AU  - Atawnih, Abdelrahem
+AU  - Papageorgiou, Dimitrios
+AU  - Doulgeri, Z.
+TI  - Kinematic control of redundant robots with guaranteed joint limit avoidance
+PY  - 2016
+DA  - 
+JO  - Robotics Auton. Syst.
+VL  - 79
+SP  - 122
+EP  - 131
+DO  - 10.1016/j.robot.2016.01.006
+UR  - https://consensus.app/papers/kinematic-control-of-redundant-robots-with-guaranteed-atawnih-papageorgiou/25a7a65c31a153c4b81412d3a26f1619/
+ER  - 
+TY  - JOUR
+AU  - Colan, Jacinto
+AU  - Davila, Ana
+AU  - Fozilov, Khusniddin
+AU  - Hasegawa, Y.
+TI  - A Concurrent Framework for Constrained Inverse Kinematics of Minimally Invasive Surgical Robots
+PY  - 2023
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 23
+SP  - 
+EP  - 
+DO  - 10.3390/s23063328
+UR  - https://consensus.app/papers/a-concurrent-framework-for-constrained-inverse-colan-davila/ab8e4d8f22b95b68a79e509ba3351e2e/
+ER  - 
+TY  - JOUR
+AU  - Marić, Filip
+AU  - Giamou, Matthew
+AU  - Khoubyarian, Soroush
+AU  - Petrović, I.
+AU  - Kelly, Jonathan
+TI  - Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization
+PY  - 2019
+DA  - 
+JO  - 2020 IEEE International Conference on Robotics and Automation (ICRA)
+VL  - 
+SP  - 7101
+EP  - 7107
+DO  - 10.1109/icra40945.2020.9196704
+UR  - https://consensus.app/papers/inverse-kinematics-for-serial-kinematic-chains-via-sum-of-mari%C4%87-giamou/8dfca0c662fc56f6b049aedbfa690c13/
+ER  - 
+TY  - JOUR
+AU  - Thai, P.
+AU  - Nguyen, Quang Hoang
+AU  - Dinh, V.
+TI  - Kinematics and Dynamics Analysis of a 7-Degree-of-Freedom Collaborative Robot with Joint Limitation Avoidance
+PY  - 2025
+DA  - 
+JO  - JST: Smart Systems and Devices
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.51316/jst.184.ssad.2025.35.3.7
+UR  - https://consensus.app/papers/kinematics-and-dynamics-analysis-of-a-7degreeoffreedom-thai-nguyen/9c3bb7c218285d1a9d0d8e001aca404c/
+ER  - 
+TY  - JOUR
+AU  - Wen, Yalun
+AU  - Pagilla, P.
+TI  - Path-Constrained and Collision-Free Optimal Trajectory Planning for Robot Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE Transactions on Automation Science and Engineering
+VL  - 20
+SP  - 763
+EP  - 774
+DO  - 10.1109/tase.2022.3169989
+UR  - https://consensus.app/papers/pathconstrained-and-collisionfree-optimal-trajectory-wen-pagilla/cd2c658f468c5426bd7effeb4e0e8f8c/
+ER  - 
+TY  - JOUR
+AU  - Vázquez-Castillo, Valentín
+AU  - Torres-Figueroa, J.
+AU  - Merchán-Cruz, E.
+AU  - Vega-Alvarado, Eduardo
+AU  - Niño-Suárez, P.
+AU  - Rodríguez-Cañizo, R.
+TI  - Inverse Kinematics Solution of Articulated Robots Using a Heuristic Approach for Optimizing Joint Displacement
+PY  - 2022
+DA  - 
+JO  - IEEE Access
+VL  - PP
+SP  - 1
+EP  - 1
+DO  - 10.1109/access.2022.3182496
+UR  - https://consensus.app/papers/inverse-kinematics-solution-of-articulated-robots-using-a-v%C3%A1zquez-castillo-torres-figueroa/885696df80495af0b2859306412e14d7/
+ER  - 
+TY  - JOUR
+AU  - Hernández-Barragán, J.
+AU  - López-Franco, C.
+AU  - Arana-Daniel, N.
+AU  - Alanis, A.
+AU  - Lopez-Franco, Adriana
+TI  - A modified firefly algorithm for the inverse kinematics solutions of robotic manipulators
+PY  - 2021
+DA  - 
+JO  - Integrated Computer-Aided Engineering
+VL  - 28
+SP  - 257
+EP  - 275
+DO  - 10.3233/ica-210660
+UR  - https://consensus.app/papers/a-modified-firefly-algorithm-for-the-inverse-kinematics-hern%C3%A1ndez-barrag%C3%A1n-l%C3%B3pez-franco/852eee893dc7570380e9bac1f653f479/
+ER  - 
+TY  - JOUR
+AU  - Cohn, Thomas
+AU  - Tang, Li
+AU  - Amice, Alexandre
+AU  - Tedrake, Russ
+TI  - A Framework for Combining Optimization-Based and Analytic Inverse Kinematics
+PY  - 2026
+DA  - 
+JO  - ArXiv
+VL  - abs/2602.05092
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2602.05092
+UR  - https://consensus.app/papers/a-framework-for-combining-optimizationbased-and-analytic-cohn-tang/f583d34f82685ceaadc1d59fd3770348/
+ER  - 
+TY  - JOUR
+AU  - Liu, Tianyu
+AU  - Cui, Jingkai
+AU  - Li, Yanhui
+AU  - Gao, Si-Yuan
+AU  - Zhu, Mingchao
+AU  - Chen, Liheng
+TI  - Time-Optimal Asymmetric S-Curve Trajectory Planning of Redundant Manipulators under Kinematic Constraints
+PY  - 2023
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 23
+SP  - 
+EP  - 
+DO  - 10.3390/s23063074
+UR  - https://consensus.app/papers/timeoptimal-asymmetric-scurve-trajectory-planning-of-liu-cui/ac67dc97866d5bb5a0e88706dc7946d6/
+ER  - 
+TY  - JOUR
+AU  - Bordalba, Ricard
+AU  - Schoels, Tobias
+AU  - Ros, L.
+AU  - Porta, J.
+AU  - Diehl, M.
+TI  - Direct Collocation Methods for Trajectory Optimization in Constrained Robotic Systems
+PY  - 2023
+DA  - 
+JO  - IEEE Transactions on Robotics
+VL  - 39
+SP  - 183
+EP  - 202
+DO  - 10.1109/tro.2022.3193776
+UR  - https://consensus.app/papers/direct-collocation-methods-for-trajectory-optimization-bordalba-schoels/06c120d74d265c9fa33b6aa7edc9b26b/
+ER  - 
+TY  - JOUR
+AU  - Starke, S.
+AU  - Hendrich, N.
+AU  - Zhang, Jianwei
+TI  - Memetic Evolution for Generic Full-Body Inverse Kinematics in Robotics and Animation
+PY  - 2019
+DA  - 
+JO  - IEEE Transactions on Evolutionary Computation
+VL  - 23
+SP  - 406
+EP  - 420
+DO  - 10.1109/tevc.2018.2867601
+UR  - https://consensus.app/papers/memetic-evolution-for-generic-fullbody-inverse-starke-hendrich/9aa1c20521075a15a862ebe509ec89cd/
+ER  - 
+TY  - JOUR
+AU  - Singh, Gurjeet
+AU  - Banga, V.
+TI  - Combinations of novel hybrid optimization algorithms‐based trajectory planning analysis for an industrial robotic manipulators
+PY  - 2022
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 39
+SP  - 650
+EP  - 674
+DO  - 10.1002/rob.22069
+UR  - https://consensus.app/papers/combinations-of-novel-hybrid-optimization-singh-banga/5589e3bc4ea75a04807983e4ebc01b03/
+ER  - 
+TY  - JOUR
+AU  - Colan, Jacinto
+AU  - Davila, Ana
+AU  - Hasegawa, Y.
+TI  - Manipulability maximization in constrained inverse kinematics of surgical robots
+PY  - 2023
+DA  - 
+JO  - 2023 IEEE International Conference on Mechatronics and Automation (ICMA)
+VL  - 
+SP  - 569
+EP  - 574
+DO  - 10.1109/icma57826.2023.10215986
+UR  - https://consensus.app/papers/manipulability-maximization-in-constrained-inverse-colan-davila/b02ac8551ccf5945a862f0f822ef706a/
+ER  - 

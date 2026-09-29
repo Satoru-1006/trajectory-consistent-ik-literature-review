@@ -1,0 +1,287 @@
+TY  - JOUR
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Meta-Heuristics Based Inverse Kinematics of Robot Manipulator’s Path Tracking Capability Under Joint Limits
+PY  - 2022
+DA  - 
+JO  - MENDEL
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.13164/mendel.2022.1.041
+UR  - https://consensus.app/papers/metaheuristics-based-inverse-kinematics-of-robot-kanagaraj-yu/7c3f776d9418596a8f7b932274e04480/
+ER  - 
+TY  - JOUR
+AU  - Nguyen, D.
+AU  - Nguyen, V.
+AU  - Truong
+AU  - Nguyen, V.
+TI  - Multi-Solution Inverse Kinematics for Robotic Manipulators via Permutation-Invariant Set Prediction
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 9803
+EP  - 9810
+DO  - 10.1109/lra.2026.3703280
+UR  - https://consensus.app/papers/multisolution-inverse-kinematics-for-robotic-nguyen-nguyen/a3b6adaed37259d29dff35b5303e8b96/
+ER  - 
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 317
+EP  - 334
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://consensus.app/papers/positionbased-kinematics-for-7dof-serial-manipulators-faria-ferreira/dfa8ecc058b157cdb6626cd6c6b9a79d/
+ER  - 
+TY  - JOUR
+AU  - Reiter, Alexander
+AU  - Mueller, Andreas
+AU  - Gattringer, H.
+TI  - On Higher Order Inverse Kinematics Methods in Time-Optimal Trajectory Planning for Kinematically Redundant Manipulators
+PY  - 2018
+DA  - 
+JO  - IEEE Transactions on Industrial Informatics
+VL  - 14
+SP  - 1681
+EP  - 1690
+DO  - 10.1109/tii.2018.2792002
+UR  - https://consensus.app/papers/on-higher-order-inverse-kinematics-methods-in-timeoptimal-reiter-mueller/13201c3886315896916d07c6cf20514f/
+ER  - 
+TY  - JOUR
+AU  - Trutman, Pavel
+AU  - Din, M. El
+AU  - Henrion, D.
+AU  - Pajdla, T.
+TI  - Globally Optimal Solution to Inverse Kinematics of 7DOF Serial Manipulator
+PY  - 2020
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 7
+SP  - 6012
+EP  - 6019
+DO  - 10.1109/lra.2022.3163444
+UR  - https://consensus.app/papers/globally-optimal-solution-to-inverse-kinematics-of-7dof-trutman-din/f39e0a6d80a4580d8e75ad8bad8bbe91/
+ER  - 
+TY  - JOUR
+AU  - Fan, Yanping
+AU  - Li, Pin
+AU  - Zhen, Xijin
+AU  - Shen, Zongbao
+TI  - A Multiple Solutions Approach to the Inverse Kinematics Problem of a General Serial Manipulator
+PY  - 2021
+DA  - 
+JO  - Journal of Physics: Conference Series
+VL  - 2002
+SP  - 
+EP  - 
+DO  - 10.1088/1742-6596/2002/1/012023
+UR  - https://consensus.app/papers/a-multiple-solutions-approach-to-the-inverse-kinematics-fan-li/da80dd2f596f509e8731a99ee2db5dd9/
+ER  - 
+TY  - JOUR
+AU  - Narayan, Jyotindra
+AU  - Gritli, Hassène
+AU  - Dwivedy, S.
+TI  - A Decade of Inverse Kinematics Methods for Serial Manipulators: A Systematic Review
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 43
+SP  - 
+EP  - 
+DO  - 10.1002/rob.70014
+UR  - https://consensus.app/papers/a-decade-of-inverse-kinematics-methods-for-serial-narayan-gritli/0ecb577cd2c35a8695f498fff6f49c41/
+ER  - 
+TY  - JOUR
+AU  - Malik, Aryslan
+AU  - Lischuk, Yevgeniy
+AU  - Henderson, T.
+AU  - Prazenica, Richard
+TI  - A Deep Reinforcement-Learning Approach for Inverse Kinematics Solution of a High Degree of Freedom Robotic Manipulator
+PY  - 2022
+DA  - 
+JO  - Robotics
+VL  - 11
+SP  - 44
+EP  - 
+DO  - 10.3390/robotics11020044
+UR  - https://consensus.app/papers/a-deep-reinforcementlearning-approach-for-inverse-malik-lischuk/e4c42939d6705f1080637624b69f3f54/
+ER  - 
+TY  - JOUR
+AU  - Dupac, Mihai
+TI  - Mathematical modeling and simulation of the inverse kinematic of a redundant robotic manipulator using azimuthal angles and spherical polar piecewise interpolation
+PY  - 2023
+DA  - 
+JO  - Math. Comput. Simul.
+VL  - 209
+SP  - 282
+EP  - 298
+DO  - 10.1016/j.matcom.2023.02.010
+UR  - https://consensus.app/papers/mathematical-modeling-and-simulation-of-the-inverse-dupac/7bb81d01e70f54ab9726e1f223e96b0e/
+ER  - 
+TY  - JOUR
+AU  - Szumowski, Maksymilian
+TI  - Inverse kinematics solution for humanoid robot minimizing gravity-related joint torques
+PY  - 2023
+DA  - 
+JO  - Archive of Mechanical Engineering
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.24425/ame.2022.140423
+UR  - https://consensus.app/papers/inverse-kinematics-solution-for-humanoid-robot-szumowski/643d9f7a7d3d5852ac3739a252287f6f/
+ER  - 
+TY  - JOUR
+AU  - Tringali, A.
+AU  - Cocuzza, S.
+TI  - Globally Optimal Inverse Kinematics Method for a Redundant Robot Manipulator with Linear and Nonlinear Constraints
+PY  - 2020
+DA  - 
+JO  - Robotics
+VL  - 9
+SP  - 61
+EP  - 
+DO  - 10.3390/robotics9030061
+UR  - https://consensus.app/papers/globally-optimal-inverse-kinematics-method-for-a-tringali-cocuzza/4189f6deb8585166852a1ed6b3189cf6/
+ER  - 
+TY  - JOUR
+AU  - Wen, Shuhuan
+AU  - Min, Jiatai
+AU  - Yu, Zhanqiu
+AU  - Li, Yunxiao
+AU  - Liu, Xin
+AU  - Karimi, H.
+TI  - Multiple Population Genetic Algorithm‐Based Inverse Kinematics Solution for a 6‐DOF Manipulator
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 42
+SP  - 
+EP  - 
+DO  - 10.1002/rob.22585
+UR  - https://consensus.app/papers/multiple-population-genetic-algorithm%E2%80%90based-inverse-wen-min/fa785ba10a065b99a802b5336170b2bb/
+ER  - 
+TY  - JOUR
+AU  - Kang, Mincheul
+AU  - Yoon, Sung-Eui
+TI  - Analysis and acceleration of TORM: optimization-based planning for path-wise inverse kinematics
+PY  - 2022
+DA  - 
+JO  - Autonomous Robots
+VL  - 46
+SP  - 599
+EP  - 615
+DO  - 10.1007/s10514-022-10040-1
+UR  - https://consensus.app/papers/analysis-and-acceleration-of-torm-optimizationbased-kang-yoon/547f4d1ae1e35763a5f3914bbea1f328/
+ER  - 
+TY  - JOUR
+AU  - Wang, Cheng
+AU  - Xie, Hai-Bo
+AU  - Yang, Huayong
+TI  - An iterative path-following method for hyper-redundant snake-like manipulator with joint limits
+PY  - 2023
+DA  - 
+JO  - Ind. Robot
+VL  - 50
+SP  - 505
+EP  - 519
+DO  - 10.1108/ir-04-2022-0106
+UR  - https://consensus.app/papers/an-iterative-pathfollowing-method-for-hyperredundant-wang-xie/c27e9abb0483538598f5fce57b90eee9/
+ER  - 
+TY  - JOUR
+AU  - Qin, Li
+AU  - Wei, Xiao-Peng
+AU  - Lv, Liangliang
+AU  - Han, Liangliang
+AU  - Fang, Guangqiang
+TI  - An Analytical Solution for Inverse Kinematics of SSRMS-Type Redundant Manipulators
+PY  - 2023
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 23
+SP  - 
+EP  - 
+DO  - 10.3390/s23125412
+UR  - https://consensus.app/papers/an-analytical-solution-for-inverse-kinematics-of-qin-wei/8037b6b89a575149add4064c1d5b7436/
+ER  - 
+TY  - JOUR
+AU  - Wang, Mingyuan
+AU  - Xue, Yu-Jun
+AU  - Li, Jishun
+AU  - Li, Shuai
+AU  - Bai, Yunhua
+TI  - A Fast and Robust Multistage Hybrid Algorithm for Inverse Kinematics of Redundant Mill Relining Manipulator
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 43
+SP  - 2048
+EP  - 2068
+DO  - 10.1002/rob.70130
+UR  - https://consensus.app/papers/a-fast-and-robust-multistage-hybrid-algorithm-for-inverse-wang-xue/2d9692cff9e55cdaa8eb87786a346728/
+ER  - 
+TY  - JOUR
+AU  - Zaplana, I.
+AU  - Basañez, L.
+TI  - A novel closed-form solution for the inverse kinematics of redundant manipulators through workspace analysis
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 829
+EP  - 843
+DO  - 10.1016/j.mechmachtheory.2017.12.005
+UR  - https://consensus.app/papers/a-novel-closedform-solution-for-the-inverse-kinematics-of-zaplana-basa%C3%B1ez/41d4806d5327597281e9a319cd3b99ed/
+ER  - 
+TY  - JOUR
+AU  - Belmont, Theodore
+AU  - Christie, Benjamin
+AU  - Netchaev, Anton
+TI  - Many-RRT*: Robust Joint-Space Trajectory Planning for Serial Manipulators
+PY  - 2026
+DA  - 
+JO  - ArXiv
+VL  - abs/2603.04547
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2603.04547
+UR  - https://consensus.app/papers/manyrrt-robust-jointspace-trajectory-planning-for-serial-belmont-christie/5ecbd9939da5551c9a9c25affd9b345c/
+ER  - 
+TY  - JOUR
+AU  - Ames, Barrett
+AU  - Morgan, Jeremy
+AU  - Konidaris, G.
+TI  - IKFlow: Generating Diverse Inverse Kinematics Solutions
+PY  - 2021
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 7
+SP  - 7177
+EP  - 7184
+DO  - 10.1109/lra.2022.3181374
+UR  - https://consensus.app/papers/ikflow-generating-diverse-inverse-kinematics-solutions-ames-morgan/c0ac6aac4ea85f4b9ce40fbc6808a100/
+ER  - 
+TY  - JOUR
+AU  - Xie, Shuxin
+AU  - Sun, Lining
+AU  - Chen, Guodong
+AU  - Wang, Zhenhua
+AU  - Wang, Zi-Xiang
+TI  - A Novel Solution to the Inverse Kinematics Problem of General 7R Robots
+PY  - 2022
+DA  - 
+JO  - IEEE Access
+VL  - 10
+SP  - 67451
+EP  - 67469
+DO  - 10.1109/access.2022.3184451
+UR  - https://consensus.app/papers/a-novel-solution-to-the-inverse-kinematics-problem-of-xie-sun/9ce4c9ec319353888785690afa73539b/
+ER  - 

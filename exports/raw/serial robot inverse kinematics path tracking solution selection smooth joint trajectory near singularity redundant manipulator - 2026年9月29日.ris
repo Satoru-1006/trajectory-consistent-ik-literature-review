@@ -1,0 +1,268 @@
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 317
+EP  - 334
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://consensus.app/papers/positionbased-kinematics-for-7dof-serial-manipulators-faria-ferreira/dfa8ecc058b157cdb6626cd6c6b9a79d/
+ER  - 
+TY  - JOUR
+AU  - Guptasarma, Shivani
+AU  - Strong, M.
+AU  - Zhen, Honghao
+AU  - Kennedy, Monroe
+TI  - J-PARSE: Jacobian-based Projection Algorithm for Resolving Singularities Effectively in Inverse Kinematic Control of Serial Manipulators
+PY  - 2025
+DA  - 
+JO  - ArXiv
+VL  - abs/2505.00306
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2505.00306
+UR  - https://consensus.app/papers/jparse-jacobianbased-projection-algorithm-for-resolving-guptasarma-strong/c916b0765bb351f9adaba707d9fdf370/
+ER  - 
+TY  - JOUR
+AU  - Jain, T.
+AU  - Roy, D.
+TI  - Joint space redundancy resolution of serial link manipulator: An inverse kinematics and continuum structure numerical approach
+PY  - 2020
+DA  - 
+JO  - Materials Today: Proceedings
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.20944/preprints202005.0162.v1
+UR  - https://consensus.app/papers/joint-space-redundancy-resolution-of-serial-link-jain-roy/2354036d3f4b584896f856e5f13c7a47/
+ER  - 
+TY  - JOUR
+AU  - Dulęba, I.
+TI  - Singularity-Robust Inverse Kinematics for Serial Manipulators
+PY  - 2023
+DA  - 
+JO  - Journal of Automation, Mobile Robotics and Intelligent Systems
+VL  - 17
+SP  - 38
+EP  - 45
+DO  - 10.14313/jamris/3-2023/21
+UR  - https://consensus.app/papers/singularityrobust-inverse-kinematics-for-serial-dul%C4%99ba/a077a6a6433456e1b61dbf3ce9060437/
+ER  - 
+TY  - JOUR
+AU  - Boschi, Ivan
+AU  - De Toni, A.
+AU  - Di Leva, Roberto
+AU  - Ida’, E.
+AU  - Carricato, Marco
+TI  - Handling Transitions Across Singularities for UR-Like Serial Robots
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 2714
+EP  - 2721
+DO  - 10.1109/lra.2026.3653295
+UR  - https://consensus.app/papers/handling-transitions-across-singularities-for-urlike-boschi-toni/8c5bd288ea885f74bdc311f03afc8a2b/
+ER  - 
+TY  - JOUR
+AU  - Yonezawa, Ansei
+AU  - Yonezawa, Heisei
+AU  - Kajiwara, Itsuro
+TI  - Simple Inverse Kinematics Computation Considering Joint Motion Efficiency
+PY  - 2024
+DA  - 
+JO  - IEEE Transactions on Cybernetics
+VL  - 54
+SP  - 4903
+EP  - 4914
+DO  - 10.1109/tcyb.2024.3372989
+UR  - https://consensus.app/papers/simple-inverse-kinematics-computation-considering-joint-yonezawa-yonezawa/9c26a3cf88e3599c85b41166495bed2a/
+ER  - 
+TY  - JOUR
+AU  - Sun, Jingyu
+AU  - Liu, Yan-Jun
+AU  - Ji, Chen
+TI  - Improved singular robust inverse solutions of redundant serial manipulators
+PY  - 2020
+DA  - 
+JO  - International Journal of Advanced Robotic Systems
+VL  - 17
+SP  - 
+EP  - 
+DO  - 10.1177/1729881420932046
+UR  - https://consensus.app/papers/improved-singular-robust-inverse-solutions-of-redundant-sun-liu/5642f45eacf45801861c3c7ef3d40eee/
+ER  - 
+TY  - JOUR
+AU  - Tringali, A.
+AU  - Cocuzza, S.
+TI  - Globally Optimal Inverse Kinematics Method for a Redundant Robot Manipulator with Linear and Nonlinear Constraints
+PY  - 2020
+DA  - 
+JO  - Robotics
+VL  - 9
+SP  - 61
+EP  - 
+DO  - 10.3390/robotics9030061
+UR  - https://consensus.app/papers/globally-optimal-inverse-kinematics-method-for-a-tringali-cocuzza/4189f6deb8585166852a1ed6b3189cf6/
+ER  - 
+TY  - JOUR
+AU  - Shrivastava, Abhishek
+AU  - Dalla, V.
+TI  - Multi-segment trajectory tracking of the redundant space robot for smooth motion planning based on interpolation of linear polynomials with parabolic blend
+PY  - 2022
+DA  - 
+JO  - Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science
+VL  - 236
+SP  - 9255
+EP  - 9269
+DO  - 10.1177/09544062221088723
+UR  - https://consensus.app/papers/multisegment-trajectory-tracking-of-the-redundant-space-shrivastava-dalla/912b6f6b60f25f89be73ccdbfc8721c3/
+ER  - 
+TY  - JOUR
+AU  - Khaleel, H.
+AU  - Humaidi, A.
+TI  - Towards accuracy improvement in solution of inverse kinematic problem in redundant robot: A comparative analysis
+PY  - 2024
+DA  - 
+JO  - International Review of Applied Sciences and Engineering
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1556/1848.2023.00722
+UR  - https://consensus.app/papers/towards-accuracy-improvement-in-solution-of-inverse-khaleel-humaidi/f1fe9691085c5373ac252645155062eb/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Xing-Lei
+AU  - Fan, Bing-Hui
+AU  - Wang, Chuan-Jiang
+AU  - Cheng, Xiao-Lin
+TI  - An Improved Weighted Gradient Projection Method for Inverse Kinematics of Redundant Surgical Manipulators
+PY  - 2021
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 21
+SP  - 
+EP  - 
+DO  - 10.3390/s21217362
+UR  - https://consensus.app/papers/an-improved-weighted-gradient-projection-method-for-zhang-fan/ac84ca9986395c69bccf5ddab4bbe3c9/
+ER  - 
+TY  - JOUR
+AU  - Beck, F.
+AU  - Vu, Minh
+AU  - Hartl-Nesic, C.
+AU  - Kugi, A.
+TI  - Singularity Avoidance with Application to Online Trajectory Optimization for Serial Manipulators
+PY  - 2022
+DA  - 
+JO  - IFAC-PapersOnLine
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1016/j.ifacol.2023.10.1582
+UR  - https://consensus.app/papers/singularity-avoidance-with-application-to-online-beck-vu/5314c2268d8752dca126e365d3b3fe73/
+ER  - 
+TY  - JOUR
+AU  - Patkó, Dóra
+AU  - Zelei, A.
+TI  - Velocity and acceleration level inverse kinematic calculation alternatives for redundant manipulators
+PY  - 2021
+DA  - 
+JO  - Meccanica
+VL  - 
+SP  - 1
+EP  - 14
+DO  - 10.1007/s11012-020-01305-z
+UR  - https://consensus.app/papers/velocity-and-acceleration-level-inverse-kinematic-patk%C3%B3-zelei/164bb1e0000857acba47024dad01f315/
+ER  - 
+TY  - JOUR
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Meta-Heuristics Based Inverse Kinematics of Robot Manipulator’s Path Tracking Capability Under Joint Limits
+PY  - 2022
+DA  - 
+JO  - MENDEL
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.13164/mendel.2022.1.041
+UR  - https://consensus.app/papers/metaheuristics-based-inverse-kinematics-of-robot-kanagaraj-yu/7c3f776d9418596a8f7b932274e04480/
+ER  - 
+TY  - JOUR
+AU  - Safeea, Mohammad
+AU  - Béarée, Richard
+AU  - Neto, P.
+TI  - A Modified DLS Scheme With Controlled Cyclic Solution for Inverse Kinematics in Redundant Robots
+PY  - 2021
+DA  - 
+JO  - IEEE Transactions on Industrial Informatics
+VL  - 17
+SP  - 8014
+EP  - 8023
+DO  - 10.1109/tii.2021.3060019
+UR  - https://consensus.app/papers/a-modified-dls-scheme-with-controlled-cyclic-solution-for-safeea-b%C3%A9ar%C3%A9e/fddf6cbb13875e24874ead0e9372afe7/
+ER  - 
+TY  - JOUR
+AU  - Peidró, Adrián
+AU  - Haug, Edward
+TI  - Obstacle Avoidance in Operational Configuration Space Kinematic Control of Redundant Serial Manipulators
+PY  - 2023
+DA  - 
+JO  - Machines
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/machines12010010
+UR  - https://consensus.app/papers/obstacle-avoidance-in-operational-configuration-space-peidr%C3%B3-haug/ed23abafe76e5f618f97bf3b30c8eb0a/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Linlin
+AU  - Du, Huibin
+AU  - Qin, Z.
+AU  - Zhao, Yue-Jing
+AU  - Yang, Guang
+TI  - Real-time optimized inverse kinematics of redundant robots under inequality constraints
+PY  - 2024
+DA  - 
+JO  - Scientific Reports
+VL  - 14
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-024-81174-8
+UR  - https://consensus.app/papers/realtime-optimized-inverse-kinematics-of-redundant-zhang-du/4daa1d17d3b554e48ecaad4139126d13/
+ER  - 
+TY  - JOUR
+AU  - Qin, Li
+AU  - Wei, Xiao-Peng
+AU  - Lv, Liangliang
+AU  - Han, Liangliang
+AU  - Fang, Guangqiang
+TI  - An Analytical Solution for Inverse Kinematics of SSRMS-Type Redundant Manipulators
+PY  - 2023
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 23
+SP  - 
+EP  - 
+DO  - 10.3390/s23125412
+UR  - https://consensus.app/papers/an-analytical-solution-for-inverse-kinematics-of-qin-wei/8037b6b89a575149add4064c1d5b7436/
+ER  - 
+TY  - JOUR
+AU  - Masthan, Shahul Abdul Rahim Sheik
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Gravitation search-based hybrid algorithm for solving inverse kinematics of an n-link redundant manipulator
+PY  - 2023
+DA  - 
+JO  - J. Comput. Des. Eng.
+VL  - 10
+SP  - 2019
+EP  - 2035
+DO  - 10.1093/jcde/qwad087
+UR  - https://consensus.app/papers/gravitation-searchbased-hybrid-algorithm-for-solving-masthan-kanagaraj/8b4b5f3c48a25b7e857d9a29b361ee5d/
+ER  - 

@@ -1,0 +1,585 @@
+TY  - JOUR
+AU  - Nguyen, D.
+AU  - Nguyen, V.
+AU  - Truong
+AU  - Nguyen, V.
+TI  - Multi-Solution Inverse Kinematics for Robotic Manipulators via Permutation-Invariant Set Prediction
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 9803
+EP  - 9810
+DO  - 10.1109/lra.2026.3703280
+UR  - https://consensus.app/papers/multisolution-inverse-kinematics-for-robotic-nguyen-nguyen/a3b6adaed37259d29dff35b5303e8b96/
+ER  - 
+TY  - JOUR
+AU  - Malik, Aryslan
+AU  - Lischuk, Yevgeniy
+AU  - Henderson, T.
+AU  - Prazenica, Richard
+TI  - A Deep Reinforcement-Learning Approach for Inverse Kinematics Solution of a High Degree of Freedom Robotic Manipulator
+PY  - 2022
+DA  - 
+JO  - Robotics
+VL  - 11
+SP  - 44
+EP  - 
+DO  - 10.3390/robotics11020044
+UR  - https://consensus.app/papers/a-deep-reinforcementlearning-approach-for-inverse-malik-lischuk/e4c42939d6705f1080637624b69f3f54/
+ER  - 
+TY  - JOUR
+AU  - Elawady, W.
+AU  - Bouteraa, Y.
+AU  - Elmogy, Ahmed
+TI  - An Adaptive Second Order Sliding Mode Inverse Kinematics Approach for Serial Kinematic Chain Robot Manipulators
+PY  - 2020
+DA  - 
+JO  - Robotics
+VL  - 9
+SP  - 4
+EP  - 
+DO  - 10.3390/robotics9010004
+UR  - https://consensus.app/papers/an-adaptive-second-order-sliding-mode-inverse-kinematics-elawady-bouteraa/1f1b573287f75ceb9518c268f946f845/
+ER  - 
+TY  - JOUR
+AU  - Narayan, Jyotindra
+AU  - Gritli, Hassène
+AU  - Dwivedy, S.
+TI  - A Decade of Inverse Kinematics Methods for Serial Manipulators: A Systematic Review
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 43
+SP  - 
+EP  - 
+DO  - 10.1002/rob.70014
+UR  - https://consensus.app/papers/a-decade-of-inverse-kinematics-methods-for-serial-narayan-gritli/0ecb577cd2c35a8695f498fff6f49c41/
+ER  - 
+TY  - JOUR
+AU  - Zhang, P.
+AU  - Zhang, Jie
+AU  - Kan, J.
+TI  - A Research on Manipulator-Path Tracking Based on Deep Reinforcement Learning
+PY  - 2023
+DA  - 
+JO  - Applied Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/app13137867
+UR  - https://consensus.app/papers/a-research-on-manipulatorpath-tracking-based-on-deep-zhang-zhang/dd94fbcd410d54f4815b45c25ae2cc02/
+ER  - 
+TY  - JOUR
+AU  - Zhao, Chengyi
+AU  - Wei, Yi-Min
+AU  - Xiao, Junfeng
+AU  - Sun, Yong
+AU  - Zhang, Dongxing
+AU  - Guo, Qiuquan
+AU  - Yang, Jun
+TI  - Inverse kinematics solution and control method of 6-degree-of-freedom manipulator based on deep reinforcement learning
+PY  - 2024
+DA  - 
+JO  - Scientific Reports
+VL  - 14
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-024-62948-6
+UR  - https://consensus.app/papers/inverse-kinematics-solution-and-control-method-of-zhao-wei/52414921d18f51d3a476e81b51eb349c/
+ER  - 
+TY  - JOUR
+AU  - Malhan, R.
+AU  - Thakar, Shantanu
+AU  - Kabir, A.
+AU  - Rajendran, Pradeep
+AU  - Bhatt, P.
+AU  - Gupta, Satyandra
+TI  - Generation of Configuration Space Trajectories Over Semi-Constrained Cartesian Paths for Robotic Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE Transactions on Automation Science and Engineering
+VL  - 20
+SP  - 193
+EP  - 205
+DO  - 10.1109/tase.2022.3144673
+UR  - https://consensus.app/papers/generation-of-configuration-space-trajectories-over-malhan-thakar/a9c9019964a457c1a1916c17abcddad9/
+ER  - 
+TY  - JOUR
+AU  - Bai, Ye
+AU  - Hsieh, Sheng-Jen
+TI  - A hybrid method using FABRIK and custom ANN in solving inverse kinematic for generic serial robot manipulator
+PY  - 2024
+DA  - 
+JO  - The International Journal of Advanced Manufacturing Technology
+VL  - 130
+SP  - 4883
+EP  - 4904
+DO  - 10.1007/s00170-023-12928-3
+UR  - https://consensus.app/papers/a-hybrid-method-using-fabrik-and-custom-ann-in-solving-bai-hsieh/8f4ec1efb24d58b48244a9323fcb042c/
+ER  - 
+TY  - JOUR
+AU  - Trutman, Pavel
+AU  - Din, M. El
+AU  - Henrion, D.
+AU  - Pajdla, T.
+TI  - Globally Optimal Solution to Inverse Kinematics of 7DOF Serial Manipulator
+PY  - 2020
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 7
+SP  - 6012
+EP  - 6019
+DO  - 10.1109/lra.2022.3163444
+UR  - https://consensus.app/papers/globally-optimal-solution-to-inverse-kinematics-of-7dof-trutman-din/f39e0a6d80a4580d8e75ad8bad8bbe91/
+ER  - 
+TY  - JOUR
+AU  - Ames, Barrett
+AU  - Morgan, Jeremy
+AU  - Konidaris, G.
+TI  - IKFlow: Generating Diverse Inverse Kinematics Solutions
+PY  - 2021
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 7
+SP  - 7177
+EP  - 7184
+DO  - 10.1109/lra.2022.3181374
+UR  - https://consensus.app/papers/ikflow-generating-diverse-inverse-kinematics-solutions-ames-morgan/c0ac6aac4ea85f4b9ce40fbc6808a100/
+ER  - 
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 317
+EP  - 334
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://consensus.app/papers/positionbased-kinematics-for-7dof-serial-manipulators-faria-ferreira/dfa8ecc058b157cdb6626cd6c6b9a79d/
+ER  - 
+TY  - JOUR
+AU  - Davila, Ana
+AU  - Colan, Jacinto
+AU  - Hasegawa, Yasuhisa
+TI  - Real-time inverse kinematics for robotic manipulation under remote center-of-motion constraint using memetic evolution
+PY  - 2024
+DA  - 
+JO  - J. Comput. Des. Eng.
+VL  - 11
+SP  - 248
+EP  - 264
+DO  - 10.1093/jcde/qwae047
+UR  - https://consensus.app/papers/realtime-inverse-kinematics-for-robotic-manipulation-davila-colan/c97c6dc9d7225d1581b9fb810216a388/
+ER  - 
+TY  - JOUR
+AU  - Zaplana, I.
+AU  - Hadfield, Hugo
+AU  - Lasenby, Joan
+TI  - Closed-form solutions for the inverse kinematics of serial robots using conformal geometric algebra
+PY  - 2021
+DA  - 
+JO  - ArXiv
+VL  - abs/2109.12411
+SP  - 
+EP  - 
+DO  - 10.1016/j.mechmachtheory.2022.104835
+UR  - https://consensus.app/papers/closedform-solutions-for-the-inverse-kinematics-of-serial-zaplana-hadfield/0cc664375f2b5c2fa5d00c6ced42550e/
+ER  - 
+TY  - JOUR
+AU  - Wen, Shuhuan
+AU  - Min, Jiatai
+AU  - Yu, Zhanqiu
+AU  - Li, Yunxiao
+AU  - Liu, Xin
+AU  - Karimi, H.
+TI  - Multiple Population Genetic Algorithm‐Based Inverse Kinematics Solution for a 6‐DOF Manipulator
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 42
+SP  - 
+EP  - 
+DO  - 10.1002/rob.22585
+UR  - https://consensus.app/papers/multiple-population-genetic-algorithm%E2%80%90based-inverse-wen-min/fa785ba10a065b99a802b5336170b2bb/
+ER  - 
+TY  - JOUR
+AU  - Tringali, A.
+AU  - Cocuzza, S.
+TI  - Globally Optimal Inverse Kinematics Method for a Redundant Robot Manipulator with Linear and Nonlinear Constraints
+PY  - 2020
+DA  - 
+JO  - Robotics
+VL  - 9
+SP  - 61
+EP  - 
+DO  - 10.3390/robotics9030061
+UR  - https://consensus.app/papers/globally-optimal-inverse-kinematics-method-for-a-tringali-cocuzza/4189f6deb8585166852a1ed6b3189cf6/
+ER  - 
+TY  - JOUR
+AU  - Dharmana, Meher Madhu
+AU  - Sreedharan, Pramod
+TI  - Real-Time Control of Six-DOF Serial Manipulators via Learned Spherical Kinematics
+PY  - 2026
+DA  - 
+JO  - Robotics
+VL  - 15
+SP  - 
+EP  - 
+DO  - 10.3390/robotics15010027
+UR  - https://consensus.app/papers/realtime-control-of-sixdof-serial-manipulators-via-dharmana-sreedharan/5f902c2284c1512791f8c722bf86a8ac/
+ER  - 
+TY  - JOUR
+AU  - Bayoume, Mustafa Osman
+AU  - Abdelgeliel, M.
+AU  - Saber, E.
+AU  - El-Gamal, H.
+TI  - Optimized inverse kinematics solutions for a 6-DOF robot
+PY  - 2026
+DA  - 
+JO  - Scientific Reports
+VL  - 16
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-026-51032-w
+UR  - https://consensus.app/papers/optimized-inverse-kinematics-solutions-for-a-6dof-robot-bayoume-abdelgeliel/c82b89748c1a50dbb7a37f7b04073aa4/
+ER  - 
+TY  - JOUR
+AU  - Aristidou, A.
+AU  - Lasenby, Joan
+AU  - Chrysanthou, Y.
+AU  - Shamir, Ariel
+TI  - Inverse Kinematics Techniques in Computer Graphics: A Survey
+PY  - 2018
+DA  - 
+JO  - Computer Graphics Forum
+VL  - 37
+SP  - 
+EP  - 
+DO  - 10.1111/cgf.13310
+UR  - https://consensus.app/papers/inverse-kinematics-techniques-in-computer-graphics-a-aristidou-lasenby/057e6f61c1a05842841c6f0cfd1a6cc2/
+ER  - 
+TY  - JOUR
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Meta-Heuristics Based Inverse Kinematics of Robot Manipulator’s Path Tracking Capability Under Joint Limits
+PY  - 2022
+DA  - 
+JO  - MENDEL
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.13164/mendel.2022.1.041
+UR  - https://consensus.app/papers/metaheuristics-based-inverse-kinematics-of-robot-kanagaraj-yu/7c3f776d9418596a8f7b932274e04480/
+ER  - 
+TY  - JOUR
+AU  - Danaci, Hasan
+AU  - Nguyen, L.
+AU  - Harman, T.
+AU  - Pagan, Miguel
+TI  - Inverse Kinematics for Serial Robot Manipulators by Particle Swarm Optimization and POSIX Threads Implementation
+PY  - 2023
+DA  - 
+JO  - Applied Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/app13074515
+UR  - https://consensus.app/papers/inverse-kinematics-for-serial-robot-manipulators-by-danaci-nguyen/c34dec6fcb78575f85673912c864a8c1/
+ER  - 
+TY  - JOUR
+AU  - Fan, Yanping
+AU  - Li, Pin
+AU  - Zhen, Xijin
+AU  - Shen, Zongbao
+TI  - A Multiple Solutions Approach to the Inverse Kinematics Problem of a General Serial Manipulator
+PY  - 2021
+DA  - 
+JO  - Journal of Physics: Conference Series
+VL  - 2002
+SP  - 
+EP  - 
+DO  - 10.1088/1742-6596/2002/1/012023
+UR  - https://consensus.app/papers/a-multiple-solutions-approach-to-the-inverse-kinematics-fan-li/da80dd2f596f509e8731a99ee2db5dd9/
+ER  - 
+TY  - JOUR
+AU  - Boschi, Ivan
+AU  - De Toni, A.
+AU  - Di Leva, Roberto
+AU  - Ida’, E.
+AU  - Carricato, Marco
+TI  - Handling Transitions Across Singularities for UR-Like Serial Robots
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 2714
+EP  - 2721
+DO  - 10.1109/lra.2026.3653295
+UR  - https://consensus.app/papers/handling-transitions-across-singularities-for-urlike-boschi-toni/8c5bd288ea885f74bdc311f03afc8a2b/
+ER  - 
+TY  - JOUR
+AU  - Hernández-Barragán, J.
+AU  - López-Franco, C.
+AU  - Arana-Daniel, N.
+AU  - Alanis, A.
+TI  - Inverse kinematics for cooperative mobile manipulators based on self-adaptive differential evolution
+PY  - 2021
+DA  - 
+JO  - PeerJ Computer Science
+VL  - 7
+SP  - 
+EP  - 
+DO  - 10.7717/peerj-cs.419
+UR  - https://consensus.app/papers/inverse-kinematics-for-cooperative-mobile-manipulators-hern%C3%A1ndez-barrag%C3%A1n-l%C3%B3pez-franco/2eb6a5a4611158aaa54299590ed34c92/
+ER  - 
+TY  - JOUR
+AU  - Wanie, Fabrice
+TI  - Efficient Hybrid Approach to Inverse Kinematics of Mobile Continuum Manipulators
+PY  - 2026
+DA  - 
+JO  - IEEE Access
+VL  - 14
+SP  - 52139
+EP  - 52161
+DO  - 10.1109/access.2026.3679335
+UR  - https://consensus.app/papers/efficient-hybrid-approach-to-inverse-kinematics-of-mobile-wanie/53397ee169d75d05916efedfe95c77a2/
+ER  - 
+TY  - JOUR
+AU  - Martin, A.
+AU  - Barrientos, A.
+AU  - Del Cerro, J.
+TI  - The Natural-CCD Algorithm, a Novel Method to Solve the Inverse Kinematics of Hyper-redundant and Soft Robots
+PY  - 2018
+DA  - 
+JO  - Soft Robotics
+VL  - 5
+SP  - 242
+EP  - 257
+DO  - 10.1089/soro.2017.0009
+UR  - https://consensus.app/papers/the-naturalccd-algorithm-a-novel-method-to-solve-the-martin-barrientos/428f66ea734257b7a546e2c5dfcecf02/
+ER  - 
+TY  - JOUR
+AU  - Khan, H.
+AU  - Abbasi, S.
+AU  - Lee, Min Choel
+TI  - DPSO and Inverse Jacobian-Based Real-Time Inverse Kinematics With Trajectory Tracking Using Integral SMC for Teleoperation
+PY  - 2020
+DA  - 
+JO  - IEEE Access
+VL  - 8
+SP  - 159622
+EP  - 159638
+DO  - 10.1109/access.2020.3020318
+UR  - https://consensus.app/papers/dpso-and-inverse-jacobianbased-realtime-inverse-khan-abbasi/705a96659c2255fe91a7ed9c24ea4b10/
+ER  - 
+TY  - JOUR
+AU  - Santos, P.
+AU  - Freire, R.
+AU  - Carvalho, E.
+AU  - Molina, L.
+AU  - Freire, E.
+TI  - M-FABRIK: A New Inverse Kinematics Approach to Mobile Manipulator Robots Based on FABRIK
+PY  - 2020
+DA  - 
+JO  - IEEE Access
+VL  - 8
+SP  - 208836
+EP  - 208849
+DO  - 10.1109/access.2020.3038424
+UR  - https://consensus.app/papers/mfabrik-a-new-inverse-kinematics-approach-to-mobile-santos-freire/c3499162aa93537b8555174fffe9c9da/
+ER  - 
+TY  - JOUR
+AU  - Xu, Zichun
+AU  - Li, Yuntao
+AU  - Yang, Xiaoyu
+AU  - Zhao, Zhiyuan
+AU  - Zhao, Jingdong
+AU  - Liu, Hong
+TI  - A Combined Inverse Kinematics Algorithm Using FABRIK with Optimization
+PY  - 2022
+DA  - 
+JO  - Journal of Intelligent & Robotic Systems
+VL  - 108
+SP  - 
+EP  - 
+DO  - 10.1007/s10846-023-01895-2
+UR  - https://consensus.app/papers/a-combined-inverse-kinematics-algorithm-using-fabrik-with-xu-li/84c769e271e55820a9f1199b7687b128/
+ER  - 
+TY  - JOUR
+AU  - Uzuner, S.
+AU  - Akkuş, N.
+AU  - Toz, Metin
+TI  - 5-DOF serial robot manipulator design, application and inverse kinematic solution through analytical method and simple search technique
+PY  - 2020
+DA  - 
+JO  - Pamukkale University Journal of Engineering Sciences
+VL  - 26
+SP  - 392
+EP  - 401
+DO  - 10.5505/pajes.2019.95881
+UR  - https://consensus.app/papers/5dof-serial-robot-manipulator-design-application-and-uzuner-akku%C5%9F/26783c027e685c4dae2c60e329e18901/
+ER  - 
+TY  - JOUR
+AU  - Gong, Ming-De
+AU  - Li, Xiangdong
+AU  - Zhang, Lei
+TI  - Analytical Inverse Kinematics and Self-Motion Application for 7-DOF Redundant Manipulator
+PY  - 2019
+DA  - 
+JO  - IEEE Access
+VL  - 7
+SP  - 18662
+EP  - 18674
+DO  - 10.1109/access.2019.2895741
+UR  - https://consensus.app/papers/analytical-inverse-kinematics-and-selfmotion-gong-li/6cfad33bb0c8521f98dc097e5e12ec1e/
+ER  - 
+TY  - JOUR
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - IK-Geo: Unified robot inverse kinematics using subproblem decomposition
+PY  - 2022
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1016/j.mechmachtheory.2025.105971
+UR  - https://consensus.app/papers/ikgeo-unified-robot-inverse-kinematics-using-subproblem-elias-wen/8ac04ee704655124ba29e9dbd0043bcf/
+ER  - 
+TY  - JOUR
+AU  - Marangoz, S.
+AU  - Menon, Rohit
+AU  - Dengler, Nils
+AU  - Bennewitz, Maren
+TI  - DawnIK: Decentralized Collision-Aware Inverse Kinematics Solver for Heterogeneous Multi-Arm Systems
+PY  - 2023
+DA  - 
+JO  - 2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)
+VL  - 
+SP  - 1
+EP  - 8
+DO  - 10.1109/humanoids57100.2023.10375189
+UR  - https://consensus.app/papers/dawnik-decentralized-collisionaware-inverse-kinematics-marangoz-menon/b0ad017f38055e06bf01b1e49e504f6e/
+ER  - 
+TY  - JOUR
+AU  - López-Franco, C.
+AU  - Hernández-Barragán, J.
+AU  - Alanis, A.
+AU  - Arana-Daniel, N.
+AU  - López-Franco, Michel
+TI  - Inverse kinematics of mobile manipulators based on differential evolution
+PY  - 2018
+DA  - 
+JO  - International Journal of Advanced Robotic Systems
+VL  - 15
+SP  - 
+EP  - 
+DO  - 10.1177/1729881417752738
+UR  - https://consensus.app/papers/inverse-kinematics-of-mobile-manipulators-based-on-l%C3%B3pez-franco-hern%C3%A1ndez-barrag%C3%A1n/d4533cd4c20a5b5d9855c2714c78bc70/
+ER  - 
+TY  - JOUR
+AU  - Scherzinger, Stefanie
+AU  - Roennau, A.
+AU  - Dillmann, R.
+TI  - Inverse Kinematics with Forward Dynamics Solvers for Sampled Motion Tracking
+PY  - 2019
+DA  - 
+JO  - 2019 19th International Conference on Advanced Robotics (ICAR)
+VL  - 
+SP  - 681
+EP  - 687
+DO  - 10.1109/icar46387.2019.8981554
+UR  - https://consensus.app/papers/inverse-kinematics-with-forward-dynamics-solvers-for-scherzinger-roennau/f42fb2531286587286884dcf25e5d6a8/
+ER  - 
+TY  - JOUR
+AU  - Li, Hang
+AU  - Xia, Chengkai
+AU  - Xu, Zhenbang
+AU  - Wang, Kai
+AU  - Sai, Huayang
+AU  - Wang, Xiaoming
+AU  - Yu, Peng-Tao
+AU  - Li, Xin
+AU  - Li, He
+AU  - Wang, Yan-Bo
+TI  - A backbone-based inverse kinematics and head traction path-following algorithm for soft manipulators
+PY  - 2025
+DA  - 
+JO  - International Journal of Advanced Robotic Systems
+VL  - 22
+SP  - 
+EP  - 
+DO  - 10.1177/17298806241312787
+UR  - https://consensus.app/papers/a-backbonebased-inverse-kinematics-and-head-traction-li-xia/a23f1bd250a154ddab3f00b830801ee2/
+ER  - 
+TY  - JOUR
+AU  - Mueller, Andreas
+TI  - Analytically Informed Inverse Kinematics Solution at Singularities
+PY  - 2024
+DA  - 
+JO  - ArXiv
+VL  - abs/2412.20409
+SP  - 
+EP  - 
+DO  - 10.1007/978-3-031-64057-5_29
+UR  - https://consensus.app/papers/analytically-informed-inverse-kinematics-solution-at-mueller/90969813ee445ae1bb7f434ef79ca710/
+ER  - 
+TY  - JOUR
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - Path Planning and Optimization for Cuspidal 6R Manipulators
+PY  - 2025
+DA  - 
+JO  - ArXiv
+VL  - abs/2501.18505
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2501.18505
+UR  - https://consensus.app/papers/path-planning-and-optimization-for-cuspidal-6r-elias-wen/019bd42d3d7f52908d71f5d2575d22de/
+ER  - 
+TY  - JOUR
+AU  - Jain, T.
+AU  - Roy, D.
+TI  - Joint space redundancy resolution of serial link manipulator: An inverse kinematics and continuum structure numerical approach
+PY  - 2020
+DA  - 
+JO  - Materials Today: Proceedings
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.20944/preprints202005.0162.v1
+UR  - https://consensus.app/papers/joint-space-redundancy-resolution-of-serial-link-jain-roy/2354036d3f4b584896f856e5f13c7a47/
+ER  - 
+TY  - JOUR
+AU  - Schnitman, L.
+TI  - A Solution of the Inverse Kinematics Problem for a 7-Degrees-of-Freedom Serial Redundant Manipulator Using Gröbner Bases Theory
+PY  - 2021
+DA  - 
+JO  - Mathematical Problems in Engineering
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1155/2021/6680687
+UR  - https://consensus.app/papers/a-solution-of-the-inverse-kinematics-problem-for-a-schnitman/8e079c33098754399b09f08ec3be0dc0/
+ER  - 
+TY  - JOUR
+AU  - Guptasarma, Shivani
+AU  - Strong, M.
+AU  - Zhen, Honghao
+AU  - Kennedy, Monroe
+TI  - J-PARSE: Jacobian-based Projection Algorithm for Resolving Singularities Effectively in Inverse Kinematic Control of Serial Manipulators
+PY  - 2025
+DA  - 
+JO  - ArXiv
+VL  - abs/2505.00306
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2505.00306
+UR  - https://consensus.app/papers/jparse-jacobianbased-projection-algorithm-for-resolving-guptasarma-strong/c916b0765bb351f9adaba707d9fdf370/
+ER  - 

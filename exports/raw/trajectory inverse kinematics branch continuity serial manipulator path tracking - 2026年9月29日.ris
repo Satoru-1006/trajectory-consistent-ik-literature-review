@@ -1,0 +1,288 @@
+TY  - JOUR
+AU  - Nguyen, D.
+AU  - Nguyen, V.
+AU  - Truong
+AU  - Nguyen, V.
+TI  - Multi-Solution Inverse Kinematics for Robotic Manipulators via Permutation-Invariant Set Prediction
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 9803
+EP  - 9810
+DO  - 10.1109/lra.2026.3703280
+UR  - https://consensus.app/papers/multisolution-inverse-kinematics-for-robotic-nguyen-nguyen/a3b6adaed37259d29dff35b5303e8b96/
+ER  - 
+TY  - JOUR
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Meta-Heuristics Based Inverse Kinematics of Robot Manipulator’s Path Tracking Capability Under Joint Limits
+PY  - 2022
+DA  - 
+JO  - MENDEL
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.13164/mendel.2022.1.041
+UR  - https://consensus.app/papers/metaheuristics-based-inverse-kinematics-of-robot-kanagaraj-yu/7c3f776d9418596a8f7b932274e04480/
+ER  - 
+TY  - JOUR
+AU  - Aner, Elsayed Atif
+AU  - Awad, M.
+AU  - Shehata, O.
+TI  - Modeling and Trajectory Tracking Control for a Multi-Section Continuum Manipulator
+PY  - 2023
+DA  - 
+JO  - Journal of Intelligent & Robotic Systems
+VL  - 108
+SP  - 1
+EP  - 18
+DO  - 10.1007/s10846-023-01896-1
+UR  - https://consensus.app/papers/modeling-and-trajectory-tracking-control-for-a-aner-awad/3caceed1c1d0576da51442c7bc804afd/
+ER  - 
+TY  - JOUR
+AU  - Reiter, Alexander
+AU  - Mueller, Andreas
+AU  - Gattringer, H.
+TI  - On Higher Order Inverse Kinematics Methods in Time-Optimal Trajectory Planning for Kinematically Redundant Manipulators
+PY  - 2018
+DA  - 
+JO  - IEEE Transactions on Industrial Informatics
+VL  - 14
+SP  - 1681
+EP  - 1690
+DO  - 10.1109/tii.2018.2792002
+UR  - https://consensus.app/papers/on-higher-order-inverse-kinematics-methods-in-timeoptimal-reiter-mueller/13201c3886315896916d07c6cf20514f/
+ER  - 
+TY  - JOUR
+AU  - Joo, D.
+AU  - Yeom, Ki-Won
+TI  - Improved Hybrid Trajectory Tracking Algorithm for a 3-link Manipulator Using Artificial Neural Network and Kalman Filter
+PY  - 2021
+DA  - 
+VL  - 
+SP  - 60
+EP  - 66
+DO  - 10.18178/ijmerr.10.2.60-66
+UR  - https://consensus.app/papers/improved-hybrid-trajectory-tracking-algorithm-for-a-3link-joo-yeom/1dfa617ac0815dc1871c740141f50dc0/
+ER  - 
+TY  - JOUR
+AU  - Vijayan, A.
+AU  - Krishnan, M.
+AU  - Sankar, Ashok
+TI  - A Hybrid Inverse Kinematic Solution for Trajectory Tracking of Industrial Robot Manipulator
+PY  - 2023
+DA  - 
+JO  - International Review of Automatic Control (IREACO)
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.15866/ireaco.v16i4.23709
+UR  - https://consensus.app/papers/a-hybrid-inverse-kinematic-solution-for-trajectory-vijayan-krishnan/49df7903f9ac553590f1c651279e8cd2/
+ER  - 
+TY  - JOUR
+AU  - Zhang, P.
+AU  - Zhang, Jie
+AU  - Kan, J.
+TI  - A Research on Manipulator-Path Tracking Based on Deep Reinforcement Learning
+PY  - 2023
+DA  - 
+JO  - Applied Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/app13137867
+UR  - https://consensus.app/papers/a-research-on-manipulatorpath-tracking-based-on-deep-zhang-zhang/dd94fbcd410d54f4815b45c25ae2cc02/
+ER  - 
+TY  - JOUR
+AU  - Malik, Aryslan
+AU  - Lischuk, Yevgeniy
+AU  - Henderson, T.
+AU  - Prazenica, Richard
+TI  - A Deep Reinforcement-Learning Approach for Inverse Kinematics Solution of a High Degree of Freedom Robotic Manipulator
+PY  - 2022
+DA  - 
+JO  - Robotics
+VL  - 11
+SP  - 44
+EP  - 
+DO  - 10.3390/robotics11020044
+UR  - https://consensus.app/papers/a-deep-reinforcementlearning-approach-for-inverse-malik-lischuk/e4c42939d6705f1080637624b69f3f54/
+ER  - 
+TY  - JOUR
+AU  - Bayoume, Mustafa Osman
+AU  - Abdelgeliel, M.
+AU  - Saber, E.
+AU  - El-Gamal, H.
+TI  - Optimized inverse kinematics solutions for a 6-DOF robot
+PY  - 2026
+DA  - 
+JO  - Scientific Reports
+VL  - 16
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-026-51032-w
+UR  - https://consensus.app/papers/optimized-inverse-kinematics-solutions-for-a-6dof-robot-bayoume-abdelgeliel/c82b89748c1a50dbb7a37f7b04073aa4/
+ER  - 
+TY  - JOUR
+AU  - Mueller, A.
+AU  - Kumar, Shivesh
+AU  - Kordik, Thomas
+TI  - A Recursive Lie-Group Formulation for the Second-Order Time Derivatives of the Inverse Dynamics of Parallel Kinematic Manipulators
+PY  - 2023
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 8
+SP  - 3804
+EP  - 3811
+DO  - 10.1109/lra.2023.3267005
+UR  - https://consensus.app/papers/a-recursive-liegroup-formulation-for-the-secondorder-time-mueller-kumar/965328f82e815fc581c4090de5676596/
+ER  - 
+TY  - JOUR
+AU  - Dupac, Mihai
+TI  - Mathematical modeling and simulation of the inverse kinematic of a redundant robotic manipulator using azimuthal angles and spherical polar piecewise interpolation
+PY  - 2023
+DA  - 
+JO  - Math. Comput. Simul.
+VL  - 209
+SP  - 282
+EP  - 298
+DO  - 10.1016/j.matcom.2023.02.010
+UR  - https://consensus.app/papers/mathematical-modeling-and-simulation-of-the-inverse-dupac/7bb81d01e70f54ab9726e1f223e96b0e/
+ER  - 
+TY  - JOUR
+AU  - Elhadidy, Mohamed
+AU  - Ayyad, Sarah
+AU  - Shaaban, W.
+AU  - Abdalla, W.
+AU  - Saafan, Mahmoud
+TI  - Cloud-assisted IoRT framework for latency-aware analytical kinematic control of a six-DOF robotic manipulator
+PY  - 2026
+DA  - 
+JO  - Scientific Reports
+VL  - 16
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-026-65330-w
+UR  - https://consensus.app/papers/cloudassisted-iort-framework-for-latencyaware-elhadidy-ayyad/1f26fccca2b85e7c95cf936e3bb7334d/
+ER  - 
+TY  - JOUR
+AU  - Mishra, M.
+AU  - Ghosal, Sambaran
+AU  - Samantaray, A.
+AU  - Chakraborty, G.
+TI  - Jacobian-Based Inverse Kinematics Analysis of a Pneumatic Actuated Continuum Manipulator
+PY  - 2021
+DA  - 
+JO  - Lecture Notes in Mechanical Engineering
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.1007/978-981-16-1769-0_1
+UR  - https://consensus.app/papers/jacobianbased-inverse-kinematics-analysis-of-a-pneumatic-mishra-ghosal/306222b0ed46585bbdf1c438e2ec04af/
+ER  - 
+TY  - JOUR
+AU  - Wang, Yeping
+AU  - Sifferman, Carter
+AU  - Gleicher, M.
+TI  - IKLink: End-Effector Trajectory Tracking with Minimal Reconfigurations
+PY  - 2024
+DA  - 
+JO  - 2024 IEEE International Conference on Robotics and Automation (ICRA)
+VL  - 
+SP  - 12165
+EP  - 12171
+DO  - 10.1109/icra57147.2024.10611510
+UR  - https://consensus.app/papers/iklink-endeffector-trajectory-tracking-with-minimal-wang-sifferman/84297aa7d6a253abb3e2fa1390d7dcd3/
+ER  - 
+TY  - JOUR
+AU  - Boschi, Ivan
+AU  - De Toni, A.
+AU  - Di Leva, Roberto
+AU  - Ida’, E.
+AU  - Carricato, Marco
+TI  - Handling Transitions Across Singularities for UR-Like Serial Robots
+PY  - 2026
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 11
+SP  - 2714
+EP  - 2721
+DO  - 10.1109/lra.2026.3653295
+UR  - https://consensus.app/papers/handling-transitions-across-singularities-for-urlike-boschi-toni/8c5bd288ea885f74bdc311f03afc8a2b/
+ER  - 
+TY  - JOUR
+AU  - Narayan, Jyotindra
+AU  - Gritli, Hassène
+AU  - Dwivedy, S.
+TI  - A Decade of Inverse Kinematics Methods for Serial Manipulators: A Systematic Review
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 43
+SP  - 
+EP  - 
+DO  - 10.1002/rob.70014
+UR  - https://consensus.app/papers/a-decade-of-inverse-kinematics-methods-for-serial-narayan-gritli/0ecb577cd2c35a8695f498fff6f49c41/
+ER  - 
+TY  - JOUR
+AU  - Zhou, Yaosheng
+AU  - Han, Guirong
+AU  - Wei, Ziang
+AU  - Huang, Zixin
+AU  - Chen, Xubing
+TI  - A Time-Optimal Continuous Jerk Trajectory Planning Algorithm for Manipulators
+PY  - 2023
+DA  - 
+JO  - Applied Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/app132011479
+UR  - https://consensus.app/papers/a-timeoptimal-continuous-jerk-trajectory-planning-zhou-han/83d26f869aba5d7c8a11d5e06dbd63e9/
+ER  - 
+TY  - JOUR
+AU  - Zhao, Guojun
+AU  - Ye, Ben
+AU  - Tian, Yun-Long
+AU  - Yun, Juntong
+AU  - Jiang, Du
+AU  - Tao, Bo
+TI  - A Closed-Form Inverse Kinematic Analytical Method for a Humanoid Seven-DOF Redundant Manipulator
+PY  - 2026
+DA  - 
+JO  - Machines
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/machines14040395
+UR  - https://consensus.app/papers/a-closedform-inverse-kinematic-analytical-method-for-a-zhao-ye/621a0cb1dfc05b8f810a9996c396c946/
+ER  - 
+TY  - JOUR
+AU  - Wang, Yongguo
+AU  - Chen, Weiheng
+AU  - Zhang, Jinsong
+TI  - Repetitive motion planning for redundant serial-parallel hybrid mechanical arm system
+PY  - 2026
+DA  - 
+JO  - Journal of Physics: Conference Series
+VL  - 3254
+SP  - 
+EP  - 
+DO  - 10.1088/1742-6596/3254/4/042008
+UR  - https://consensus.app/papers/repetitive-motion-planning-for-redundant-serialparallel-wang-chen/c0d6eba6f9a75d86adab265c47e4037d/
+ER  - 
+TY  - JOUR
+AU  - Mishra, M.
+AU  - Samantaray, A.
+AU  - Chakraborty, G.
+TI  - Joint-Space Kinematic Control of a Bionic Continuum Manipulator in Real-time by using Hybrid Approach
+PY  - 2022
+DA  - 
+JO  - IEEE Access
+VL  - PP
+SP  - 1
+EP  - 1
+DO  - 10.1109/access.2022.3171236
+UR  - https://consensus.app/papers/jointspace-kinematic-control-of-a-bionic-continuum-mishra-samantaray/941737c4af8c5db5904a9cab34fe5e21/
+ER  - 

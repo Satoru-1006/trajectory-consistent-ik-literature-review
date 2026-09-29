@@ -1,0 +1,294 @@
+TY  - JOUR
+AU  - Kim, Jaehyung
+AU  - Wang, Jie
+AU  - Kim, Hyun-Hee
+AU  - Lee, Min Choel
+TI  - Modified Configuration Control With Potential Field for Inverse Kinematic Solution of Redundant Manipulator
+PY  - 2021
+DA  - 
+JO  - IEEE/ASME Transactions on Mechatronics
+VL  - 26
+SP  - 1782
+EP  - 1790
+DO  - 10.1109/tmech.2021.3077914
+UR  - https://consensus.app/papers/modified-configuration-control-with-potential-field-for-kim-wang/d935dcc62fdd5cc88fe2e3f09fcde1aa/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Xing-Lei
+AU  - Fan, Bing-Hui
+AU  - Wang, Chuan-Jiang
+AU  - Cheng, Xiao-Lin
+TI  - An Improved Weighted Gradient Projection Method for Inverse Kinematics of Redundant Surgical Manipulators
+PY  - 2021
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 21
+SP  - 
+EP  - 
+DO  - 10.3390/s21217362
+UR  - https://consensus.app/papers/an-improved-weighted-gradient-projection-method-for-zhang-fan/ac84ca9986395c69bccf5ddab4bbe3c9/
+ER  - 
+TY  - JOUR
+AU  - Qin, Li
+AU  - Wei, Xiao-Peng
+AU  - Lv, Liangliang
+AU  - Han, Liangliang
+AU  - Fang, Guangqiang
+TI  - An Analytical Solution for Inverse Kinematics of SSRMS-Type Redundant Manipulators
+PY  - 2023
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 23
+SP  - 
+EP  - 
+DO  - 10.3390/s23125412
+UR  - https://consensus.app/papers/an-analytical-solution-for-inverse-kinematics-of-qin-wei/8037b6b89a575149add4064c1d5b7436/
+ER  - 
+TY  - JOUR
+AU  - Shi, X.
+AU  - Guo, Yu
+AU  - Chen, Xue-Chan
+AU  - Chen, Zi-Ming
+AU  - Yang, Zhi-Wei
+TI  - Kinematics and Singularity Analysis of a 7-DOF Redundant Manipulator
+PY  - 2021
+DA  - 
+JO  - Sensors (Basel, Switzerland)
+VL  - 21
+SP  - 
+EP  - 
+DO  - 10.3390/s21217257
+UR  - https://consensus.app/papers/kinematics-and-singularity-analysis-of-a-7dof-redundant-shi-guo/4bdcd7d057fe5ab78a6ef4fa34b3330d/
+ER  - 
+TY  - JOUR
+AU  - Jain, T.
+AU  - Roy, D.
+TI  - Joint space redundancy resolution of serial link manipulator: An inverse kinematics and continuum structure numerical approach
+PY  - 2020
+DA  - 
+JO  - Materials Today: Proceedings
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.20944/preprints202005.0162.v1
+UR  - https://consensus.app/papers/joint-space-redundancy-resolution-of-serial-link-jain-roy/2354036d3f4b584896f856e5f13c7a47/
+ER  - 
+TY  - JOUR
+AU  - Faria, Carlos
+AU  - Ferreira, Flora
+AU  - Erlhagen, W.
+AU  - Monteiro, Sérgio
+AU  - Bicho, E.
+TI  - Position-based kinematics for 7-DoF serial manipulators with global configuration control, joint limit and singularity avoidance
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 317
+EP  - 334
+DO  - 10.1016/j.mechmachtheory.2017.10.025
+UR  - https://consensus.app/papers/positionbased-kinematics-for-7dof-serial-manipulators-faria-ferreira/dfa8ecc058b157cdb6626cd6c6b9a79d/
+ER  - 
+TY  - JOUR
+AU  - Kelemen, M.
+AU  - Virgala, Ivan
+AU  - Lipták, T.
+AU  - Miková, L.
+AU  - Filakovský, Filip
+AU  - Bulej, V.
+TI  - A Novel Approach for a Inverse Kinematics Solution of a Redundant Manipulator
+PY  - 2018
+DA  - 
+JO  - Applied Sciences
+VL  - 
+SP  - 
+EP  - 
+DO  - 10.3390/app8112229
+UR  - https://consensus.app/papers/a-novel-approach-for-a-inverse-kinematics-solution-of-a-kelemen-virgala/05a67a701b2b5f54b02a23f84d396860/
+ER  - 
+TY  - JOUR
+AU  - Wiedmeyer, Wolfgang
+AU  - Altoé, Philipp
+AU  - Auberle, Jonathan
+AU  - Ledermann, C.
+AU  - Kröger, Torsten
+TI  - A Real-Time-Capable Closed-Form Multi-Objective Redundancy Resolution Scheme for Seven-DoF Serial Manipulators
+PY  - 2021
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 6
+SP  - 431
+EP  - 438
+DO  - 10.1109/lra.2020.3045646
+UR  - https://consensus.app/papers/a-realtimecapable-closedform-multiobjective-redundancy-wiedmeyer-alto%C3%A9/8fcb38ea2dae5cc7a6aaffd1be5f642c/
+ER  - 
+TY  - JOUR
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - Redundancy parameterization and inverse kinematics of 7-DOF revolute manipulators
+PY  - 2023
+DA  - 
+JO  - ArXiv
+VL  - abs/2307.13122
+SP  - 
+EP  - 
+DO  - 10.48550/arxiv.2307.13122
+UR  - https://consensus.app/papers/redundancy-parameterization-and-inverse-kinematics-of-elias-wen/5bb2c487b6295d90906a79298e550b6b/
+ER  - 
+TY  - JOUR
+AU  - Zaplana, I.
+AU  - Basañez, L.
+TI  - A novel closed-form solution for the inverse kinematics of redundant manipulators through workspace analysis
+PY  - 2018
+DA  - 
+JO  - Mechanism and Machine Theory
+VL  - 121
+SP  - 829
+EP  - 843
+DO  - 10.1016/j.mechmachtheory.2017.12.005
+UR  - https://consensus.app/papers/a-novel-closedform-solution-for-the-inverse-kinematics-of-zaplana-basa%C3%B1ez/41d4806d5327597281e9a319cd3b99ed/
+ER  - 
+TY  - JOUR
+AU  - Wang, Mingyuan
+AU  - Xue, Yu-Jun
+AU  - Li, Jishun
+AU  - Li, Shuai
+AU  - Bai, Yunhua
+TI  - A Fast and Robust Multistage Hybrid Algorithm for Inverse Kinematics of Redundant Mill Relining Manipulator
+PY  - 2025
+DA  - 
+JO  - Journal of Field Robotics
+VL  - 43
+SP  - 2048
+EP  - 2068
+DO  - 10.1002/rob.70130
+UR  - https://consensus.app/papers/a-fast-and-robust-multistage-hybrid-algorithm-for-inverse-wang-xue/2d9692cff9e55cdaa8eb87786a346728/
+ER  - 
+TY  - JOUR
+AU  - Jin, Ming-He
+AU  - Liu, Qiang
+AU  - Wang, Bin
+AU  - Liu, Hong
+TI  - An Efficient and Accurate Inverse Kinematics for 7-DOF Redundant Manipulators Based on a Hybrid of Analytical and Numerical Method
+PY  - 2020
+DA  - 
+JO  - IEEE Access
+VL  - 8
+SP  - 16316
+EP  - 16330
+DO  - 10.1109/access.2020.2966768
+UR  - https://consensus.app/papers/an-efficient-and-accurate-inverse-kinematics-for-7dof-jin-liu/cad5b0f444205ed2a0410cf9f45cf118/
+ER  - 
+TY  - JOUR
+AU  - Gong, Ming-De
+AU  - Li, Xiangdong
+AU  - Zhang, Lei
+TI  - Analytical Inverse Kinematics and Self-Motion Application for 7-DOF Redundant Manipulator
+PY  - 2019
+DA  - 
+JO  - IEEE Access
+VL  - 7
+SP  - 18662
+EP  - 18674
+DO  - 10.1109/access.2019.2895741
+UR  - https://consensus.app/papers/analytical-inverse-kinematics-and-selfmotion-gong-li/6cfad33bb0c8521f98dc097e5e12ec1e/
+ER  - 
+TY  - JOUR
+AU  - Safeea, Mohammad
+AU  - Béarée, Richard
+AU  - Neto, P.
+TI  - A Modified DLS Scheme With Controlled Cyclic Solution for Inverse Kinematics in Redundant Robots
+PY  - 2021
+DA  - 
+JO  - IEEE Transactions on Industrial Informatics
+VL  - 17
+SP  - 8014
+EP  - 8023
+DO  - 10.1109/tii.2021.3060019
+UR  - https://consensus.app/papers/a-modified-dls-scheme-with-controlled-cyclic-solution-for-safeea-b%C3%A9ar%C3%A9e/fddf6cbb13875e24874ead0e9372afe7/
+ER  - 
+TY  - JOUR
+AU  - Schappler, Moritz
+AU  - Ortmaier, T.
+TI  - Singularity Avoidance of Task-redundant Robots in Pointing Tasks: On Nullspace Projection and Cardan Angles as Orientation Coordinates
+PY  - 2021
+DA  - 
+VL  - 
+SP  - 338
+EP  - 349
+DO  - 10.5220/0010621103380349
+UR  - https://consensus.app/papers/singularity-avoidance-of-taskredundant-robots-in-schappler-ortmaier/f0eb8537edee5f11a376814300e9334c/
+ER  - 
+TY  - JOUR
+AU  - Sun, Jingyu
+AU  - Liu, Yan-Jun
+AU  - Ji, Chen
+TI  - Improved singular robust inverse solutions of redundant serial manipulators
+PY  - 2020
+DA  - 
+JO  - International Journal of Advanced Robotic Systems
+VL  - 17
+SP  - 
+EP  - 
+DO  - 10.1177/1729881420932046
+UR  - https://consensus.app/papers/improved-singular-robust-inverse-solutions-of-redundant-sun-liu/5642f45eacf45801861c3c7ef3d40eee/
+ER  - 
+TY  - JOUR
+AU  - Vu, Minh
+AU  - Beck, F.
+AU  - Hartl-Nesic, C.
+AU  - Nguyen, Anhtuan
+AU  - Kugi, A.
+TI  - Machine Learning-based Framework for Optimally Solving the Analytical Inverse Kinematics for Redundant Manipulators
+PY  - 2022
+DA  - 
+JO  - ArXiv
+VL  - abs/2211.04275
+SP  - 
+EP  - 
+DO  - 10.1016/j.mechatronics.2023.102970
+UR  - https://consensus.app/papers/machine-learningbased-framework-for-optimally-solving-vu-beck/dd00d24218755d7d99e2e7ead0feee72/
+ER  - 
+TY  - JOUR
+AU  - Zhang, Linlin
+AU  - Du, Huibin
+AU  - Qin, Z.
+AU  - Zhao, Yue-Jing
+AU  - Yang, Guang
+TI  - Real-time optimized inverse kinematics of redundant robots under inequality constraints
+PY  - 2024
+DA  - 
+JO  - Scientific Reports
+VL  - 14
+SP  - 
+EP  - 
+DO  - 10.1038/s41598-024-81174-8
+UR  - https://consensus.app/papers/realtime-optimized-inverse-kinematics-of-redundant-zhang-du/4daa1d17d3b554e48ecaad4139126d13/
+ER  - 
+TY  - JOUR
+AU  - Faroni, M.
+AU  - Beschi, M.
+AU  - Pedrocchi, N.
+TI  - Inverse Kinematics of Redundant Manipulators With Dynamic Bounds on Joint Movements
+PY  - 2020
+DA  - 
+JO  - IEEE Robotics and Automation Letters
+VL  - 5
+SP  - 6435
+EP  - 6442
+DO  - 10.1109/lra.2020.3013879
+UR  - https://consensus.app/papers/inverse-kinematics-of-redundant-manipulators-with-faroni-beschi/7b5baf76c9315f2ab1fd16003d5fe313/
+ER  - 
+TY  - JOUR
+AU  - Tringali, A.
+AU  - Cocuzza, S.
+TI  - Globally Optimal Inverse Kinematics Method for a Redundant Robot Manipulator with Linear and Nonlinear Constraints
+PY  - 2020
+DA  - 
+JO  - Robotics
+VL  - 9
+SP  - 61
+EP  - 
+DO  - 10.3390/robotics9030061
+UR  - https://consensus.app/papers/globally-optimal-inverse-kinematics-method-for-a-tringali-cocuzza/4189f6deb8585166852a1ed6b3189cf6/
+ER  - 

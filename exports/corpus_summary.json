@@ -1,0 +1,39 @@
+{
+  "screen_date": "2026-09-29",
+  "search_window": [
+    "2016-01-01",
+    "2026-09-29"
+  ],
+  "consensus_quick_queries": 16,
+  "exported_ris_instances": 419,
+  "unique_doi_records": 179,
+  "all_unique_records_have_doi": true,
+  "abstracts_available": 161,
+  "abstracts_missing": 18,
+  "abstract_sources": {
+    "missing": 18,
+    "OpenAlex": 161
+  },
+  "screening_decisions": {
+    "UNCERTAIN_FULLTEXT": 18,
+    "EXCLUDE": 57,
+    "CORE_INCLUDE": 30,
+    "ADJACENT": 74
+  },
+  "included_core_plus_adjacent": 104,
+  "screened_years": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 10,
+    "2019": 7,
+    "2020": 12,
+    "2021": 22,
+    "2022": 23,
+    "2023": 34,
+    "2024": 27,
+    "2025": 18,
+    "2026": 22
+  },
+  "full_text_checked": 0,
+  "bibliographic_metadata_crossref_corrected": 10
+}

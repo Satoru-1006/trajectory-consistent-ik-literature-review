@@ -1,0 +1,1308 @@
+﻿TY  - JOUR
+AU  - Wang, Shanda
+AU  - Luo, Xiao
+AU  - Luo, Qingsheng
+AU  - Han, Bao-Ling
+TI  - Existence Conditions and General Solutions of Closed-form Inverse Kinematics for Revolute Serial Robots
+JO  - Applied Sciences
+PY  - 2019
+DO  - 10.3390/app9204365
+UR  - https://doi.org/10.3390/app9204365
+AB  - This study proposes a method for judging the existence of closed-form inverse kinematics solutions based on the Denavit–Hartenberg (DH) model. In this method, serial robots with closed-form solutions are described using three types of sub-problems from the viewpoint of solving algebraic equations. If a serial robot can be described using these three types of sub-problems, i.e., if the inverse kinematics problems can be solved by several basic problems, then there is a closed-form solution. Based on the above method, we design a set of universal closed-form inverse kinematics solving algorithms. Since there is a definite formula solution for the three types of sub-problems, the joint angles can be rapidly determined. In addition, because the DH parameters can directly reflect the linkage of the robot, the judgment of the sub-problems is also quick and accurate. More importantly, the algorithm can be applied to serial robots with low degrees of freedom. This enables the algorithm to not only quickly and accurately solve inverse kinematics problems but also to exhibit high universality. This proposed theory improves the existence conditions for closed-form reverse solutions and further promotes the development of motion control techniques for serial robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Marić, Filip
+AU  - Giamou, Matthew
+AU  - Khoubyarian, Soroush
+AU  - Petrović, I.
+AU  - Kelly, Jonathan
+TI  - Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization
+JO  - 2020 IEEE International Conference on Robotics and Automation (ICRA)
+PY  - 2020
+DO  - 10.1109/icra40945.2020.9196704
+UR  - https://doi.org/10.1109/icra40945.2020.9196704
+AB  - Inverse kinematics is a fundamental challenge for articulated robots: fast and accurate algorithms are needed for translating task-related workspace constraints and goals into feasible joint configurations. In general, inverse kinematics for serial kinematic chains is a difficult nonlinear problem, for which closed form solutions cannot easily be obtained. Therefore, computationally efficient numerical methods that can be adapted to a general class of manipulators are of great importance. In this paper, we use convex optimization techniques to solve the inverse kinematics problem with joint limit constraints for highly redundant serial kinematic chains with spherical joints in two and three dimensions. This is accomplished through a novel formulation of inverse kinematics as a nearest point problem, and with a fast sum of squares solver that exploits the sparsity of kinematic constraints for serial manipulators. Our method has the advantages of post-hoc certification of global optimality and a runtime that scales polynomially with the number of degrees of freedom. Additionally, we prove that our convex relaxation leads to a globally optimal solution when certain conditions are met, and demonstrate empirically that these conditions are common and represent many practical instances. Finally, we provide an open source implementation of our algorithm.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Yi
+AU  - Guo, Chen
+AU  - Weng, Yongpeng
+TI  - Online Time-Optimal Trajectory Planning for Robotic Manipulators Using Adaptive Elite Genetic Algorithm With Singularity Avoidance
+JO  - IEEE Access
+PY  - 2019
+DO  - 10.1109/access.2019.2945824
+UR  - https://doi.org/10.1109/access.2019.2945824
+AB  - In this paper, a new method of online planning high smooth and time-optimal trajectory for robotic manipulators that applies an adaptive elite genetic algorithm with singularity avoidance (AEGA-SA) is presented. The strategy is designed as a combination of the time-optimal trajectory planning with quintic polynomial in Cartesian space. For improving optimization performance, elitist group and adaptive adjustment mechanisms are used based on genetic algorithm (GA) framework. In the meantime, GA is combined with singularity avoidance mechanism to avoid the singularities appearing in the trajectory, improves the recognition capability of optimum solution. Experimental results show that, the proposed approach is more effective and better performance than the original GA and its variants, with ensuring a both smooth and efficiency performance for the robotic manipulators.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Elawady, W.
+AU  - Bouteraa, Y.
+AU  - Elmogy, Ahmed
+TI  - An Adaptive Second Order Sliding Mode Inverse Kinematics Approach for Serial Kinematic Chain Robot Manipulators
+JO  - Robotics
+PY  - 2020
+DO  - 10.3390/robotics9010004
+UR  - https://doi.org/10.3390/robotics9010004
+AB  - The problem of inverse kinematics is essential to consider while dealing with the robot’s mechanical structure in almost all applications. Since the solution of the inverse kinematics problem is very complex, many research efforts have been working towards getting the approximate solution of this problem. However, for some applications, working with the approximate robot’s model is neither sufficient nor efficient. In this paper, an adaptive inverse kinematics methodology is developed to solve the inverse kinematics problem in such a way that compensate for unknown uncertainty in the Jacobian matrix of the serial kinematic chain robot manipulators. The proposed methodology is based on continuous second order sliding mode strategy (CSOSM-AIK). The salient advantage of the CSOSM-AIK approach is that it does not require the availability of the kinematics model or Jacobian matrix of the robot manipulators from joint space variables to Cartesian space variables. The global stability of the closed-loop system with CSOSM-AIK methodology is proven using the Lyapunov theorem. In order to demonstrate the robustness and effectiveness of the proposed methodology, some simulations are conducted.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Jin, Ming-He
+AU  - Liu, Qiang
+AU  - Wang, Bin
+AU  - Liu, Hong
+TI  - An Efficient and Accurate Inverse Kinematics for 7-DOF Redundant Manipulators Based on a Hybrid of Analytical and Numerical Method
+JO  - IEEE Access
+PY  - 2020
+DO  - 10.1109/access.2020.2966768
+UR  - https://doi.org/10.1109/access.2020.2966768
+AB  - This paper proposes an efficient and accuracy inverse kinematic algorithm for 7-DOF redundant manipulators with obstacles avoidance and singularities avoidance based on the hybrid of analytical and numerical method (IK-HAN). Specially, the paper focuses on how to solve the inverse kinematics problem accurately and efficiently for a novel configuration, i.e. SSRMS-type manipulator. First, the elbow orientation is introduced and the algebraic relationship between the elbow orientation and joint angles is derived. Second, the optimization algorithm is designed to find the optimal elbow orientation based on Particle Swarm Optimization. To improve the efficiency, the equivalent optimization model based on the azimuth angle is investigated. Third, optimal models are developed to avoid obstacles and singularities and improve manipulability in the constraint domain. Moreover, how to employ optimization resolution to solve the inverse kinematics problem is discussed. Finally, the validity of the algorithm is verified via kinematics simulations and the result illustrates that the algorithm performs well in accuracy, stability and efficiency.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Khan, H.
+AU  - Abbasi, S.
+AU  - Lee, Min Choel
+TI  - DPSO and Inverse Jacobian-Based Real-Time Inverse Kinematics With Trajectory Tracking Using Integral SMC for Teleoperation
+JO  - IEEE Access
+PY  - 2020
+DO  - 10.1109/access.2020.3020318
+UR  - https://doi.org/10.1109/access.2020.3020318
+AB  - A six-degree-of-freedom robotic manipulator inverse kinematics (IK) for position control is proposed for the bilateral teleoperation process that is implemented through a joystick for nuclear power plant dismantling operations. The control strategy of the manipulator includes the use of the joystick to generate the Cartesian space trajectory followed by the IK to yield the joint space trajectory for implementing position control. In this paper, a novel technique for the IK is proposed. It involves the use of the particle swarm optimization (PSO) algorithm with the inverse Jacobian (IJ). The special case of the dual PSO is based on dividing the PSO algorithm into two such that the trajectory position and orientation are separately optimized by the algorithms, resulting in a faster convergence. In contrast, the inverse Jacobian aids in generating a smooth joint trajectory. The integral sliding mode control (ISMC) is proposed for position control because it does not require information on system dynamics. The ISMC improves the system trajectory tracking performance by using a switching gain to compensate for system dynamics and perturbations (disturbance and unmatched uncertainties), ultimately reducing the time delay. The effectiveness of the PSO combined with the IJ and the robustness of the ISMC in the teleoperation process are confirmed by the experimental results.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Trutman, Pavel
+AU  - Din, M. El
+AU  - Henrion, D.
+AU  - Pajdla, T.
+TI  - Globally Optimal Solution to Inverse Kinematics of 7DOF Serial Manipulator
+JO  - IEEE Robotics and Automation Letters
+PY  - 2022
+DO  - 10.1109/lra.2022.3163444
+UR  - https://doi.org/10.1109/lra.2022.3163444
+AB  - The Inverse Kinematics (IK) problem is concerned with finding robot control parameters to bring the robot into a desired position under the kinematics and joint limit constraints. We present a globally optimal solution to the IK problem for a general serial 7DOF manipulator with revolute joints and a polynomial objective function. We show that the kinematic constraints due to rotations can be all generated by the second-degree polynomials. This is an important result since it significantly simplifies the further step where we find the optimal solution by Lasserre relaxations of nonconvex polynomial systems. We demonstrate that the second relaxation is sufficient to solve a general 7DOF IK problem. Our approach is certifiably globally optimal. We demonstrate the method on the 7DOF KUKA LBR IIWA manipulator and show that we are, in practice, able to compute the optimal IK or certify infeasibility in 99.9% tested poses. We also demonstrate that by the same approach, we are able to solve the IK problem for any generic (random) manipulator with seven revolute joints.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Sun, Jingyu
+AU  - Liu, Yan-Jun
+AU  - Ji, Chen
+TI  - Improved singular robust inverse solutions of redundant serial manipulators
+JO  - International Journal of Advanced Robotic Systems
+PY  - 2020
+DO  - 10.1177/1729881420932046
+UR  - https://doi.org/10.1177/1729881420932046
+AB  - To address the Jacobian matrix approximation error, which usually exists in the iterative solving process of the classic singular robust inverse method, the correction coefficient α is introduced, and the improved singular robust inverse method is the result. On this basis, the constant improved singular robust method and the intelligent improved singular robust inverse method are proposed. In addition, a new scheme, combining particle swarm optimization and artificial neural network training, is applied to obtain real-time parameters. The stability of the proposed methods is verified according to the Lyapunov stability criteria, and the effectiveness is verified in the application examples of spatial linear and curve trajectories with a seven-axis manipulator. The simulation results show that the improved singular robust inverse method has better optimization performance and stability. In the allowable range, the terminal error is smallest, and there is no lasting oscillation or large amplitude. The least singular value is largest, and the joint angular velocity is smallest, exactly as expected. The derivative of the Lyapunov function is negative definite. Comparing the two extended methods, the constant improved singular robust method performs better in terms of joint angular velocity and least singular value optimization, and the intelligent improved singular robust inverse method can achieve a smaller terminal error. There is little difference between their overall optimization effects. However, the adaptability of the real-time parameters makes the intelligent improved singular robust inverse method the first choice for kinematic control of redundant serial manipulators.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Hernández-Barragán, J.
+AU  - López-Franco, C.
+AU  - Arana-Daniel, N.
+AU  - Alanis, A.
+AU  - Lopez-Franco, Adriana
+TI  - A modified firefly algorithm for the inverse kinematics solutions of robotic manipulators
+JO  - Integrated Computer-Aided Engineering
+PY  - 2021
+DO  - 10.3233/ica-210660
+UR  - https://doi.org/10.3233/ica-210660
+AB  - The inverse kinematics of robotic manipulators consists of finding a joint configuration to reach a desired end-effector pose. Since inverse kinematics is a complex non-linear problem with redundant solutions, sophisticated optimization techniques are often required to solve this problem; a possible solution can be found in metaheuristic algorithms. In this work, a modified version of the firefly algorithm for multimodal optimization is proposed to solve the inverse kinematics. This modified version can provide multiple joint configurations leading to the same end-effector pose, improving the classic firefly algorithm performance. Moreover, the proposed approach avoids singularities because it does not require any Jacobian matrix inversion, which is the main problem of conventional approaches. The proposed approach can be implemented in robotic manipulators composed of revolute or prismatic joints of n degrees of freedom considering joint limits constrains. Simulations with different robotic manipulators show the accuracy and robustness of the proposed approach. Additionally, non-parametric statistical tests are included to show that the proposed method has a statistically significant improvement over other multimodal optimization algorithms. Finally, real-time experiments on five degrees of freedom robotic manipulator illustrate the applicability of this approach.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Fan, Yanping
+AU  - Li, Pin
+AU  - Zhen, Xijin
+AU  - Shen, Zongbao
+TI  - A Multiple Solutions Approach to the Inverse Kinematics Problem of a General Serial Manipulator
+JO  - Journal of Physics: Conference Series
+PY  - 2021
+DO  - 10.1088/1742-6596/2002/1/012023
+UR  - https://doi.org/10.1088/1742-6596/2002/1/012023
+AB  - Abstract The inverse kinematics problem (IKP) is at the center of computer control algorithms for general serial manipulator. The exact number of feasible solutions of the IKP is highly dependent on the manipulator structure as well as the desired end-effector pose, and the existing inverse kinematics methods have difficulties to solve all feasible solutions of a general serial manipulator. In this work, a multiple solutions approach is applied to the IKP. Then, three numerical examples are used to validate the effectiveness of the multiple solutions approach, and the numerical results demonstrate that the multiple solutions approach is effective and practicable. Finally, an infinite solutions example is presented to show that the proposed approach could also provide limited number of numerical solutions in singularity.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wiedmeyer, Wolfgang
+AU  - Altoé, Philipp
+AU  - Auberle, Jonathan
+AU  - Ledermann, C.
+AU  - Kröger, Torsten
+TI  - A Real-Time-Capable Closed-Form Multi-Objective Redundancy Resolution Scheme for Seven-DoF Serial Manipulators
+JO  - IEEE Robotics and Automation Letters
+PY  - 2021
+DO  - 10.1109/lra.2020.3045646
+UR  - https://doi.org/10.1109/lra.2020.3045646
+AB  - Using a closed-form inverse kinematics solution for motion planning has many advantages compared to traditional numerical approaches, most notably much faster computation times and better suitability for real-time applications. Steady progress has been made to develop an analytic inverse kinematics solution for seven degrees of freedom (DoF) manipulators without joint offsets. Redundancy resolutions have been proposed to push the individual joint angles away from their limits. However, no further objectives are considered in these closed-form solutions. We propose a multi-objective real-time optimization approach that is able to minimize joint velocities and accelerations, while still avoiding joint limits. A closed-form solution to the optimization is derived, which only requires a single intuitive tuning parameter. We provide a free and open-source software implementation of the full kinematics algorithm that covers the complete solution space. The null-space motion resulting from our method is evaluated, achieving faster motion times and smoother arm motions along Cartesian paths in comparison to the state-of-the-art approach. Finally, experimental results with a KUKA iiwa robot are reported.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Schnitman, L.
+TI  - A Solution of the Inverse Kinematics Problem for a 7-Degrees-of-Freedom Serial Redundant Manipulator Using Gröbner Bases Theory
+JO  - Mathematical Problems in Engineering
+PY  - 2021
+DO  - 10.1155/2021/6680687
+UR  - https://doi.org/10.1155/2021/6680687
+AB  - This article presents a solution of the inverse kinematics problem of 7-degrees-of-freedom serial redundant manipulators. A 7-degrees-of-freedom (7-DoF) redundant manipulator can avoid obstacles and thus improve operational performance. However, its inverse kinematics is difficult to solve since it has one more DoF than that necessary for reaching the whole workspace, which causes infinite solutions. In this article, Gröbner bases theory is proposed to solve the inverse kinematics. First, the Denavit–Hartenberg model for the manipulator is established. Second, different joint configurations are obtained using Gröbner bases theory. All solutions are confirmed with the aid of algebraic computing software, confirming that this method is accurate and easy to be implemented.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Xing-Lei
+AU  - Fan, Bing-Hui
+AU  - Wang, Chuan-Jiang
+AU  - Cheng, Xiao-Lin
+TI  - An Improved Weighted Gradient Projection Method for Inverse Kinematics of Redundant Surgical Manipulators
+JO  - Sensors (Basel, Switzerland)
+PY  - 2021
+DO  - 10.3390/s21217362
+UR  - https://doi.org/10.3390/s21217362
+AB  - Different from traditional redundant manipulators, the redundant manipulators used in the surgical environment require the end effector (EE) to have high pose (position and orientation) accuracy to ensure the smooth progress of the operation. When analyzing the inverse kinematics (IK) of traditional redundant manipulators, gradient-projection method (GPM) and weighted least-norm (WLN) method are commonly used methods to avoid joint position limits. However, for the traditional GPM and WLN method, when joints are close to their limits, they stop moving, which greatly reduces the accuracy of the IK solution. When robotic manipulators enter a singular region, although traditional damped least-squares (DLS) algorithms are used to handle singularities effectively, motion errors of the EE will be introduced. Furthermore, selecting singular region through trial and error may cause some joint velocities exceed their corresponding limits. More importantly, traditional DLS algorithms cannot guide robotic manipulators away from singular regions. Inspired by the merits of GPM, WLN, and DLS methods, an improved weighted gradient projection method (IWGPM) is proposed to solve the IK problem of redundant manipulators used in the surgical environment with avoiding joint position limits and singularities. The weighted matrix of the WLN method and the damping factor of the DLS algorithm have been improved, and a joint limit repulsive potential field function and singular repulsive potential field function belong to the null space are introduced to completely keep joints away from the damping interval and redundant manipulators away from the unsafe region. To verify the validity of the proposed IWGPM, simulations on a 7 degree of freedom (DOF) redundant manipulator used in laparoscopic surgery indicate that the proposed method can not only achieve higher accuracy IK solution but also avoid joint position limits and singularities effectively by comparing them with the results of the traditional GPM and WLN method, respectively. Furthermore, based on the proposed IWGPM, simulation tests in two cases show that joint position limits have a great impact on the orientation accuracy, and singular potential energy function has a great impact on the position accuracy.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhong, Jie
+AU  - Wang, Tao
+AU  - Cheng, Lianglun
+TI  - Collision-free path planning for welding manipulator via hybrid algorithm of deep reinforcement learning and inverse kinematics
+JO  - Complex & Intelligent Systems
+PY  - 2021
+DO  - 10.1007/s40747-021-00366-1
+UR  - https://doi.org/10.1007/s40747-021-00366-1
+AB  - Abstract In actual welding scenarios, an effective path planner is needed to find a collision-free path in the configuration space for the welding manipulator with obstacles around. However, as a state-of-the-art method, the sampling-based planner only satisfies the probability completeness and its computational complexity is sensitive with state dimension. In this paper, we propose a path planner for welding manipulators based on deep reinforcement learning for solving path planning problems in high-dimensional continuous state and action spaces. Compared with the sampling-based method, it is more robust and is less sensitive with state dimension. In detail, to improve the learning efficiency, we introduce the inverse kinematics module to provide prior knowledge while a gain module is also designed to avoid the local optimal policy, we integrate them into the training algorithm. To evaluate our proposed planning algorithm in multiple dimensions, we conducted multiple sets of path planning experiments for welding manipulators. The results show that our method not only improves the convergence performance but also is superior in terms of optimality and robustness of planning compared with most other planning algorithms.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Ames, Barrett
+AU  - Morgan, Jeremy
+AU  - Konidaris, G.
+TI  - IKFlow: Generating Diverse Inverse Kinematics Solutions
+JO  - IEEE Robotics and Automation Letters
+PY  - 2021
+DO  - 10.1109/lra.2022.3181374
+UR  - https://doi.org/10.1109/lra.2022.3181374
+AB  - Inverse kinematics—finding joint poses that reach a given Cartesian-space end-effector pose—is a fundamental operation in robotics, since goals and waypoints are typically defined in Cartesian space, but robots must be controlled in joint space. However, existing inverse kinematics solvers return a single solution, in contrast, systems with more than 6 degrees of freedom support infinitely many such solutions, which can be useful in the presence of constraints, pose preferences, or obstacles. We introduce a method that uses a deep neural network to learn to generate a diverse set of samples from the solution space of such kinematic chains. The resulting samples can be generated quickly (2000 solutions in under 10 ms) and accurately (to within 10 millimeters and 2 degrees of an exact solution) and can be rapidly refined by classical methods if necessary.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Shi, X.
+AU  - Guo, Yu
+AU  - Chen, Xue-Chan
+AU  - Chen, Zi-Ming
+AU  - Yang, Zhi-Wei
+TI  - Kinematics and Singularity Analysis of a 7-DOF Redundant Manipulator
+JO  - Sensors (Basel, Switzerland)
+PY  - 2021
+DO  - 10.3390/s21217257
+UR  - https://doi.org/10.3390/s21217257
+AB  - A new method of kinematic analysis and singularity analysis is proposed for a 7-DOF redundant manipulator with three consecutive parallel axes. First, the redundancy angle is described according to the self-motion characteristics of the manipulator, the position and orientation of the end-effector are separated, and the inverse kinematics of this manipulator is analyzed by geometric methods with the redundancy angle as a constraint. Then, the Jacobian matrix is established to derive the conditions for the kinematic singularities of the robotic arm by using the primitive matrix method and the block matrix method. Then, the kinematic singularities conditions in the joint space are mapped to the Cartesian space, and the singular configuration is described using the end poses and redundancy angles of the robotic arm, and a singularity avoidance method based on the redundancy angles and end pose is proposed. Finally, the correctness and feasibility of the inverse kinematics algorithm and the singularity avoidance method are verified by simulation examples.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Abdor-Sierra, Javier Alexis
+AU  - Merchán-Cruz, E.
+AU  - Sánchez-Garfias, F.
+AU  - Rodríguez-Cañizo, R.
+AU  - Portilla-Flores, E.
+AU  - Vázquez-Castillo, Valentín
+TI  - PARTICLE SWARM OPTIMIZATION FOR INVERSE KINEMATICS SOLUTION AND TRAJECTORY PLANNING OF 7-DOF AND 8-DOF ROBOT MANIPULATORS BASED ON UNIT QUATERNION REPRESENTATION
+JO  - Journal of Applied Engineering Science
+PY  - 2021
+DO  - 10.5937/jaes0-30557
+UR  - https://doi.org/10.5937/jaes0-30557
+AB  - Finding the inverse kinematic solution of a serial manipulator has always attracted the attention of optimization enthusiasts, as the solution space is highly nonlinear and, depending on the number of degrees of freedom, has multiple solutions. In the literature, one can find several proposed solutions using heuristic techniques; however, for highly redundant manipulators, e.g., seven or more, the discussions focused on minimizing the positional error. In this paper, a metaheuristic approach is presented to solve not only the inverse kinematics of a 7 and 8 DOF manipulators but the proposed algorithm is used to find the robot's poses for trajectory planning where the robot is required to meet the desired position and orientation based on quaternion representation of each point along the path. The metaheuristic approach used in this paper is particle swarm optimization (PSO), where the unit quaternion is used in the objective function to find the orientation error. The results prove that the use of the unit quaternion representation improved the performance of the algorithm and that our approach can be used not only for individual poses but for trajectory planning.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Schappler, Moritz
+AU  - Ortmaier, T.
+TI  - Singularity Avoidance of Task-redundant Robots in Pointing Tasks: On Nullspace Projection and Cardan Angles as Orientation Coordinates
+PY  - 2021
+DO  - 10.5220/0010621103380349
+UR  - https://doi.org/10.5220/0010621103380349
+AB  - Robot manipulators are often deployed in tool-symmetric tasks, which only requires defining end effector position and pointing direction. In this case six-axis serial industrial robots and full-mobility (spatial) parallel robots have one degree of task redundancy. Using Cardan angles as orientation coordinates, a unified formulation of the position-level and second-order inverse kinematics problem is set up for both robot types. An efficient scheme for difference-quotient approximation of gradients of performance criteria for projection into the task redundancy's nullspace is presented. The simulation example of a hexapod robot shows that avoiding and exiting parallel robot singularities of type II is possible with the nullspace of all joints. The nullspace controller scheme can be used in offline trajectory optimization and in online motion generation.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Xie, Shuxin
+AU  - Sun, Lining
+AU  - Chen, Guodong
+AU  - Wang, Zhenhua
+AU  - Wang, Zi-Xiang
+TI  - A Novel Solution to the Inverse Kinematics Problem of General 7R Robots
+JO  - IEEE Access
+PY  - 2022
+DO  - 10.1109/access.2022.3184451
+UR  - https://doi.org/10.1109/access.2022.3184451
+AB  - Task and Motion Planning for a 7-DOF serial robot containing only revolute joints needs a fast and numerically stable inverse kinematics solution. The analytical methods are real-time, but they are robot dependent. Although the numerical methods based on inverse differential kinematics can solve the inverse kinematics problem (IKP) of 7R robots with arbitrary geometric parameters, their numerical stability is insufficient. Moreover, it is time-consuming for them to converge to a single solution that depends on the initial guess. The main innovation of this article is the development of a practical method for solving the IKP of general 7R robots. The proposed method can find multiple solutions and is also faster than the numerical method. It combines symbolic preprocessing, Sylvester dialytic elimination, and eigendecomposition. First, according to the Denavit-Hartenberg convention of geometric representation, a general kinematics model of a 7R manipulator is established. Secondly, the joint variables are separated by symbolic preprocessing, and then two symbolic matrices are obtained. After numerical substitution, a square matrix of polynomial coefficients is computed through Gaussian and Sylvester dialytic elimination. Finally, utilizing the eigendecomposition of the matrix restructured from the square matrix, the values of some variables are obtained, and then the remaining variables are solved by back-substitution. The simulation and experimental data are analyzed. The comparison results verify that the proposed method applies to solving the IKP of general 7R robots and is almost real-time, effective, and numerically stable.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wenger, P.
+AU  - Chablat, D.
+TI  - A review of cuspidal serial and parallel manipulators
+JO  - Journal of Mechanisms and Robotics
+PY  - 2023
+DO  - 10.1115/1.4055677
+UR  - https://doi.org/10.1115/1.4055677
+AB  - Abstract Cuspidal robots can move from one inverse or direct kinematic solution to another without ever passing through a singularity. These robots have remained unknown because almost all industrial robots do not have this feature. However, in fact, industrial robots are the exceptions. Some robots appeared recently in the industrial market can be shown to be cuspidal, but, surprisingly, almost nobody knows it and robot users meet difficulties in planning trajectories with these robots. This article proposes a review on the fundamental and application aspects of cuspidal robots. It addresses the important issues raised by these robots for the design and planning of trajectories. The identification of all cuspidal robots is still an open issue. This article recalls in details the case of serial robots with three joints, but it also addresses robots with more complex architectures such as 6-revolute-jointed robot and parallel robots. We hope that this article will help disseminate more wide knowledge on cuspidal robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Chavdarov, I.
+AU  - Naydenov, Bozhidar
+TI  - Algorithm for Determining the Types of Inverse Kinematics Solutions for Sequential Planar Robots and Their Representation in the Configuration Space
+JO  - Algorithms
+PY  - 2022
+DO  - 10.3390/a15120469
+UR  - https://doi.org/10.3390/a15120469
+AB  - The work defines in a new way the different types of solutions of the inverse kinematics (IK) problem for planar robots with a serial topology and presents an algorithm for solving it. The developed algorithm allows the finding of solutions for a wide range of robots by using a geometric approach, representing points in a polar coordinate system. Inverse kinematics, which is one of the most important, most studied and challenging problems in robotics, aims to calculate the values of the joint variables, given the desired position and orientation of the robot’s end effector. Configuration space is defined by joint angles and is the basis of most motion planning algorithms. Areas in the working and configuration space are generated that are reachable with different types of solutions. Programs are created that use the proposed algorithm for robots with two and three rotational degrees of freedom, and graphically present the results in the workspace and configuration space. The possibility of transitioning from one type of solution to another by passing through a singular configuration is discussed. The results are important for planning motions in the workspace and configuration space, as well as for the design and kinematic analysis of robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - IK-Geo: Unified robot inverse kinematics using subproblem decomposition
+JO  - Mechanism and Machine Theory
+PY  - 2025
+DO  - 10.1016/j.mechmachtheory.2025.105971
+UR  - https://doi.org/10.1016/j.mechmachtheory.2025.105971
+AB  - We present IK-Geo, a highly capable and computationally efficient open-source robot inverse kinematics (IK) solver. In this unifying approach, IK for any 6-DOF all-revolute (6R) manipulator is decomposed into six canonical geometric subproblems solved by intersecting circles with other geometric objects. Subproblems are efficiently solved in all cases including in a continuous and sometimes least-squares sense when a solution does not exist. This continuity requirement means IK-Geo finds all IK solutions including singular solutions and sometimes least-squares solutions. Robots with three intersecting or parallel axes are solved in closed form. All other commercially available robots have at least one pair of intersecting or parallel axes and are solved by searching over one joint angle. Fully general robots are solved by searching over two joint angles. Search solutions may be converted to a system of three or four polynomials in terms of the end effector pose in the tangent half-angle of one joint. A comparison with IKFast and the MATLAB Robotics Toolbox IK solver demonstrates that IK-Geo has faster computation and can solve more classes of robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Vázquez-Castillo, Valentín
+AU  - Torres-Figueroa, J.
+AU  - Merchán-Cruz, E.
+AU  - Vega-Alvarado, Eduardo
+AU  - Niño-Suárez, P.
+AU  - Rodríguez-Cañizo, R.
+TI  - Inverse Kinematics Solution of Articulated Robots Using a Heuristic Approach for Optimizing Joint Displacement
+JO  - IEEE Access
+PY  - 2022
+DO  - 10.1109/access.2022.3182496
+UR  - https://doi.org/10.1109/access.2022.3182496
+AB  - In this work, a new constrained numerical optimization approach is proposed for solving offline the Inverse Kinematics Problem (IKP) of articulated robots, which consists on optimizing the joint displacement while the end effector is positioned and oriented in a desired pose. The novelty of this approach is in the formulation of the optimization problem, where the objective function calculates the minimum joint displacement, with the position and orientation errors handled as equality constraints. This formulation may avoid configurations containing singularities. The IKP is solved for a defined trajectory in the dexterous workspace of the robot by using two versions of the Differential Evolution algorithm and considering two stages. First, DE/rand/1/bin is used for positioning and orienting the end effector at the first point of the trajectory regardless of its initial position. The second stage applies DE/best/1/bin in order to emphasize the exploitation process and minimize the computational time to obtain the inverse kinematics due to the closeness that exists between the consecutive points that make up the trajectory. This combination of DE versions is another contribution of the proposed approach that speeds up considerably the search process by first prioritizing the exploration and then the exploitation, and this sequential application can be used to the solution of diverse constrained numerical optimization problems. Finally, the IKP for the IRB-1600 robot was solved as a case study considering two trajectories in its dexterous workspace, circular and Lissajous. The results generated by the proposed approach for the case study were simulated in the RoboDK® industrial robot simulator.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Vu, Minh
+AU  - Beck, F.
+AU  - Hartl-Nesic, C.
+AU  - Nguyen, Anhtuan
+AU  - Kugi, A.
+TI  - Machine Learning-based Framework for Optimally Solving the Analytical Inverse Kinematics for Redundant Manipulators
+JO  - Mechatronics
+PY  - 2023
+DO  - 10.1016/j.mechatronics.2023.102970
+UR  - https://doi.org/10.1016/j.mechatronics.2023.102970
+AB  - Solving the analytical inverse kinematics (IK) of redundant manipulators in real time is a difficult problem in robotics since its solution for a given target pose is not unique. Moreover, choosing the optimal IK solution with respect to application-specific demands helps to improve the robustness and to increase the success rate when driving the manipulator from its current configuration towards a desired pose. This is necessary, especially in high-dynamic tasks like catching objects in mid-flights. To compute a suitable target configuration in the joint space for a given target pose in the trajectory planning context, various factors such as travel time or manipulability must be considered. However, these factors increase the complexity of the overall problem which impedes real-time implementation. In this paper, a real-time framework to compute the analytical inverse kinematics of a redundant robot is presented. To this end, the analytical IK of the redundant manipulator is parameterized by so-called redundancy parameters, which are combined with a target pose to yield a unique IK solution. Most existing works in the literature either try to approximate the direct mapping from the desired pose of the manipulator to the solution of the IK or cluster the entire workspace to find IK solutions. In contrast, the proposed framework directly learns these redundancy parameters by using a neural network (NN) that provides the optimal IK solution with respect to the manipulability and the closeness to the current robot configuration. Monte Carlo simulations show the effectiveness of the proposed approach which is accurate and real-time capable (≈ 32 µs) on the KUKA LBR iiwa 14 R820.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Crossref DOI record
+ER  - 
+
+TY  - JOUR
+AU  - Stejskal, T.
+AU  - Svetlík, J.
+AU  - Ondočko, Š.
+TI  - Mapping Robot Singularities through the Monte Carlo Method
+JO  - Applied Sciences
+PY  - 2022
+DO  - 10.3390/app12168330
+UR  - https://doi.org/10.3390/app12168330
+AB  - In addition to other things, a robot’s design also determines its singularity configurations and points in the workspace. In designing the robot’s working trajectory, one of the main issues of robot steering is avoiding singularities. The article proposes a different approach to calculating the inverse task, which lies in the random mapping of the robot mechanism’s workspace through searching for points closest in proximity to the trajectory in question. The new methodology of mapping and detecting the states of singularity in the workspace is actually based on Monte Carlo analysis, since we were also interested in the number of occurrences. In terms of mathematical analysis, this method is less demanding, because in searching for joint variables suitable for the given trajectory, it does not use inverse calculation. It is important that the method is chosen appropriately. The method is sufficiently illustrative in the form of a graph, making, e.g., programming optimization simpler. The ultimate effect is the reduced time needed for computing joint variables and the availability of an option to select a robot configuration suitable for carrying out the required work. The paper offers an example of an analysis concerning three different robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Kanagaraj, G.
+AU  - Yu, Vincent
+TI  - Meta-Heuristics Based Inverse Kinematics of Robot Manipulator’s Path Tracking Capability Under Joint Limits
+JO  - MENDEL
+PY  - 2022
+DO  - 10.13164/mendel.2022.1.041
+UR  - https://doi.org/10.13164/mendel.2022.1.041
+AB  - In robot-assisted manufacturing or assembly, following a predefined path became a critical aspect. In general, inverse kinematics offers the solution to control the movement of manipulator while following the trajectory. The main problem with the inverse kinematics approach is that inverse kinematics are computationally complex. For a redundant manipulator, this complexity is further increased. Instead of employing inverse kinematics, the complexity can be reduced by using a heuristic algorithm. Therefore, a heuristic-based approach can be used to solve the inverse kinematics of the robot manipulator end effector, guaranteeing that the desired paths are accurately followed. This paper compares the performance of four such heuristic-based approaches to solving the inverse kinematics problem. They are Bat Algorithm (BAT), Gravitational Search Algorithm (GSA), Particle Swarm Optimization (PSO), and Whale Optimization Algorithm (WOA). The performance of these algorithms is evaluated based on their ability to accurately follow a predefined trajectory. Extensive simulations show that BAT and GSA outperform PSO and WOA in all aspects considered in this work related to inverse kinematic problems.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Helin
+AU  - Zhou, Zida
+AU  - Zhong, X.
+AU  - Chen, Qi
+TI  - Singular Configuration Analysis and Singularity Avoidance with Application in an Intelligent Robotic Manipulator
+JO  - Sensors (Basel, Switzerland)
+PY  - 2022
+DO  - 10.3390/s22031239
+UR  - https://doi.org/10.3390/s22031239
+AB  - Recently, robotic sensor systems have gained more attention annually in complex system sense strategies. The robotic sensors sense the information from itself and the environment, and fuse information for the use of perception, decision, planning, and control. As an important supplement to traditional industrial robots, co-bots (short for co-working robots) play an increasingly vital role in helping small and medium-sized enterprises realize intelligent manufacturing. They have high flexibility and safety so that they can assist humans to complete highly repetitive and high-precision work. In order to maintain robot safe operation in the increasing complex working environment and human-computer intelligent interactive control, this paper is concerned with the problem of applicant accuracy analysis and singularity avoidance for co-bots. Based on the dynamic model with load and torque sensors, which is used to detect the external force at the end of the robot, this paper systematically analyzes the causes of singularity phenomenon in the robot motion control. The inverse solution is obtained by analytical method and numerical method, respectively. In order to ensure the smooth and safe operation in the whole workspace, it is necessary for a robot to avoid singularity. Singularity avoidance schemes are utilized for different control tasks, including point-to-point control and continuous path control. Corresponding simulation experiments are designed to verify the effectiveness of different evasion schemes, in which the advantages and disadvantages are compared and analyzed.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Villalobos, Jessica
+AU  - Sanchez, Irma
+AU  - Martell, F.
+TI  - Singularity Analysis and Complete Methods to Compute the Inverse Kinematics for a 6-DOF UR/TM-Type Robot
+JO  - Robotics
+PY  - 2022
+DO  - 10.3390/robotics11060137
+UR  - https://doi.org/10.3390/robotics11060137
+AB  - Improving the strategies employed to control robotic arms is of great importance because of the increase in their use in advanced supervisory control strategies, such as digital twins. The inverse kinematic (IK) control of manipulators requires an IK solution and an awareness of the singular configurations. This work presents a complete IK calculation system with singularity analysis for the UR5 robotic arm created by Universal Robots. For a specific robot pose, different angle solution sets are obtained, and one of these solution sets has to be selected to achieve movement continuity and avoid singularities. Two methods for this double purpose are proposed: one calculates all the solution possibilities, and the other obtains only one solution set by following a sequence of decisions and calculations clearly stated by a finite state machine (FSM). Both methods are effective in managing singularities. The FSM-based method complements the IK solution procedure with advantages in the number of computations and performance by producing results that would not lead the joints to move abruptly. The results prove that the presented methods select an IK solution that does not result in a singular configuration, and that most of the time, they lead to the same valid IK solution.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Colan, Jacinto
+AU  - Davila, Ana
+AU  - Fozilov, Khusniddin
+AU  - Hasegawa, Y.
+TI  - A Concurrent Framework for Constrained Inverse Kinematics of Minimally Invasive Surgical Robots
+JO  - Sensors (Basel, Switzerland)
+PY  - 2023
+DO  - 10.3390/s23063328
+UR  - https://doi.org/10.3390/s23063328
+AB  - Minimally invasive surgery has undergone significant advancements in recent years, transforming various surgical procedures by minimizing patient trauma, postoperative pain, and recovery time. However, the use of robotic systems in minimally invasive surgery introduces significant challenges related to the control of the robot's motion and the accuracy of its movements. In particular, the inverse kinematics (IK) problem is critical for robot-assisted minimally invasive surgery (RMIS), where satisfying the remote center of motion (RCM) constraint is essential to prevent tissue damage at the incision point. Several IK strategies have been proposed for RMIS, including classical inverse Jacobian IK and optimization-based approaches. However, these methods have limitations and perform differently depending on the kinematic configuration. To address these challenges, we propose a novel concurrent IK framework that combines the strengths of both approaches and explicitly incorporates RCM constraints and joint limits into the optimization process. In this paper, we present the design and implementation of concurrent inverse kinematics solvers, as well as experimental validation in both simulation and real-world scenarios. Concurrent IK solvers outperform single-method solvers, achieving a 100% solve rate and reducing the IK solving time by up to 85% for an endoscope positioning task and 37% for a tool pose control task. In particular, the combination of an iterative inverse Jacobian method with a hierarchical quadratic programming method showed the highest average solve rate and lowest computation time in real-world experiments. Our results demonstrate that concurrent IK solving provides a novel and effective solution to the constrained IK problem in RMIS applications.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhou, Yaosheng
+AU  - Han, Guirong
+AU  - Wei, Ziang
+AU  - Huang, Zixin
+AU  - Chen, Xubing
+TI  - A Time-Optimal Continuous Jerk Trajectory Planning Algorithm for Manipulators
+JO  - Applied Sciences
+PY  - 2023
+DO  - 10.3390/app132011479
+UR  - https://doi.org/10.3390/app132011479
+AB  - In this paper, we propose a new optimal trajectory planning method for the manipulator to optimize its operating efficiency and ensure the smoothness of the motion process. The position sequences in joint space corresponding to a specified trajectory in task space are obtained by using the inverse kinematic algorithm, and the seventh-degree B-spline curve interpolation method is used to construct the joint trajectory with controllable start–stop kinematic parameters, and continuous velocity, acceleration and jerk. The kinematic constraints of the manipulator are transformed into the control point constraints of the B-spline curve, the sequential quadratic programming method is used to solve the optimal motion time node, and then the time-optimal continuous jerk trajectory satisfying the nonlinear kinematic constraints is planned. Simulation results show that the proposed trajectory planning method provides the ideal trajectory for the joint controller, ensuring the manipulator can smoothly track any specified trajectory in the task space in the shortest time.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Shen, Henghua
+AU  - Xie, Wen-Fang
+AU  - Tang, Jianyu
+AU  - Zhou, Tao
+TI  - Adaptive Manipulability-Based Path Planning Strategy for Industrial Robot Manipulators
+JO  - IEEE/ASME Transactions on Mechatronics
+PY  - 2023
+DO  - 10.1109/tmech.2022.3231467
+UR  - https://doi.org/10.1109/tmech.2022.3231467
+AB  - In this article, a novel manipulability-based optimal rapidly exploring random tree (RRT*) path planning strategy is proposed for industrial robot manipulators. When sampling in the search space, two constraints, namely, path length and manipulability measure, are imposed to find a minimal-cost path connecting the start and goal points. By tracking the generated path, a robot manipulator's end-effector can traverse the workspace with a shorter length and, meanwhile, avoid configuration singularities. A constrained closed-loop inverse kinematics technique is utilized to exploit the kinematic redundancy to assign a higher manipulability to an end-effector position. Additionally, the metrics of path length and manipulability measure are used to determine the adaptive step size for the RRT* planner. This helps the space-filling tree to grow efficiently toward unsearched areas and find an optimal path. Simulation analysis and experimental results of a six-degree-of-freedom FANUC-M-20iA industrial robot illustrate the efficiency of the proposed path planning methods.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Qin, Li
+AU  - Wei, Xiao-Peng
+AU  - Lv, Liangliang
+AU  - Han, Liangliang
+AU  - Fang, Guangqiang
+TI  - An Analytical Solution for Inverse Kinematics of SSRMS-Type Redundant Manipulators
+JO  - Sensors (Basel, Switzerland)
+PY  - 2023
+DO  - 10.3390/s23125412
+UR  - https://doi.org/10.3390/s23125412
+AB  - Compared with non-redundant manipulators, the self-motion of 7-DOF redundant manipulators results in an infinite number of inverse kinematics solutions for a desired end-effector pose. This paper proposes an efficient and accurate analytical solution for inverse kinematics of SSRMS-type redundant manipulators. This solution is applicable to SRS-type manipulators with the same configuration. The proposed method involves introducing an alignment constraint to restrain the self-motion and to decompose the spatial inverse kinematics problem into three independent planar subproblems simultaneously. The resulting geometric equations depend on the part of the joint angles, respectively. These equations are then computed recursively and efficiently using the sequences of (θ1,θ7), (θ2,θ6), and (θ3,θ4,θ5), generating up to sixteen sets of solutions for a given desired end-effector pose. Additionally, two complementary methods are proposed for overcoming the possible singular configuration and judging unsolvable poses. Finally, numerical simulations are conducted to investigate the performance of the proposed approach in terms of average calculation time, success rate, average position error, and the ability to plan a trajectory with singular configurations.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Cheng
+AU  - Xie, Hai-Bo
+AU  - Yang, Huayong
+TI  - An iterative path-following method for hyper-redundant snake-like manipulator with joint limits
+JO  - Ind. Robot
+PY  - 2023
+DO  - 10.1108/ir-04-2022-0106
+UR  - https://doi.org/10.1108/ir-04-2022-0106
+AB  - Purpose This paper aims to present an iterative path-following method with joint limits to solve the problem of large computation cost, movement exceeding joint limits and poor path-following accuracy for the path planning of hyper-redundant snake-like manipulator. Design/methodology/approach When a desired path is given, new configuration of the snake-like manipulator is obtained through a geometrical approach, then the joints are repositioned through iterations until all the rotation angles satisfy the imposed joint limits. Finally, a new arrangement is obtained through the analytic solution of the inverse kinematics of hyper-redundant manipulator. Finally, simulations and experiments are carried out to analyze the performance of the proposed path-following method. Findings Simulation results show that the average computation time is 0.1 ms per step for a hyper-redundant manipulator with 12 degrees of freedom, and the deviation in tip position can be kept below 0.02 mm. Experiments show that all the rotation angles are within joint limits. Research limitations/implications Currently , the manipulator is working in open-loop, the elasticity of the driving cable will cause positioning error. In future, close-loop control based on real-time attitude detection will be used in in combination with the path-following method to achieve high-precision trajectory tracking. Originality/value Through a series of iterative processes, the proposed method can make the manipulator approach the desired path as much as possible within the joint constraints with high precision and less computation time.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Marangoz, S.
+AU  - Menon, Rohit
+AU  - Dengler, Nils
+AU  - Bennewitz, Maren
+TI  - DawnIK: Decentralized Collision-Aware Inverse Kinematics Solver for Heterogeneous Multi-Arm Systems
+JO  - 2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)
+PY  - 2023
+DO  - 10.1109/humanoids57100.2023.10375189
+UR  - https://doi.org/10.1109/humanoids57100.2023.10375189
+AB  - Although inverse kinematics of serial manipulators is a well studied problem, challenges still exist in finding smooth feasible solutions that are also collision aware. Furthermore, with collaborative service robots gaining traction, different robotic systems have to work in close proximity. This means that the current inverse kinematics approaches do not have only to avoid collisions with themselves but also collisions with other robot arms. Therefore, we present a novel approach to compute inverse kinematics for serial manipulators that take into account different constraints while trying to reach a desired end-effector pose that avoids collisions with themselves and other arms. Unlike other constraint based approaches, we neither perform expensive inverse Jacobian computations nor do we require arms with redundant degrees of freedom. Instead, we formulate different constraints as weighted cost functions to be optimized by a non-linear optimization solver. Our approach is superior to the state-of-the-art CollisionIK in terms of collision avoidance in the presence of multiple arms in confined spaces with no collisions occurring in all the experimental scenarios. When the probability of collision is low, our approach shows better performance at trajectory tracking as well. Additionally, our approach is capable of simultaneous yet decentralized control of multiple arms for trajectory tracking in intersecting workspace without any collisions.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Bordalba, Ricard
+AU  - Schoels, Tobias
+AU  - Ros, L.
+AU  - Porta, J.
+AU  - Diehl, M.
+TI  - Direct Collocation Methods for Trajectory Optimization in Constrained Robotic Systems
+JO  - IEEE Transactions on Robotics
+PY  - 2023
+DO  - 10.1109/tro.2022.3193776
+UR  - https://doi.org/10.1109/tro.2022.3193776
+AB  - Direct collocation methods are powerful tools to solve trajectory optimization problems in robotics. While their resulting trajectories tend to be dynamically accurate, they may also present large kinematic errors in the case of constrained mechanical systems, i.e., those whose state coordinates are subject to holonomic or nonholonomic constraints, such as loop-closure or rolling-contact constraints. These constraints confine the robot trajectories to an implicitly-defined manifold, which complicates the computation of accurate solutions. Discretization errors inherent to the transcription of the problem easily make the trajectories drift away from this manifold, which results in physically inconsistent motions that are difficult to track with a controller. This article reviews existing methods to deal with this problem and proposes new ones to overcome their limitations. Current approaches either disregard the kinematic constraints (which leads to drift accumulation) or modify the system dynamics to keep the trajectory close to the manifold (which adds artificial forces or energy dissipation to the system). The methods we propose, in contrast, achieve full drift elimination on the discrete trajectory, or even along the continuous one, without artificial modifications of the system dynamics. We illustrate and compare the methods using various examples of different complexity.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Yoshizawa, M.
+AU  - Terui, Akira
+AU  - Mikawa, M.
+TI  - Inverse kinematics and path planning of manipulator using real quantifier elimination based on Comprehensive Gröbner Systems
+JO  - ArXiv
+PY  - 2023
+DO  - 10.48550/arxiv.2305.12451
+UR  - https://doi.org/10.48550/arxiv.2305.12451
+AB  - Methods for inverse kinematics computation and path planning of a three degree-of-freedom (DOF) manipulator using the algorithm for quantifier elimination based on Comprehensive Gröbner Systems (CGS), called CGS-QE method, are proposed. The first method for solving the inverse kinematics problem employs counting the real roots of a system of polynomial equations to verify the solution's existence. In the second method for trajectory planning of the manipulator, the use of CGS guarantees the existence of an inverse kinematics solution. Moreover, it makes the algorithm more efficient by preventing repeated computation of Gröbner basis. In the third method for path planning of the manipulator, for a path of the motion given as a function of a parameter, the CGS-QE method verifies the whole path's feasibility. Computational examples and an experiment are provided to illustrate the effectiveness of the proposed methods.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Anschober, Michael
+AU  - Edlinger, R.
+AU  - Froschauer, R.
+AU  - Nuechter, A.
+TI  - Inverse Kinematics of an Anthropomorphic 6R Robot Manipulator Based on a Simple Geometric Approach for Embedded Systems
+JO  - Robotics
+PY  - 2023
+DO  - 10.3390/robotics12040101
+UR  - https://doi.org/10.3390/robotics12040101
+AB  - This manuscript presents an efficient algorithm for solving the inverse kinematics problem of a 6R robot manipulator to be deployed on embedded control hardware. The proposed method utilizes the geometric relationship between the end-effector and the base of the manipulator, resulting in a computationally efficient solution. The approach aims to minimize computational complexity and memory consumption while maintaining the accuracy and real-time performance demonstrated by simulations and verified by experimental results on an embedded system. Furthermore, the manipulator is analyzed in terms of singularities, limits, the workspace, and general solvability. Due to the simplicity of the algorithm, a platform-independent implementation is possible. As a result, the average calculation time is reduced by a factor of five to eight and the average error is decreased by a factor of fifty compared to a powerful analytical solver.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wu, Guanglei
+AU  - Zhang, Ning
+TI  - Kinematically Constrained Jerk–Continuous S-Curve Trajectory Planning in Joint Space for Industrial Robots
+JO  - Electronics
+PY  - 2023
+DO  - 10.3390/electronics12051135
+UR  - https://doi.org/10.3390/electronics12051135
+AB  - This work deals with jerk–continuous trajectory planning for robotic manipulators by means of the fourth-order S-curve to ensure motion smoothness. The algorithm presented in this work can cause the acceleration and jerk to stay in a saturated state in order to improve the efficiency of a robot’s programming and operation. Moreover, a multi-axis synchronization planning algorithm is proposed and integrated for enhanced motion stability in terms of generated synchronized and continuous motion trajectories, for which the effectiveness of the proposed trajectory planning algorithm is verified in both the joint and Cartesian spaces. The proposed algorithm does not involve any optimization procedures or iterative processes, as the kinematically constrained trajectory is generated by polynomial equations to realize the real-time motion control of robots. Moreover, the presented algorithm can generate the jerk continuity trajectory, rather than only the acceleration continuity, as in most reported works.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Colan, Jacinto
+AU  - Davila, Ana
+AU  - Hasegawa, Y.
+TI  - Manipulability maximization in constrained inverse kinematics of surgical robots
+JO  - 2023 IEEE International Conference on Mechatronics and Automation (ICMA)
+PY  - 2023
+DO  - 10.1109/icma57826.2023.10215986
+UR  - https://doi.org/10.1109/icma57826.2023.10215986
+AB  - In robot-assisted minimally invasive surgery (RMIS), inverse kinematics (IK) must satisfy a remote center of motion (RCM) constraint to prevent tissue damage at the incision point. However, most of existing IK methods do not account for the trade-offs between the RCM constraint and other objectives such as joint limits, task performance and manipulability optimization. This paper presents a novel method for manipulability maximization in constrained IK of surgical robots, which optimizes the robot’s dexterity while respecting the RCM constraint and joint limits. Our method uses a hierarchical quadratic programming (HQP) framework that solves a series of quadratic programs with different priority levels. We evaluate our method in simulation on a 6D path tracking task for constrained and unconstrained IK scenarios for redundant kinematic chains. Our results show that our method enhances the manipulability index for all cases, with an important increase of more than 100% when a large number of degrees of freedom are available. The average computation time for solving the IK problems was under 1ms, making it suitable for real-time robot control. Our method offers a novel and effective solution to the constrained IK problem in RMIS applications.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Dulęba, I.
+AU  - Karcz-Dulęba, I.
+TI  - Many Faces of Singularities in Robotics
+JO  - Pomiary Automatyka Robotyka
+PY  - 2023
+DO  - 10.14313/par_247/19
+UR  - https://doi.org/10.14313/par_247/19
+AB  - In this survey paper some issues concerning a singularity concept in robotics are addressed. Singularities are analyzed in the scope of inverse kinematics for serial manipulator, a motion planning task of nonholonomic systems and the optimal control covering a large area of practical robotic systems. An attempt has been made to define the term singularity, which is independent on a specific task. A few classifications of singularities with respect to different criteria are proposed and illustrated on simple examples. Singularities are analyzed from a numerical and physical point of view. Generally, singularities pose some problems in motion planning and/or control of robots. However, as illustrated on the example on force/momenta transformation in serial manipulators, they can also be desirable is some cases. Singularity detection techniques and some methods to cope with them are also provided. The paper is intended to be didactic and to help robotic researchers to get a general view on the singularity issue.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Peidró, Adrián
+AU  - Haug, Edward
+TI  - Obstacle Avoidance in Operational Configuration Space Kinematic Control of Redundant Serial Manipulators
+JO  - Machines
+PY  - 2023
+DO  - 10.3390/machines12010010
+UR  - https://doi.org/10.3390/machines12010010
+AB  - Kinematic control of redundant serial manipulators has been carried out for the past half century based primarily on a generalized inverse velocity formulation that is known to have mathematical deficiencies. A recently developed inverse kinematic configuration mapping is employed in an operational configuration space differentiable manifold formulation for redundant-manipulator kinematic control with obstacle avoidance. This formulation is shown to resolve deficiencies in the generalized inverse velocity formulation, especially for high-degree-of-redundancy manipulators. Tracking a specified output trajectory while avoiding obstacles for four- and twenty-degree-of-redundancy manipulators is carried out to demonstrate the effectiveness of the differentiable manifold approach for applications with a high degree of redundancy and to show that it indeed resolves deficiencies of the conventional generalized inverse velocity formulation in challenging applications.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wen, Yalun
+AU  - Pagilla, P.
+TI  - Path-Constrained and Collision-Free Optimal Trajectory Planning for Robot Manipulators
+JO  - IEEE Transactions on Automation Science and Engineering
+PY  - 2023
+DO  - 10.1109/tase.2022.3169989
+UR  - https://doi.org/10.1109/tase.2022.3169989
+AB  - In this paper, we develop a novel path-constrained and collision-free optimal trajectory planning algorithm for robot manipulators in the presence of obstacles for the following problem: Given a desired sequence of discrete waypoints of robot configurations, a set of robot kinematic and dynamic constraints, and a set of obstacles, determine a time and jerk optimal and collision-free trajectory for the robot passing through the given waypoints. Our approach in developing the robot path through the waypoints relies on the orthogonal collocation method where the states are represented with Legendre polynomials in the Barycentric form; the transcription process efficiently converts the continuous-time formulation of the optimal control problem into a discrete non-linear program. In addition, we provide an efficient method for avoiding robot self-collisions (of joints and links) and collisions with workspace obstacles by modeling them as the union of spheres and cylinders in the workspace. The resulting collision free optimal trajectory provides smooth and constrained motion for the robot passing through all the waypoints in the given prescribed sequence with a constant speed. The proposed method is validated using numerical simulations and experiments on a six degree-of-freedom robot. Note to Practitioners—This paper is motivated by planning collision-free optimal trajectories with constant Cartesian speed (norm of translation velocity) along a given list of waypoints. The primary applications include developing constant Cartesian speed trajectories for robotic surface finishing operations, spray painting operations and robot endurance testing. Sampling-based motion planning algorithms have been widely used for their high efficiency and robustness. However, those methods in general do not take into account the joint level constraints, motion jerk, robot dynamic model and kinematic constraints together. In addition, with these algorithms, it is difficult to generate a trajectory along a list of waypoints while maintaining a constant Cartesian speed. We provide an efficient robot trajectory planning algorithm for articulated robots that is capable of achieving time and jerk optimality while avoiding obstacles and satisfying robot kinematic and dynamic constraints. The scope of this work is limited to considering only static obstacles and pre-defined Cartesian waypoints; potential extensions include consideration of dynamic obstacles and incorporating tighter bounds for objects modeled by cylinders and spheres so that a larger workspace is available for trajectory planning, etc.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - Redundancy parameterization and inverse kinematics of 7-DOF revolute manipulators
+JO  - ArXiv
+PY  - 2023
+DO  - 10.48550/arxiv.2307.13122
+UR  - https://doi.org/10.48550/arxiv.2307.13122
+AB  - Seven degree-of-freedom (DOF) robot arms have one redundant DOF which does not change the motion of the end effector. The redundant DOF offers greater manipulability of the arm configuration to avoid obstacles and singularities, but it must be parameterized to fully specify the joint angles for a given end effector pose. For 7-DOF revolute (7R) manipulators, we introduce a new concept of generalized shoulder-elbow-wrist (SEW) angle, a generalization of the conventional SEW angle but with an arbitrary choice of the reference direction function. The SEW angle is widely used and easy for human operators to visualize as a rotation of the elbow about the shoulder-wrist line. Since other redundancy parameterizations including the conventional SEW angle encounter an algorithmic singularity along a line in the workspace, we introduce a special choice of the reference direction function called the stereographic SEW angle which has a singularity only along a half-line, which can be placed out of reach. We prove that such a singularity is unavoidable for any parameterization. We also include expressions for the SEW angle Jacobian along with singularity analysis. Finally, we provide efficient and singularity-robust inverse kinematics solutions for most known 7R manipulators using the general SEW angle and the subproblem decomposition method. These solutions are often closed-form but may sometimes involve a 1D or 2D search in the general case. Search-based solutions may be converted to finding zeros of a high-order polynomial. Inverse kinematics solutions, examples, and evaluations are available in a publicly accessible repository.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Dulęba, I.
+TI  - Singularity-Robust Inverse Kinematics for Serial Manipulators
+JO  - Journal of Automation, Mobile Robotics and Intelligent Systems
+PY  - 2023
+DO  - 10.14313/jamris/3-2023/21
+UR  - https://doi.org/10.14313/jamris/3-2023/21
+AB  - This paper is a practical~guideline how to analyze and evaluate literature algorithms of singularity-robust inverse kinematics or to construct new ones. Additive, multiplicative and based on the Singularity ValueDecomposition (SVD) methods are examined to retrieve well conditioning of a matrix to be inverted in the Newton algorithm of inverse kinematics. It is shown that singularity avoidance can be performedin two different, but equivalent, ways: either via properly modified manipulability matrix or not allowing to decreese the minimal singular value below a given threshold. It is discussed which method can always be used and which only when some pre-conditions are met. Selected methods are compared to with respect to the efficiency of coping with singularities based on a theoretical analysis as well as simulation results. Also some questions important for mathematically and/or practically oriented roboticians are stated and answered.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - CPAPER
+AU  - Zhao, Jingdong
+AU  - Zhang, Jiayu
+AU  - Zhao, Liangliang
+AU  - Tian, Zhong-Lai
+AU  - Wang, Zirui
+AU  - Jiang, Wei
+AU  - Liu, Hong
+TI  - An Efficient Inverse Kinematic Method for SSRMS-type Manipulator with Conformal Geometric Algebra
+JO  - 2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)
+PY  - 2024
+DO  - 10.1109/aim55361.2024.10637038
+UR  - https://doi.org/10.1109/aim55361.2024.10637038
+AB  - SSRMS-type Manipulator is a typical type of space manipulator featuring 7-degree-of-freedom offset configuration with redundancy characteristic. It is challenging to solve inverse kinematics in high efficiency, make the upmost of redundancy characteristic, and select optimal redundant parameter. This paper proposes an analytical inverse kinematic method, named three-continuous-parallel-Link Direction Vector Parameterization (LDVP), in the theory of Conformal Geometric Algebra. This method employs the direction vector of the axis of parallel Joint 3, Joint 4, and Joint 5 as the parameter, and selects the optimal parameter according to context plan-points in a given trajectory. The process of solving inverse kinematics is divided into two steps, including solving joint positions and joint variables. The average solution time of forward and inverse kinematics is 9.79 us and 0.25 ms respectively. The continuous path tracking experiment verifies that all seven joints changing to pursue the optimal configuration, which makes full use of redundancy characteristic.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Qi, Yang
+AU  - Zhang, Sen
+AU  - Ren, Xiaofei
+AU  - Tong, Xinran
+AU  - Liang, D.
+AU  - Han, Lin
+TI  - An explicit solution of forward and inverse kinematics for a serial manipulator with insufficient intersection joints based on finite and instantaneous screw theory
+JO  - International Journal of Advanced Robotic Systems
+PY  - 2024
+DO  - 10.1177/17298806241245810
+UR  - https://doi.org/10.1177/17298806241245810
+AB  - To satisfy the requirements of large workspace, high capability, and low inertia demanded by the high precision and high stiffness aerospace equipment, serial manipulator with insufficient intersection joints is proposed in this article based on finite and instantaneous screw theory. Due to the specific topology structure with no intersecting joints at both ends, the explicit solution of forward and inverse kinematics for the serial manipulator with insufficient intersection joints proposed in this article is extremely difficult. Therefore, an analytical method based on finite and instantaneous screw theory is proposed for this serial manipulator, and the explicit kinematic solution is derived in this article. According to particular calculation principle of finite and instantaneous screw theory, the finite motion of this serial manipulator is described. Based on this description, the product of exponentials formula of the kinematics of the serial manipulator with insufficient intersection joints is established on the basic of finite and instantaneous screw theory for the first time, and a novel subproblem is arose during the decomposition of product of exponentials formula. Regarding this issue, an innovative approach to this subproblem is proposed by introducing the new Paden–Kahan subproblem with elimination, and the explicit solution for the inverse kinematics is derived. Finally, the numerical examples are simulated, and the correctness of the method proposed in this article is verified.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Ostermeier, D.
+AU  - Külz, Jonathan
+AU  - Althoff, Matthias
+TI  - Automatic Geometric Decomposition for Analytical Inverse Kinematics
+JO  - IEEE Robotics and Automation Letters
+PY  - 2024
+DO  - 10.1109/lra.2025.3597897
+UR  - https://doi.org/10.1109/lra.2025.3597897
+AB  - Calculating the inverse kinematics (IK) is a fundamental challenge in robotics. Compared to numerical or learning-based approaches, analytical IK provides higher efficiency and accuracy. However, existing analytical approaches are difficult to use in most applications, as they require human ingenuity in the derivation process, are numerically unstable, or rely on time-consuming symbolic manipulation. In contrast, we propose a method that, for the first time, enables an analytical IK derivation and computation in less than a millisecond in total. Our work is based on an automatic online decomposition of the IK into pre-solved, numerically stable subproblems via a kinematic classification of the respective manipulator. In numerical experiments, we demonstrate that our approach is orders of magnitude faster in deriving the IK than existing tools that employ symbolic manipulation. Following this one-time derivation, our method matches and often surpasses baselines, such as IKFast, in terms of speed and accuracy during the computation of explicit IK solutions. Finally, we provide an open-source C++ toolbox with Python wrappers that substantially reduces the entry barrier to using analytical IK in applications like rapid prototyping and kinematic robot design.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Ya
+AU  - Cui, Zhi-Guo
+AU  - Wang, Xiao
+AU  - Wang, Dianjun
+AU  - Wang, Zilong
+AU  - Song, Zhihu
+AU  - Liu, Ding
+TI  - Combining closed-form and numerical solutions for the inverse kinematics of six-degrees-of-freedom collaborative handling robot
+JO  - International Journal of Advanced Robotic Systems
+PY  - 2024
+DO  - 10.1177/17298806241228372
+UR  - https://doi.org/10.1177/17298806241228372
+AB  - In the process of solving the inverse kinematics of six-degrees-of-freedom collaborative robots, the numerical solution has problems such as low accuracy and singular configurations. Moreover, due to the high coupling of its position and attitude, the direct closed-form solution fails. To address these problems, an inverse kinematics algorithm that combines closed-form and numerical solutions was proposed. The Jacobian matrix was established based on the forward kinematics equation of the six-degrees-of-freedom collaborative robot. Its inverse matrix was obtained by a singular value decomposition of the matrix using the Manocha elimination method to avoid the singularities of the Jacobian matrix. The optimal inverse kinematics solution was obtained using the Newton–Raphson iterative method. A computer simulation implemented in MATLAB and Visual C++ was used to evaluate the accuracy and speed of the proposed algorithm. The results of the trajectory planning experiments demonstrate that the algorithm satisfies the requirements for real-time smooth motion. This study of inverse kinematics lays the theoretical foundation for solutions to the inverse problem and real-time control of collaborative robots.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Yin, Zhihang
+AU  - Wu, Fa
+AU  - Wang, Ziqiang
+AU  - Yang, Jianmin
+AU  - Tan, Jiyong
+AU  - Kong, Dexing
+TI  - Dynamic Programming-Based Offline Redundancy Resolution of Redundant Manipulators Along Prescribed Paths with Real-Time Adjustment
+JO  - ArXiv
+PY  - 2024
+DO  - 10.48550/arxiv.2411.17052
+UR  - https://doi.org/10.48550/arxiv.2411.17052
+AB  - Traditional offline redundancy resolution of trajectories for redundant manipulators involves computing inverse kinematic solutions for Cartesian space paths, constraining the manipulator to a fixed path without real-time adjustments. Online redundancy resolution can achieve real-time adjustment of paths, but it cannot consider subsequent path points, leading to the possibility of the manipulator being forced to stop mid-motion due to joint constraints. To address this, this paper introduces a dynamic programming-based offline redundancy resolution for redundant manipulators along prescribed paths with real-time adjustment. The proposed method allows the manipulator to move along a prescribed path while implementing real-time adjustment along the normal to the path. Using Dynamic Programming, the proposed approach computes a global maximum for the variation of adjustment coefficients. As long as the coefficient variation between adjacent sampling path points does not exceed this limit, the algorithm provides the next path point's joint angles based on the current joint angles, enabling the end-effector to achieve the adjusted Cartesian pose. The main innovation of this paper lies in augmenting traditional offline optimal planning with real-time adjustment capabilities, achieving a fusion of offline planning and online planning.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Haug, Edward
+AU  - De Sapio, Vincent
+AU  - Peidró, Adrián
+TI  - Extended Operational Space Kinematics, Dynamics, and Control of Redundant Serial Robots
+JO  - Robotics
+PY  - 2024
+DO  - 10.3390/robotics13120170
+UR  - https://doi.org/10.3390/robotics13120170
+AB  - A recently developed differential geometric representation of redundant serial robot kinematics is employed to create a new extended operational space dynamics and control formulation that explicitly accounts for redundant robot degrees of freedom. This formulation corrects deficiencies in kinematics and dynamics of redundant serial robots that have relied for over half a century on error-prone generalized inverse velocity-based kinematics for redundancy resolution. New ordinary differential equations of robot operational space dynamics are obtained, without the need for ad hoc derivation, in terms of task coordinates and self-motion coordinates that represent robot redundancy. A new extended operational space control approach is presented that exploits ordinary differential equations of motion in terms of task and self-motion coordinates, enabling enforcement of desired output trajectories, obstacle avoidance, and performance constraints. Four examples are presented with a one-degree-of-redundancy robot that demonstrate the validity and superior performance of the new formulation, relative to the traditional task space method used for redundant serial robot control. Finally, an example with eight degrees of redundancy is presented that further illustrates superior performance of the new operational space formulation.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Shao, Jun
+AU  - Zhang, Haoyang
+AU  - Zhu, Shiqiang
+AU  - Song, Wei
+TI  - Online Trajectory Generation With Local Replanning for 7-DoF Serial Manipulator in Unforeseen Dynamic Environments
+JO  - IEEE Robotics and Automation Letters
+PY  - 2024
+DO  - 10.1109/lra.2024.3450289
+UR  - https://doi.org/10.1109/lra.2024.3450289
+AB  - In this letter, we focus on online motion planning for manipulators in dynamic obstacle environments. An analytical geometry-based inverse kinematics solution for generalized types of 7-DoF anthropomorphic manipulators is presented to work as the basis of high-efficiency collision avoidance planning. We present a real-time collision avoidance method that intuitively evaluates the distance and plans the obstacle avoidance motion of the manipulator links in Cartesian space, then maps the motion to joint space via the analytical inverse kinematics. The collision avoidance method can be directly applied to a low-level controller with a control cycle of 1ms. Finally, we extend this method to a local planner and incorporate it into the trajectory optimization framework to achieve global manipulation planning and online local replanning to avoid unforeseen dynamic obstacles. The motion planning framework can generate smooth and time-efficient trajectories considering the mechanical limits of the manipulator. Simulations and real-world tests are conducted to validate the effectiveness of the proposed methods and the motion planning framework.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Davila, Ana
+AU  - Colan, Jacinto
+AU  - Hasegawa, Yasuhisa
+TI  - Real-time inverse kinematics for robotic manipulation under remote center-of-motion constraint using memetic evolution
+JO  - J. Comput. Des. Eng.
+PY  - 2024
+DO  - 10.1093/jcde/qwae047
+UR  - https://doi.org/10.1093/jcde/qwae047
+AB  - Abstract Robotic manipulation in surgical applications often demands the surgical instrument to pivot around a fixed point, known as remote center of motion (RCM). The RCM constraint ensures that the pivot point of the surgical tool remains stationary at the incision port, preventing tissue damage and bleeding. Precisely and efficiently controlling tool positioning and orientation under this constraint poses a complex Inverse Kinematics (IK) problem that must be solved in real-time to ensure patient safety and minimize complications. To address this problem, we propose PivotIK, an efficient IK solver that combines efficient evolutionary exploration with multi-objective Jacobian-based optimization. PivotIK can track desired tool poses accurately while satisfying the RCM constraint in real-time. We evaluated PivotIK through simulations and real-world experiments using redundant robotic manipulators with multi-degree-of-freedom surgical instruments. We compare PivotIK with other IK solvers in terms of solve rates, computation times, tracking errors, and RCM errors under various scenarios, including unconstrained and RCM-constrained trajectories. Our results show that PivotIK achieves superior performance, solving the IK problem in less than 1 ms with errors below 0.01 and 0.1 mm for tracking and RCM, respectively. Our real-world experiments confirm the effectiveness of PivotIK in ensuring smooth trajectory tracking and RCM compliance. PivotIK offers a promising solution for real-time IK for robotic manipulation under RCM constraints in surgical applications.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Linlin
+AU  - Du, Huibin
+AU  - Qin, Z.
+AU  - Zhao, Yue-Jing
+AU  - Yang, Guang
+TI  - Real-time optimized inverse kinematics of redundant robots under inequality constraints
+JO  - Scientific Reports
+PY  - 2024
+DO  - 10.1038/s41598-024-81174-8
+UR  - https://doi.org/10.1038/s41598-024-81174-8
+AB  - Inverse kinematics of redundant robots presents a challenging problem for real-time applications due to the lack of uniqueness of solution and the low computational efficiency caused by redundancy and hard limits. In this work, a general and efficient method for addressing the real-time optimized inverse kinematics of redundant robots is proposed, taking into account hard limits in joint and Cartesian space that can never be violated. The proposed method proceeds by using constrained linear programming instead of quadratic programming to solve the inverse kinematics problem. Various hard limits such as joint range, bounds on velocity and acceleration are handled explicitly as inequality constraints. This method resolves the redundancy in real-time and enable to simultaneously guarantee that the additional motion constraints will never be violated. Its performance allows real-time kinematic control of redundant robots executing sensor-driven online tasks. The effectiveness of this method is demonstrated through simulations and experiments conducted on a 7-DOF KUKA IIWA robot, showcasing its ability to control redundant robots executing sensor-driven tasks in dynamic environments with numerous hard limits.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Yonezawa, Ansei
+AU  - Yonezawa, Heisei
+AU  - Kajiwara, Itsuro
+TI  - Simple Inverse Kinematics Computation Considering Joint Motion Efficiency
+JO  - IEEE Transactions on Cybernetics
+PY  - 2024
+DO  - 10.1109/tcyb.2024.3372989
+UR  - https://doi.org/10.1109/tcyb.2024.3372989
+AB  - Inverse kinematics (IK) is an important and challenging problem in the operation of industrial manipulators. This study proposes a simple IK calculation scheme for an industrial serial manipulator. The proposed technique can calculate appropriate values of the joint variables to realize the desired end-effector position and orientation while considering the motion costs of each joint. Two scalar functions are defined for the joint variables: one is to evaluate the end-effector position and orientation, whereas the other is to evaluate the motion efficiency of the joints. By combining the two scalar functions, the IK calculation of the manipulator is formulated as a numerical optimization problem. Furthermore, a simple algorithm for solving the IK via the aforementioned optimization is constructed on the basis of the simultaneous perturbation stochastic approximation with a norm-limited update vector (NLSPSA). The proposed scheme considers not only the accuracy of the position and orientation of the end-effector but also the efficiency of the robot movement. Therefore, it yields a practical result of the inverse problem. Moreover, the proposed algorithm is simple and easy to implement owing to the high-calculation efficiency of NLSPSA. Finally, the effectiveness of the proposed method is verified through numerical examples using a redundant manipulator.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Khaleel, H.
+AU  - Humaidi, A.
+TI  - Towards accuracy improvement in solution of inverse kinematic problem in redundant robot: A comparative analysis
+JO  - International Review of Applied Sciences and Engineering
+PY  - 2024
+DO  - 10.1556/1848.2023.00722
+UR  - https://doi.org/10.1556/1848.2023.00722
+AB  - Abstract The redundant manipulators have more DOFs (degree of freedoms) than it requires to perform specified task. The inverse kinematic (IK) of such robots are complex and high nonlinear with multiple solutions and singularities. As such, modern Artificial Intelligence (AI) techniques have been used to address these problems. This study proposed two AI techniques based on Neural Network Genetic Algorithm (NNGA) and Particle Swarm Optimization (PSO) algorithm to solve the inverse kinematics (IK) problem of 3DOF redundant robot arm. Firstly, the forward kinematics for 3 DOF redundant manipulator has been established. Secondly, the proposed schemes based on NNGA and PSO algorithm have been presented and discussed for solving the inverse kinematics of the suggested robot. Thirdly, numerical simulations have been implemented to verify the effectiveness of the proposed methods. Three scenarios based on triangle, circular, and sine-wave trajectories have been used to evaluate the performances of the proposed techniques in terms of accuracy measure. A comparison study in performance has been conducted and the simulated results showed that the PSO algorithm gives 7% improvement compared to NNGA technique for triangle trajectory, while 2% improvement has been achieved by the PSO algorithm for circular and sine-wave trajectories.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Narayan, Jyotindra
+AU  - Gritli, Hassène
+AU  - Dwivedy, S.
+TI  - A Decade of Inverse Kinematics Methods for Serial Manipulators: A Systematic Review
+JO  - Journal of Field Robotics
+PY  - 2025
+DO  - 10.1002/rob.70014
+UR  - https://doi.org/10.1002/rob.70014
+AB  - ABSTRACT Serial robotic manipulators find applications across diverse sectors such as industries, military, medical, space exploration, and underwater operations, where precision, efficiency, and safety are paramount. However, achieving effective control performance necessitates the effective resolution of the inverse kinematics (IK) problem inherent to manipulators. This challenge involves determining the requisite joint configurations to attain a desired endpoint position and orientation within the manipulator's workspace. The complexity arises due to the nonlinear equations and geometric relationships between cartesian space and joint space. Although various methods have been employed to address the IK problem in serial manipulators, there is a noticeable scarcity of publications comprehensively reviewing these techniques. Therefore, this paper undertakes an extensive review, thoroughly examining diverse IK methods applied in serial manipulators. This investigation of IK compiles literature spanning the last decade (2014–2023). Articles were collected from several web‐based repositories such as WoS, IEEE Xplore, ACM Digital Library, Google Scholar, and ScienceDirect, and a preferred reporting items for systematic reviews and meta‐analyses (PRISMA) protocol was adopted to acquire appropriate literature. The protocol involves examining the literature methodologies, major findings, and qualitative analysis. Thus, nearly 321 articles were screened and utilized in this review. Further, the IK methods are segregated into model‐driven methods (analytical, geometric, algebraic, numerical, and other model‐driven methods) and model‐free/data‐driven methods (metaheuristic (particle swarm optimization, genetic algorithm, and other metaheuristic methods), machine learning (artificial neural network, neuro‐fuzzy, and reinforcement learning), and other data‐driven methods). This paper offers a detailed exploration of limitations, challenges, performance comparisons, and future research directions of IK techniques. By conducting this study, we aim to assist prospective stakeholders in expanding their understanding of the remarkable potential of IK methods for serial manipulators.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Mingyuan
+AU  - Xue, Yu-Jun
+AU  - Li, Jishun
+AU  - Li, Shuai
+AU  - Bai, Yunhua
+TI  - A Fast and Robust Multistage Hybrid Algorithm for Inverse Kinematics of Redundant Mill Relining Manipulator
+JO  - Journal of Field Robotics
+PY  - 2025
+DO  - 10.1002/rob.70130
+UR  - https://doi.org/10.1002/rob.70130
+AB  - ABSTRACT This paper proposed a new multistage hybrid algorithm MH‐IK to solve the inverse kinematics (IK) problem of redundant manipulators in terms of position, orientation, and collision errors. An improved cyclic coordinate descent method is proposed to satisfy the iteration of prismatic joints and avoid singularities. Halley's method is integrated to achieve fast convergence. On the basis of geometric analysis and the Beta distribution, a global search method is developed to overcome the local minimum problem. Four strategies are designed to further improve the adaptability during iterative loops. The proposed algorithm is applied to a seven‐degrees‐of‐freedom mill relining manipulator. Unlike conventional arms, the IK solution of this special manipulator has more requirements to be satisfied, including solvability, stability, real‐time, joint limits, and collision avoidance in a confined inner workspace. The superiority of MH‐IK is demonstrated through convergence analysis, ablation and comparison experiments against nine nonlinear algorithms and three millisecond‐level solvers. Furthermore, the hardware experiments are carried out in an established digital twin system to further verify the effectiveness of the proposed method. Although MH‐IK lacks solution diversity, it significantly outperforms other algorithms in almost all metrics, such as 5.27 ms solving time, 99.5% success rate, and 0.51% collision rate.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Oelerich, Thies
+AU  - Hartl-Nesic, Christian
+AU  - Beck, F.
+AU  - Kugi, Andreas
+TI  - BoundPlanner: A Convex-Set-Based Approach to Bounded Manipulator Trajectory Planning
+JO  - IEEE Robotics and Automation Letters
+PY  - 2025
+DO  - 10.1109/lra.2025.3558450
+UR  - https://doi.org/10.1109/lra.2025.3558450
+AB  - Online trajectory planning enables robot manipulators to react quickly to changing environments or tasks. Many robot trajectory planners exist for known environments but are often too slow for online computations. Current methods in online trajectory planning do not find suitable trajectories in challenging scenarios that respect the limits of the robot and account for collisions. This work proposes a trajectory planning framework consisting of the novel Cartesian path planner based on convex sets, called BoundPlanner, and the online trajectory planner BoundMPC [1]. BoundPlanner explores and maps the collision-free space using convex sets to compute a reference path with bounds. BoundMPC is extended in this work to handle convex sets for path deviations, which allows the robot to optimally follow the path within the bounds while accounting for the robot's kinematics. Collisions of the robot's kinematic chain are considered by a novel convex-set-based collision avoidance formulation independent on the number of obstacles. Simulations and experiments with a 7-DoF manipulator show the performance of the proposed planner compared to state-of-the-art methods. The source code is available atgithub.com/TU-Wien-ACIN-CDS/BoundPlannerand videos of the experiments can be found atwww.acin.tuwien.ac.at/42d4.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Hui
+AU  - Li, Yunfan
+AU  - Yang, Zhaofeng
+AU  - Shen, Yue
+TI  - Fast Path Planning for Kinematic Smoothing of Robotic Manipulator Motion
+JO  - Sensors (Basel, Switzerland)
+PY  - 2025
+DO  - 10.3390/s25175598
+UR  - https://doi.org/10.3390/s25175598
+AB  - The Rapidly-exploring Random Tree Star (RRT*) algorithm is widely applied in robotic manipulator path planning, yet it does not directly consider motion control, where abrupt changes may cause shocks and vibrations, reducing accuracy and stability. To overcome this limitation, this paper proposes the Kinematically Smoothed, dynamically Biased Bidirectional Potential-guided RRT* (KSBB-P-RRT*) algorithm, which unifies path planning and motion control and introduces three main innovations. First, a fast path search strategy on the basis of Bi-RRT* integrates adaptive sampling and steering to accelerate exploration and improve efficiency. Second, a triangle-inequality-based optimization reduces redundant waypoints and lowers path cost. Third, a kinematically constrained smoothing strategy adapts a Jerk-Continuous S-Curve scheme to generate smooth and executable trajectories, thereby integrating path planning with motion control. Simulations in four environments show that KSBB-P-RRT* achieves at least 30% reduction in planning time and at least 3% reduction in path cost, while also requiring fewer iterations compared with Bi-RRT*, confirming its effectiveness and suitability for complex and precision-demanding applications such as agricultural robotics.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Guptasarma, Shivani
+AU  - Strong, M.
+AU  - Zhen, Honghao
+AU  - Kennedy, Monroe
+TI  - J-PARSE: Jacobian-based Projection Algorithm for Resolving Singularities Effectively in Inverse Kinematic Control of Serial Manipulators
+JO  - ArXiv
+PY  - 2025
+DO  - 10.48550/arxiv.2505.00306
+UR  - https://doi.org/10.48550/arxiv.2505.00306
+AB  - J-PARSE is an algorithm for smooth first-order inverse kinematic control of a serial manipulator near kinematic singularities. The commanded end-effector velocity is interpreted component-wise, according to the available mobility in each dimension of the task space. First, a substitute ''Safety'' Jacobian matrix is created, keeping the aspect ratio of the manipulability ellipsoid above a threshold value. The desired velocity is then projected onto non-singular and singular directions, and the latter projection scaled down by a factor informed by the altered mobility. A right-inverse of the non-singular Safety Jacobian is applied to the modified command. In the absence of joint limits and collisions, this ensures safe transition into and out of low-mobility configurations, guaranteeing locally stable reaching behavior towards target poses within, on the boundary of, and outside the workspace. The behavior is further guaranteed to be locally asymptotically stable if the starting and target configurations are not exactly singular, even if they are nearly singular. Velocity control with J-PARSE is benchmarked against approaches from the literature, illustrating its use of a single tuning parameter to simultaneously achieve high reaching accuracy and stable behavior. Applications in teleoperation, servoing, and learning are demonstrated. Videos and code are available at https://jparse-manip.github.io/.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Elias, Alexander
+AU  - Wen, John
+TI  - Path Planning and Optimization for Cuspidal 6R Manipulators
+JO  - ArXiv
+PY  - 2025
+DO  - 10.48550/arxiv.2501.18505
+UR  - https://doi.org/10.48550/arxiv.2501.18505
+AB  - A cuspidal robot can move from one inverse kinematics (IK) solution to another without crossing a singularity. Multiple industrial robots are cuspidal. They tend to have a beautiful mechanical design, but they pose path planning challenges. A task-space path may have a valid IK solution for each point along the path, but a continuous joint-space path may depend on the choice of the IK solution or even be infeasible. This paper presents new analysis, path planning, and optimization methods to enhance the utility of cuspidal robots. We first demonstrate an efficient method to identify cuspidal robots and show, for the first time, that the ABB GoFa and certain robots with three parallel joint axes are cuspidal. We then propose a new path planning method for cuspidal robots by finding all IK solutions for each point along a task-space path and constructing a graph to connect each vertex corresponding to an IK solution. Graph edges have a weight based on the optimization metric, such as minimizing joint velocity. The optimal feasible path is the shortest path in the graph. This method can find non-singular paths as well as smooth paths which pass through singularities. Finally, we incorporate this path planning method into a path optimization algorithm. Given a fixed workspace toolpath, we optimize the offset of the toolpath in the robot base frame while ensuring continuous joint motion. Code examples are available in a publicly accessible repository.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Yi
+AU  - Wang, Hong-Guang
+TI  - Redundancy-Based Motion Planning with Task Constraints for Robot Manipulators
+JO  - Sensors (Basel, Switzerland)
+PY  - 2025
+DO  - 10.3390/s25061900
+UR  - https://doi.org/10.3390/s25061900
+AB  - Finding realistic motions for redundant manipulators is essential for complex jobs such as home care and industrial assembly. Motion planning is complex when a task requires standing upright or moving through restricted spaces. This work provides an effective motion-planning strategy for 7-DOF manipulators that improves connections via redundancy. The analytic Cartesian-space-to-joint-space kinematic mapping models for 7-DOF redundant manipulators with diverse configurations are constructed first, and the feasible nodes are determined by sampling the Cartesian space without barriers to satisfy the task requirements. Each Cartesian-space sampling node can provide numerous feasible joint-space nodes because of the redundancy of the robot manipulators. To remove additional valid nodes from a singular position, joint configurations with the same end-effector position orientation are modified iteratively. Finally, we find the nearest nodes in the joint-space constraint manifold and build collision-free smooth pathways. The task constraint levels were varied for a 7-DOF manipulator in simulations and experiments. The proposed planner finds more viable nodes at the same end-position attitude than one-to-one projection. It does not require numerical iterations and achieves high planning efficiency and a high motion-planning success rate.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Qian, Chen
+AU  - Yao, Jianjun
+AU  - Zhang, Yi-Kun
+TI  - Time-Jerk Optimal Robotic Trajectory Planning Under Jerk and Continuity Constraints via Convex Optimization
+JO  - Actuators
+PY  - 2025
+DO  - 10.3390/act14060272
+UR  - https://doi.org/10.3390/act14060272
+AB  - This paper proposes a robot trajectory planning method focused on time and jerk optimization under compound constraints. First, the robot path-tracking task is parameterized by incorporating both kinematic and dynamic constraints in joint and Cartesian spaces, establishing a time-optimal trajectory optimization model. To achieve C3 continuity in joint motion, joint-motion continuity conditions are analyzed, and optimization variables are reconstructed using piecewise cubic splines with corresponding continuity constraints. Considering the nonlinear and nonconvex characteristics of jerk constraints, the time-optimal planning model is decomposed into two second-order cone programming (SOCP) subproblems, achieving linear convexification of the original problem. Additionally, the objective function is improved to optimize both time and joint jerk simultaneously. Experimental results confirm that the proposed method effectively improves robot efficiency and trajectory smoothness.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Hansen, Harald
+AU  - Pettersen, K.
+AU  - Gravdahl, J.
+AU  - Di Castro, M.
+TI  - Trajectory Tracking Control of a Tendon-Actuated Manipulator with Rolling Joints
+JO  - IFAC-PapersOnLine
+PY  - 2025
+DO  - 10.1016/j.ifacol.2025.10.210
+UR  - https://doi.org/10.1016/j.ifacol.2025.10.210
+AB  - This paper considers end effector trajectory tracking control of a tendon-actuated robot manipulator with rolling joints. This is a new type of robot which has been developed for inspection, maintenance and repair in large-scale science facilities. To ensure real-time capability, an inverse kinematics controller is proposed. As needed for this type of controller, the inverse kinematics and differential inverse kinematics of this new robot are derived. A continuum robot approach is suggested to solve the inverse kinematics problem by assuming that the links of the robot constitute a curve of constant curvature. The joint angles are controlled with an adaptive gain super-twisting controller with equal references for joint angles in the same plane. As all the joints within the same plane are coupled, the manipulator is treated as a 2-degree-of-freedom (2-DOF) continuous joint to better reflect their inter-dependencies. Reference 3D trajectories are projected onto the workspace of the robot, ensuring feasible position and velocity references. A simulation study is conducted to validate the effectiveness and accuracy of the control algorithm for a circular trajectory tracking scenario.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Zhao, Guojun
+AU  - Ye, Ben
+AU  - Tian, Yun-Long
+AU  - Yun, Juntong
+AU  - Jiang, Du
+AU  - Tao, Bo
+TI  - A Closed-Form Inverse Kinematic Analytical Method for a Humanoid Seven-DOF Redundant Manipulator
+JO  - Machines
+PY  - 2026
+DO  - 10.3390/machines14040395
+UR  - https://doi.org/10.3390/machines14040395
+AB  - Humanoid manipulators with kinematic redundancy offer enhanced dexterity and adaptability to complex environments. Solving their inverse kinematics (IK) is fundamental to trajectory tracking, motion planning, and real-time control. Conventional Jacobian-based iterative methods are widely used, but they are often sensitive to the initial guess, computationally expensive, and less effective in handling strict constraints. Arm-angle-based analytical parameterization reduces redundancy resolution to a single parameter. However, joint limits may lead to multiple disconnected feasible arm-angle intervals. Many existing methods still depend on a numerical search or intelligent optimization to select the arm angle. This lowers computational efficiency and provides less explicit control over branch and configuration selection. To address these issues, this paper extends the arm-angle analytical IK framework. It introduces global configuration parameters to explicitly control the shoulder-elbow-wrist configuration. It also completes the analytical derivation of the rotational relationships of the first three joints in the reference plane. In addition, a feasibility determination and modeling scheme for the arm-angle domain is established, which covers disconnected feasible intervals. The IK problem is then reformulated as a one-dimensional optimization over the feasible domain. An efficient interval-based search is employed to determine the optimal arm angle. Experimental results demonstrate high accuracy and interference-free trajectory tracking. Comparative tests on randomly sampled target poses are also performed. The results show more concentrated error distributions, shorter average computation time, and higher success rates. These results confirm the advantages of the proposed method in accuracy, robustness, and real-time performance.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Cohn, Thomas
+AU  - Tang, Li
+AU  - Amice, Alexandre
+AU  - Tedrake, Russ
+TI  - A Framework for Combining Optimization-Based and Analytic Inverse Kinematics
+JO  - ArXiv
+PY  - 2026
+DO  - 10.48550/arxiv.2602.05092
+UR  - https://doi.org/10.48550/arxiv.2602.05092
+AB  - Analytic and optimization methods for solving inverse kinematics (IK) problems have been deeply studied throughout the history of robotics. The two strategies have complementary strengths and weaknesses, but developing a unified approach to take advantage of both methods has proved challenging. A key challenge faced by optimization approaches is the complicated nonlinear relationship between the joint angles and the end-effector pose. When this must be handled concurrently with additional nonconvex constraints like collision avoidance, optimization IK algorithms may suffer high failure rates. We present a new formulation for optimization IK that uses an analytic IK solution as a change of variables, and is fundamentally easier for optimizers to solve. We test our methodology on three popular solvers, representing three different paradigms for constrained nonlinear optimization. Extensive experimental comparisons demonstrate that our new formulation achieves higher success rates than the old formulation and baseline methods across various challenging IK problems, including collision avoidance, grasp selection, and humanoid stability.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Dastranj, Mohammad
+AU  - Hejrati, Mahdi
+AU  - Mattila, J.
+TI  - Actuator-Aware Inverse Kinematics with Joint-Limit Admissibility for Torque-Controlled Redundant Robots
+JO  - ArXiv
+PY  - 2026
+DO  - 10.48550/arxiv.2605.31436
+UR  - https://doi.org/10.48550/arxiv.2605.31436
+AB  - This paper proposes actuator-aware inverse kinematics for torque-controlled redundant robots under joint-limit constraints. In the considered architecture, the inverse-kinematic output is not merely a purely kinematic joint-velocity command; it is the required joint velocity supplied to a downstream torque-level controller. Therefore, a small commanded task residual may not necessarily improve realized motion. The proposed method formulates a convex quadratic programming problem whose decision variable is the joint-level required velocity. Control barrier function style bounds impose reference-level joint-limit admissibility, while the task equation is handled through a penalized slack variable. Redundancy is resolved using a controller-compatibility objective that accounts for previous-command consistency and actuator torque-capacity weighting. The method is independent of the particular torque-level controller and can serve as an intermediate IK layer between an endpoint trajectory and a redundant robot controller. Experiments on a virtual-decomposition-controlled seven-degree-of-freedom upper-limb exoskeleton compare the method with standard inverse-kinematic baselines and a constrained task-preserving quadratic programming baseline. The results indicate lower limit-pushing commands, bounded admissible required velocities, and improved realized task behavior in the tested trajectory, without modifying the downstream controller.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Belmont, Theodore
+AU  - Christie, Benjamin
+AU  - Netchaev, Anton
+TI  - Many-RRT*: Robust Joint-Space Trajectory Planning for Serial Manipulators
+JO  - ArXiv
+PY  - 2026
+DO  - 10.48550/arxiv.2603.04547
+UR  - https://doi.org/10.48550/arxiv.2603.04547
+AB  - The rapid advancement of high degree-of-freedom (DoF) serial manipulators necessitates the use of swift, sampling-based motion planners for high-dimensional spaces. While sampling-based planners like the Rapidly-Exploring Random Tree (RRT) are widely used, planning in the manipulator's joint space presents significant challenges due to non-invertible forward kinematics. A single task-space end-effector pose can correspond to multiple configuration-space states, creating a multi-arm bandit problem for the planner. In complex environments, simply choosing the wrong joint space goal can result in suboptimal trajectories or even failure to find a viable plan. To address this planning problem, we propose Many-RRT*: an extension of RRT*-Connect that plans to multiple goals in parallel. By generating multiple IK solutions and growing independent trees from these goal configurations simultaneously alongside a single start tree, Many-RRT* ensures that computational effort is not wasted on suboptimal IK solutions. This approach maintains robust convergence and asymptotic optimality. Experimental evaluations across robot morphologies and diverse obstacle environments demonstrate that Many-RRT* provides higher quality trajectories (44.5% lower cost in the same runtime) with a significantly higher success rate (100% vs. the next best of 1.6%) than previous RRT iterations without compromising on runtime performance.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Yang, Jiahao
+AU  - Yan, Shenhao
+AU  - Feng, Fan
+AU  - Yao, Chengsi
+AU  - Wang, Ge
+AU  - Mai, Zhixin
+AU  - Zhao, Yiming
+AU  - Han, Yatong
+TI  - MimicIK: Real-Time Generative Inverse Kinematics from Teleoperation with FK Consistency
+JO  - ArXiv
+PY  - 2026
+DO  - 10.48550/arxiv.2606.15148
+UR  - https://doi.org/10.48550/arxiv.2606.15148
+AB  - Inverse kinematics (IK) remains a critical bottleneck for real-time robot manipulation. Classical numerical solvers achieve high geometric precision but often suffer from discontinuous branch switching and unstable behavior near kinematic singularities during closed-loop deployment. Meanwhile, learned IK approaches frequently struggle to balance spatial accuracy, motion smoothness, and real-time efficiency, particularly when trained on noisy human teleoperation data. We present \textbf{MimicIK}, a real-time generative inverse kinematics framework that learns smooth and robust joint-space motion priors from teleoperation demonstrations through conditional flow matching. Given the current joint configuration and a target end-effector pose, MimicIK predicts continuous delta-joint commands using an efficient two-step iterative refinement process based on a Minimal Iterative Policy (MIP) backbone. To enforce physical consistency, we further introduce an FK consistency loss, a differentiable forward-kinematics regularization that penalizes task-space deviations from the target pose during training. We evaluate MimicIK on a real-world 6-DOF robot dataset containing 8,848 teleoperation demonstrations. MimicIK achieves a mean position error of 4.65 mm, a 10 mm success rate of 92.01\%, and a trajectory spike rate of only 7.99\%. Compared with a UNet diffusion baseline, our method improves both spatial accuracy and motion smoothness while reducing inference latency from 21.66 ms to 6.74 ms. Furthermore, unlike deterministic MLP baselines that catastrophically diverge under out-of-distribution deployment, MimicIK remains stable near singular configurations and enables robust 20 Hz real-time control on deployment hardware.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Nguyen, D.
+AU  - Nguyen, V.
+AU  - Truong
+AU  - Nguyen, V.
+TI  - Multi-Solution Inverse Kinematics for Robotic Manipulators via Permutation-Invariant Set Prediction
+JO  - IEEE Robotics and Automation Letters
+PY  - 2026
+DO  - 10.1109/lra.2026.3703280
+UR  - https://doi.org/10.1109/lra.2026.3703280
+AB  - Inverse kinematics (IK) for 6-DoF manipulators is inherently set-valued, since multiple distinct joint configurations can realize the same end-effector pose. Nevertheless, learning-based IK is frequently posed as single-output regression, which can induce mode collapse and unstable predictions near branch boundaries. In this work, IK is cast as a deterministic set-prediction problem, in which an unordered set of feasible joint candidates is produced in a single forward pass. A multi-head network is trained with permutation-invariant supervision via optimal bipartite matching, eliminating the need for a fixed global ordering of IK branches. High-fidelity multi-solution supervision on a UR3 platform is obtained through a hybrid analytic–numerical procedure, in which branch seeds are enumerated and refined using Levenberg–Marquardt optimization, followed by feasibility filtering. At deployment, the predicted set is mapped to an executable joint-command sequence through a continuity-aware selection rule, thereby promoting temporally consistent branch choices. On real UR3 trajectories, improved set fidelity and branch coverage are observed relative to single-solution and fixed-assignment baselines, while accurate joint-space and task-space tracking is maintained on held-out motions. Runtime benchmarks further indicate that multi-branch inference is faster than repeated numerical IK when multiple solutions are required.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Bayoume, Mustafa Osman
+AU  - Abdelgeliel, M.
+AU  - Saber, E.
+AU  - El-Gamal, H.
+TI  - Optimized inverse kinematics solutions for a 6-DOF robot
+JO  - Scientific Reports
+PY  - 2026
+DO  - 10.1038/s41598-026-51032-w
+UR  - https://doi.org/10.1038/s41598-026-51032-w
+AB  - Inverse kinematics (IK) for surgical robotic manipulators requires a balance between computational speed, pose accuracy, and robustness to poor initialization and near-singular configurations. This paper presents a controlled comparative evaluation of optimization-based IK solvers for a 6-DOF industrial robot (Viper 650s) under a unified constrained optimization framework with identical robot modelling assumptions, constraints, trajectories, and evaluation metrics. Six methods are investigated, spanning standalone and hybrid techniques: Sequential Quadratic Programming (SQP), Branch and Bound (B&B), Ant Colony Optimization (ACO), and three hybrid configurations (ACO-SQP, B&B-SQP, and a three-stage ACO-B&B-SQP pipeline). All methods are assessed using the same evaluation framework to examine the practical effect of combining global exploration, bounded search-space reduction, and local refinement on path-following accuracy. Two representative trajectories (a planar triangle and a spatial helix) are executed with repeated trials, and performance is evaluated in terms of trajectory execution time and geometric path-tracking error, supplemented by repeated-run statistical summaries. The optimization methods are implemented in MATLAB and tested within the Automation Control Environment (ACE). The results show that the ACO-B&B-SQP pipeline achieved the lowest mean path error on both trajectories under the present setup, whereas SQP remained the fastest. The study is positioned as a unified comparative evaluation framework for optimization-based IK on the Viper 650s robot, incorporating the implementation and evaluation of a three-stage ACO-B&B-SQP hybrid pipeline within this common framework.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Dharmana, Meher Madhu
+AU  - Sreedharan, Pramod
+TI  - Real-Time Control of Six-DOF Serial Manipulators via Learned Spherical Kinematics
+JO  - Robotics
+PY  - 2026
+DO  - 10.3390/robotics15010027
+UR  - https://doi.org/10.3390/robotics15010027
+AB  - Achieving reliable and real-time inverse kinematics (IK) for 6-degree-of-freedom (6-DoF) spherical-wrist manipulators remains a significant challenge. Analytical formulations often struggle with complex geometries and modeling errors, and standard numerical solvers (e.g., Levenberg–Marquardt) can stall near singularities or converge slowly. Purely data-driven approaches may require large networks and struggle with extrapolation. In this paper, we propose a low-latency, polynomial-based IK solution for spherical-wrist robots. The method leverages spherical coordinates and low-degree polynomial fits for the first three (positional) joints, coupled with a closed-form analytical solver for the final three (wrist) joints. An iterative partial-derivative refinement adjusts the polynomial-based angle estimates using spherical-coordinate errors, ensuring near-zero final error without requiring a full Jacobian matrix. The method systematically enumerates up to eight valid IK solutions per target pose. Our experiments against Levenberg–Marquardt, damped least-squares, and an fmincon baseline show an approximate 8.1× speedup over fmincon while retaining higher accuracy and multi-branch coverage. Future extensions include enhancing robustness through uncertainty propagation, adapting the approach to non-spherical wrists, and developing criteria-based automatic solution-branch selection.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - RPRT
+AU  - Rudrasamudram, Vishnu
+AU  - Malaichamee, Hariharasudan
+TI  - Singularity Avoidance in Inverse Kinematics: A Unified Treatment of Classical and Learning-based Methods
+JO  - ArXiv
+PY  - 2026
+DO  - 10.48550/arxiv.2604.13405
+UR  - https://doi.org/10.48550/arxiv.2604.13405
+AB  - Singular configurations cause loss of task-space mobility, unbounded joint velocities, and solver divergence in inverse kinematics (IK) for serial manipulators. No existing survey bridges classical singularity-robust IK with rapidly growing learning-based approaches. We provide a unified treatment spanning Jacobian regularization, Riemannian manipulability tracking, constrained optimization, and modern data-driven paradigms. A systematic taxonomy classifies methods by retained geometric structure and robustness guarantees (formal vs. empirical). We address a critical evaluation gap by proposing a benchmarking protocol and presenting experimental results: 12 IK solvers are evaluated on the Franka Panda under position-only IK across four complementary panels measuring error degradation by condition number, velocity amplification, out-of-distribution robustness, and computational cost. Results show that pure learning methods fail even on well-conditioned targets (MLP: 0% success, approx. 10 mm mean error), while hybrid warm-start architectures - IKFlow (59% to 100%), CycleIK(0% to 98.6%), GGIK (0% to 100%) - rescue learned solvers via classical refinement, with DLS converging from initial errors up to 207 mm. Deeper singularity-regime evaluation is identified as immediate future work.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
+
+TY  - JOUR
+AU  - Caballero-Mora, J.A.
+AU  - Sanín-Villa, D.
+AU  - Girón-Nieto, Huber
+AU  - Botero-Gómez, Vanessa
+AU  - López-Romero, Janet
+AU  - Tejada, Juan
+TI  - UR3 Collaborative Robot Inverse Kinematics Using Metaheuristic Optimization: A Unified Comparative and Experimental Evaluation
+JO  - Applied System Innovation
+PY  - 2026
+DO  - 10.3390/asi9070140
+UR  - https://doi.org/10.3390/asi9070140
+AB  - The inverse kinematics (IK) problem of the UR3 collaborative manipulator is addressed through a singularity-aware optimization framework and a statistically grounded benchmarking methodology. The IK task is formulated as a full-pose optimization problem minimizing a physically scaled residual combining Cartesian position and orientation errors. Emphasizing consistency between error formulation and optimization paradigms, a matrix-based pose-error representation is adopted as a numerically stable residual for stochastic search. Simultaneously, a smooth Jacobian-conditioning penalty is incorporated to mitigate instability near ill-conditioned configurations. Five metaheuristic solvers (PSO, GWO, GA, JADE, ALO) are implemented under a unified, reproducible experimental protocol with common maximum search settings. The Levenberg–Marquardt (LM) numerical method is included as a deterministic baseline to compare gradient-based precision against derivative-free global exploration. Performance is evaluated across nominal, industrial, and near-singular poses using 1000 Monte Carlo runs per configuration. Final-solution accuracy, variability, and computational time are analyzed directly from the Monte Carlo outcome distributions, descriptive statistics, and nonparametric rank-based tests. Results indicate that LM achieves superior numerical precision and computational speed. Among the metaheuristics, GA provides the lowest mean objective values and the smallest objective dispersion across the three tested poses, whereas JADE is the fastest solver. GWO provides an intermediate solution profile, with competitive objective values and substantially shorter execution times than GA and ALO. The optimized solutions are first verified in a RoboDK virtual environment. Subsequently, representative GWO-based configurations are experimentally validated on a physical UR3 robot through both isolated static poses and a continuous multi-pose trajectory tracking task, confirming practical kinematic feasibility and sequential stability. The proposed framework establishes a reproducible benchmark for statistically robust evaluation of metaheuristic-based IK optimization in collaborative robotics.
+KW  - trajectory-consistent-ik-review
+KW  - TC-IK-ADJACENT
+N1  - screening_decision=ADJACENT
+N1  - abstract_source=OpenAlex
+N1  - metadata_source=Consensus RIS; unchanged
+ER  - 
