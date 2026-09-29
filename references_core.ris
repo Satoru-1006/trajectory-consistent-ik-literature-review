@@ -1,4 +1,4 @@
-﻿TY  - JOUR
+TY  - JOUR
 AU  - Dulęba, I.
 AU  - Karcz-Dulęba, I.
 AU  - Mielczarek, Arkadiusz
@@ -298,15 +298,19 @@ AU  - Dulęba, I.
 AU  - Karcz-Dulęba, I.
 TI  - A comparison of methods solving repeatable inverse kinematics for robot manipulators
 JO  - Archives of Control Sciences
-PY  - 2023
+PY  - 2018
+VL  - 28
+IS  - 1
+SP  - 5
+EP  - 18
 DO  - 10.24425/119074
-UR  - https://doi.org/10.24425/119074
+UR  - https://journals.pan.pl/Content/103615/PDF/acsc-28-1-1.pdf
 AB  - A comparison of methods solving repeatable inverse kinematics for robot manipulators IGNACY DULEBA and IWONA KARCZ-DULEBAIn this paper two recent methods of solving a repeatable inverse kinematic task are compared.The methods differ substantially although both are rooted in optimization techniques.The first one is based on a paradigm of continuation methods while the second one takes advantage of consecutive approximations.The methods are compared based on a quality of provided results and other quantitative and qualitative factors.In order to get a statistically valuable comparison, some data are collected from simulations performed on pendula robots with different paths to follow, initial configurations and a degree of redundancy.
 KW  - trajectory-consistent-ik-review
 KW  - TC-IK-CORE
 N1  - screening_decision=CORE_INCLUDE
 N1  - abstract_source=OpenAlex
-N1  - metadata_source=Consensus RIS; unchanged
+N1  - metadata_source=publisher issue PDF; Consensus/OpenAlex year 2023 retained in screening metadata
 ER  - 
 
 TY  - JOUR
@@ -524,4 +528,4 @@ KW  - TC-IK-CORE
 N1  - screening_decision=CORE_INCLUDE
 N1  - abstract_source=OpenAlex
 N1  - metadata_source=Consensus RIS; unchanged
-ER  - 
+ER  -
