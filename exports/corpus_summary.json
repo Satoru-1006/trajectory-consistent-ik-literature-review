@@ -34,11 +34,11 @@
     "2025": 18,
     "2026": 22
   },
-  "full_text_checked": 18,
+  "full_text_checked": 19,
   "full_text_reading_statuses": {
-    "READ_COMPLETE": 18,
+    "READ_COMPLETE": 19,
     "PAYWALLED_OR_UNAVAILABLE": 2,
-    "NOT_STARTED": 84
+    "NOT_STARTED": 83
   },
   "bibliographic_metadata_crossref_corrected": 10
 }
