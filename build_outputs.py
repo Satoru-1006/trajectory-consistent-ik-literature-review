@@ -122,6 +122,8 @@ def build_bib(rows, path: Path):
 def main():
     rows = read_rows(SCREEN)
     included = [r for r in rows if r["screening_decision"] in INCLUDED]
+    reading_log = read_rows(ROOT / "FULLTEXT_READING_LOG.csv")
+    reading_status_counts = Counter(r["fulltext_status"] for r in reading_log)
     core = [r for r in included if r["screening_decision"] == "CORE_INCLUDE"]
     adjacent = [r for r in included if r["screening_decision"] == "ADJACENT"]
     uncertain = [r for r in rows if r["screening_decision"] == "UNCERTAIN_FULLTEXT"]
@@ -149,7 +151,8 @@ def main():
         "screening_decisions": dict(counts),
         "included_core_plus_adjacent": len(included),
         "screened_years": dict(sorted(years.items())),
-        "full_text_checked": 0,
+        "full_text_checked": sum(r.get("full_text_checked") == "YES" for r in rows),
+        "full_text_reading_statuses": dict(reading_status_counts),
         "bibliographic_metadata_crossref_corrected": sum(r.get("bibliographic_metadata_source") == "Crossref DOI record" for r in rows),
     }
     (OUT / "corpus_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -24,16 +24,21 @@
   "screened_years": {
     "2016": 1,
     "2017": 3,
-    "2018": 10,
+    "2018": 11,
     "2019": 7,
     "2020": 12,
     "2021": 22,
     "2022": 23,
-    "2023": 34,
+    "2023": 33,
     "2024": 27,
     "2025": 18,
     "2026": 22
   },
-  "full_text_checked": 0,
+  "full_text_checked": 15,
+  "full_text_reading_statuses": {
+    "READ_COMPLETE": 15,
+    "PAYWALLED_OR_UNAVAILABLE": 2,
+    "NOT_STARTED": 87
+  },
   "bibliographic_metadata_crossref_corrected": 10
 }

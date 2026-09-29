@@ -15,7 +15,7 @@ Literature screening corpus for **solution-branch tracking, singularity transiti
 | Unresolved because the abstract was not retrievable | 18 |
 | Excluded | 57 |
 
-The included bibliography meets the requested 100–300 range. All 104 included records have retrievable abstracts; the 30 core papers are the direct evidence set, while 74 adjacent papers supply methods and context on redundancy resolution, singularity-robust IK, solution sets, and constrained trajectory optimization. The 18 unresolved records are kept out of `references.ris` until an abstract or full text can settle relevance and method quality.
+The 104-record working bibliography is within the requested 100–300 size at title/abstract screening. Core/Adjacent counts are screening-stage labels, not final full-text dispositions: reading notes identify each paper's evidence and actual relevance, and can recommend an adjacent treatment. The 30 Core candidates are the direct-evidence set from title/abstract screening; 74 adjacent papers supply context. The 18 unresolved records remain outside references.ris until relevance and method quality can be judged.
 
 ## Search and screening
 
@@ -23,7 +23,7 @@ The included bibliography meets the requested 100–300 range. All 104 included 
 - Sixteen targeted Consensus Quick searches were run through the visible website and exported as RIS. Search strings, visible result counts, and export counts are in [`SEARCH_LOG.csv`](SEARCH_LOG.csv).
 - RIS exports contained titles and DOI metadata but no abstracts. DOI-linked abstracts were retrieved from OpenAlex for 161 of 179 unique records. The remaining 18 have explicit missing-abstract status; Consensus AI Key Takeaways were not treated as abstracts.
 - DOI deduplication retained all source-query provenance. Ten publication year/venue fields were corrected against Crossref DOI metadata; during full-text review, a publisher issue header resolved one further year mismatch (Consensus/OpenAlex 2023; journal issue 2018). Original Consensus values remain in `consensus_year` and `consensus_venue` in the enriched and screening tables.
-- Screening used title and abstract only. No full text, citation chaining, or hardware evidence was assessed. This is a focused discovery corpus, not an exhaustive systematic review.
+- Initial screening used title and abstract only; it did not assess full text, citation chaining, or hardware evidence. The ongoing full-text phase records those assessments separately. This is a focused discovery corpus, not an exhaustive systematic review.
 
 The scope, eligibility rules, screening codes, and quality criteria were frozen in [`SEARCH_PROTOCOL.md`](SEARCH_PROTOCOL.md). Counts and rationale for every screened paper are in [`SCREENING.csv`](SCREENING.csv).
 
@@ -48,6 +48,6 @@ The Zotero import is tagged with `trajectory-consistent-ik-review`, `TC-IK-CORE`
 ## Full-text reading (in progress)
 
 - The full-text phase began after title-and-abstract screening. It reads accessible papers in full, core first, and records evidence locators and scope limits in [`FULLTEXT_READING_LOG.csv`](FULLTEXT_READING_LOG.csv) and [`READING_NOTES/`](READING_NOTES/).
-- As of 2026-09-29, 14 of the 104 included papers have completed full-text notes; two additional papers are currently `PAYWALLED_OR_UNAVAILABLE` after lawful full-text searches, and 88 remain `NOT_STARTED`. `READ_COMPLETE` is used only after checking the substantive sections, methods, evaluation, and relevant figures/equations. An unavailable full text remains unread.
+- As of 2026-09-29, 15 of the 104 included papers have completed full-text notes; two additional papers are currently PAYWALLED_OR_UNAVAILABLE after lawful full-text searches, and 87 remain NOT_STARTED. Paper 17 was read in full from the public Preprints.org v1 manuscript after the publisher PDF was blocked in the current session; the final publisher version was checked for identity and abstract but not compared line by line. READ_COMPLETE is used only after checking the substantive sections, methods, evaluation, and relevant figures/equations. An unavailable full text remains unread.
 - Lawfully located copies are used for reading. Copyright PDFs are not included in this repository or the Drive project; local PDF and extraction scratch files are ignored under `tmp/`.
 - [`FULLTEXT_READING_PROTOCOL.md`](FULLTEXT_READING_PROTOCOL.md) specifies access rules, status meanings, and the per-paper extraction fields. [`FULLTEXT_SOURCES.csv`](FULLTEXT_SOURCES.csv) records OpenAlex full-text location candidates; a candidate link does not mean that a paper has been read.
