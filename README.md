@@ -44,3 +44,10 @@ The scope, eligibility rules, screening codes, and quality criteria were frozen 
 ## Zotero and cloud copies
 
 The Zotero import is tagged with `trajectory-consistent-ik-review`, `TC-IK-CORE`, and `TC-IK-ADJACENT`. The GitHub repository and Drive folder hold this same screened corpus and protocol.
+
+## Full-text reading (in progress)
+
+- The full-text phase began after title-and-abstract screening. It reads accessible papers in full, core first, and records evidence locators and scope limits in [`FULLTEXT_READING_LOG.csv`](FULLTEXT_READING_LOG.csv) and [`READING_NOTES/`](READING_NOTES/).
+- As of 2026-09-29, 10 of the 104 included papers have completed full-text notes; 94 remain unread. `READ_COMPLETE` is used only after checking the substantive sections, methods, evaluation, and relevant figures/equations. An unavailable full text remains unread.
+- Lawfully located copies are used for reading. Copyright PDFs are not included in this repository or the Drive project; local PDF and extraction scratch files are ignored under `tmp/`.
+- [`FULLTEXT_READING_PROTOCOL.md`](FULLTEXT_READING_PROTOCOL.md) specifies access rules, status meanings, and the per-paper extraction fields. [`FULLTEXT_SOURCES.csv`](FULLTEXT_SOURCES.csv) records OpenAlex full-text location candidates; a candidate link does not mean that a paper has been read.
