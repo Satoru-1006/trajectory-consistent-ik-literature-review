@@ -63,3 +63,8 @@ No screening category, bibliography membership, source scope, or canonical corpu
 Ranks 32-41 processed in rank order. Current counts: 104 = 43 READ_COMPLETE + 8 PAYWALLED_OR_UNAVAILABLE + 53 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
 
 Current-session tool boundary: no Consensus/Undermind/Zotero MCP surfaced. Consensus website used for targeted identity discovery, but generated study snapshots contained unrelated content and were excluded; no Consensus article body counted. Undermind official website timed out. Publisher, arXiv and lawful author-hosted full text supplied the read bodies. OpenAlex/Semantic Scholar were used only to locate sources. Google Drive is the existing mirror.
+
+
+## Remaining-63 batch 2 — 2026-10-02
+
+Ranks 42-49,51-52 processed in rank order. Current counts: 104 = 53 READ_COMPLETE + 8 PAYWALLED_OR_UNAVAILABLE + 43 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
