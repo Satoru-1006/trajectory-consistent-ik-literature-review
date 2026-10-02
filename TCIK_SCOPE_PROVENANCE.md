@@ -56,3 +56,10 @@ Full texts were read from the publisher for ranks 53 and 82, arXiv for 50, 72, 7
 PROVISIONAL evidence synthesis: ranks 89 and 91 add explicit multiple-solution/path-graph evidence and singularity-aware path choices; rank 78 adds finite-grid branch selection with joint/velocity constraints and Franka hardware while excluding singular nodes; rank 90 adds local stable near-singularity control with hardware but no joint/collision constraints. Rank 91 is a potential counterexample at the sampled graph level because it combines branch selection, optional singularity-permitting edges, and sampled joint/derivative constraints. It does not prove continuous-time, collision-free constrained feasibility between samples. Rank 87 couples collision-bounded Cartesian planning with joint-space MPC, but the authors expressly leave existence of a joint realization along every bounded path open. These observations remain provisional until the adjacent set is read.
 
 No screening category, bibliography membership, source scope, or canonical corpus identity changed. The nine new notes and rank 71 access note contain per-paper evidence and version boundaries. The Google Drive project remains a mirror; normalized content is checked after the canonical GitHub push and the result is reported in the batch closeout.
+
+
+## Remaining-63 batch 1 — 2026-10-02
+
+Ranks 32-41 processed in rank order. Current counts: 104 = 43 READ_COMPLETE + 8 PAYWALLED_OR_UNAVAILABLE + 53 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
+
+Current-session tool boundary: no Consensus/Undermind/Zotero MCP surfaced. Consensus website used for targeted identity discovery, but generated study snapshots contained unrelated content and were excluded; no Consensus article body counted. Undermind official website timed out. Publisher, arXiv and lawful author-hosted full text supplied the read bodies. OpenAlex/Semantic Scholar were used only to locate sources. Google Drive is the existing mirror.
