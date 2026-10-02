@@ -78,3 +78,8 @@ Ranks 54-63 processed in rank order. Current counts: 104 = 61 READ_COMPLETE + 10
 ## Remaining-63 batch 4 — 2026-10-03
 
 Ranks 64-70,73-75 processed in rank order. Current counts: 104 = 68 READ_COMPLETE + 13 PAYWALLED_OR_UNAVAILABLE + 23 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
+
+
+## Remaining-63 batch 5 — 2026-10-03
+
+Ranks 76,77,79,80,81,83,84,85,86,88 processed in rank order. Current counts: 104 = 75 READ_COMPLETE + 16 PAYWALLED_OR_UNAVAILABLE + 13 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
