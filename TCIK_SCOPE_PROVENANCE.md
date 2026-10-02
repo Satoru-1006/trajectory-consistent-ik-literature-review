@@ -68,3 +68,8 @@ Current-session tool boundary: no Consensus/Undermind/Zotero MCP surfaced. Conse
 ## Remaining-63 batch 2 — 2026-10-02
 
 Ranks 42-49,51-52 processed in rank order. Current counts: 104 = 53 READ_COMPLETE + 8 PAYWALLED_OR_UNAVAILABLE + 43 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
+
+
+## Remaining-63 batch 3 — 2026-10-03
+
+Ranks 54-63 processed in rank order. Current counts: 104 = 61 READ_COMPLETE + 10 PAYWALLED_OR_UNAVAILABLE + 33 NOT_STARTED. Individual notes have the required 20 fields and source/evidence locators; inaccessible bodies remain unread. Corpus membership and screening labels unchanged. No Gate 2B work.
