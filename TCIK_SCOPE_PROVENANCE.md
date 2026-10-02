@@ -42,3 +42,17 @@ Only the already-included Core record at queue rank 30, DOI 10.1109/LRA.2026.365
 - ZOTERO_AVAILABLE: NO (no Zotero connector in this session)
 - NEW_SUPPLEMENTARY_DISCOVERIES: 0 papers
 - CANONICAL_CORPUS_CHANGED: NO
+
+## Gate 2A adjacent batch — 2026-10-02
+
+The frozen corpus and screening categories were unchanged. The fixed batch covered ranks 50, 53, 71, 72, 78, 82, 87, 89, 90, and 91. Nine papers reached READ_COMPLETE with individual notes; rank 71 received an access note and remains PAYWALLED_OR_UNAVAILABLE. No identity check failed. ZOTERO_USED=NO; ZOTERO_AVAILABLE=NO (no connector surfaced in this session). Post-batch counts:
+
+- Total: 104 = 36 READ_COMPLETE + 5 PAYWALLED_OR_UNAVAILABLE + 63 NOT_STARTED.
+- Core: 30 = 27 / 3 / 0.
+- Adjacent: 74 = 9 / 2 / 63.
+
+Full texts were read from the publisher for ranks 53 and 82, arXiv for 50, 72, 78, 87, 90, and 91, and an author-uploaded ResearchGate copy whose journal header matches rank 89. Rank 50 is arXiv v1 rather than the 2022 RA-L Version of Record; rank 87 is a later arXiv v2 associated with its 2025 RA-L DOI. Those versions were not compared line by line and are identified in their notes. Rank 71 IEEE access returned HTTP 403, ResearchGate offered only a request for the exact journal full text, and the Academia author profile lists the exact journal metadata but no PDF link on that card; its visible PDF download belongs to a different adjacent record, and the related 2021 conference paper is not verified full text of the journal record. It remains unread; HTTP 403 is not interpreted as proof of a paywall.
+
+PROVISIONAL evidence synthesis: ranks 89 and 91 add explicit multiple-solution/path-graph evidence and singularity-aware path choices; rank 78 adds finite-grid branch selection with joint/velocity constraints and Franka hardware while excluding singular nodes; rank 90 adds local stable near-singularity control with hardware but no joint/collision constraints. Rank 91 is a potential counterexample at the sampled graph level because it combines branch selection, optional singularity-permitting edges, and sampled joint/derivative constraints. It does not prove continuous-time, collision-free constrained feasibility between samples. Rank 87 couples collision-bounded Cartesian planning with joint-space MPC, but the authors expressly leave existence of a joint realization along every bounded path open. These observations remain provisional until the adjacent set is read.
+
+No screening category, bibliography membership, source scope, or canonical corpus identity changed. The nine new notes and rank 71 access note contain per-paper evidence and version boundaries. The Google Drive project remains a mirror; normalized content is checked after the canonical GitHub push and the result is reported in the batch closeout.
