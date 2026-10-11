@@ -248,15 +248,15 @@ The main technical implication is **interface consistency**. A branch or graph d
 
 Publisher-level 2026 candidates and earlier bounded-corridor or task-constrained studies already report substantial integrations. Therefore our proposals concern the *scope and comparability of reported guarantees*, not a claim of globally absent integrated planning algorithms.
 
-## 7. Scope and Data Availability
+## 7. Scope, evidence status and data availability
 
-The evidence base is **topic-aligned, mechanism-selected and non-exhaustive**. Historical source accounting has not been changed: 419 Consensus Quick RIS export instances, 179 DOI-unique records, 104 CORE/ADJACENT records, 18 UNCERTAIN_FULLTEXT outside that 104, and 87 READ_COMPLETE versus 17 unavailable among the 104. The separate older uncertainty-planning 306/226 ledger is historical context, not an upstream screening denominator.
+The evidence base is **topic-aligned, mechanism-selected and non-exhaustive**. Historical counts remain unchanged: **419** Consensus Quick export instances, **179** DOI-unique records, **104** historically CORE/ADJACENT working-bibliography entries, **18** UNCERTAIN_FULLTEXT outside that 104, and **87 READ_COMPLETE / 17 PAYWALLED_OR_UNAVAILABLE** among the 104. The earlier 306/226 uncertainty-planning corpus is separate historical context. None of these counts is a field prevalence or search-recall estimate.
 
-The **R4 references contain 40 unique DOIs**: 28 represented in the historical TCIK screening table and 12 documented supplements. The 28 historically screened references consist of **15 CORE_INCLUDE, 7 ADJACENT, 0 EXCLUDE, and 6 UNCERTAIN_FULLTEXT** under the unchanged original screening codes. Some of the previously unresolved titles have acquired provisional scientific relevance decisions through targeted publisher-source checks, but original recorded status has not been silently rewritten. The 12 outside-table supplements comprise eight already disclosed in R3 and four 2026 discoveries. Source, appraisal and status distinctions are itemized in S1.2, S1.4 and S1.6.
+The R5 bibliography contains **44 distinct DOI-bearing entries**, **32** matched to the frozen 179 TCIK records and **12** independently located outside them. The four added R5 references were already READ_COMPLETE historically; no original screening decision was overwritten. Of 87 historically READ_COMPLETE papers, **25** are now cited and **62** remain uncited. An exhaustive contradictory-evidence or claim-impact audit of the 62 is **NOT_DONE**; uncited sources are not negative evidence.
 
-Of the 87 historical READ_COMPLETE records, **21** now appear in the formal R4 references and **66** do not. The 2026 *Machines* article has publisher full HTML inspected, while the three other newly referenced 2026 papers are cited with **abstract/metadata-only verification**, so their conditional mechanism claims must not be elevated to full-text-verified guarantees. The title-only 3R geometry candidate remains a targeted screening exception, not a formally endorsed mechanism paper.
+Publisher full HTML permits article-level assessment of the 2026 *Machines* industrial graph-and-collision comparator. Zeng et al. (2026), M. Zhang et al. (2026) and Milenkovic et al. (2026) remain **ABSTRACT_OR_PUBLISHER_PREVIEW_ONLY** for version-specific mathematical and experimental claims. The 2024 SSRN predecessor of Milenkovic et al. is identified, not assumed equivalent to a fully audited final journal article. Other supporting papers combine historical full-text reading-log records with publicly inspected publisher/institutional information, as documented in Supplementary S2.
 
-The review does not claim search saturation, an exhaustive 2016–2026 field census, quantitative publication prevalence, or a fully validated T1/T2/T3 benchmark. It is a **bounded structured narrative synthesis**, not a systematic review. Figures, the proposed reporting contract and the benchmark design express cross-method reasoning and proposed validation criteria, not experiments or theorems newly established by this article.
+No database-native Scopus, Web of Science, or IEEE Xplore export, complete citation chaining, experimental reimplementation, or common-platform UR5e validation is claimed. The G0/G1/G2 comparison specifies requirements, not novel performance measurements. The original retrieval logs, screening/reading CSVs and public-web update log remain in the linked TCIK repository. Statements are confined to their stated model, version and checking domain.
 
 ## References
 Beck, F., Vu, M. N., Hartl-Nesic, C. and Kugi, A. (2023). Singularity avoidance with application to online trajectory optimization for serial manipulators. *IFAC-PapersOnLine*, 56(2), 284–291. https://doi.org/10.1016/j.ifacol.2023.10.1582
@@ -266,6 +266,8 @@ Boschi, I., De Toni, A., Di Leva, R., Ida, E. and Carricato, M. (2026). Handling
 Colomé, A. and Torras, C. (2012). Redundant inverse kinematics: Experimental comparative review and two enhancements. In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems*, 5333–5340. https://doi.org/10.1109/IROS.2012.6385672
 
 Donelan, P. S. (2007). Singularity-theoretic methods in robot kinematics. *Robotica*, 25(6), 641–659. https://doi.org/10.1017/S0263574707003748
+
+Dulęba, I. and Karcz-Dulęba, I. (2018). A comparison of methods solving repeatable inverse kinematics for robot manipulators. *Archives of Control Sciences*, 28(1), 5–18. https://doi.org/10.24425/119074
 
 Dulęba, I. and Karcz-Dulęba, I. (2023). Many faces of singularities in robotics. *Pomiary Automatyka Robotyka*, 27(1), 19–26. https://doi.org/10.14313/par_247/19
 
@@ -301,6 +303,8 @@ Müller, A. (2004). Collision avoiding continuation method for the inverse kinem
 
 Nguyen, D. T., Nguyen, V. T. T., Do, T. and Nguyen, V. L. (2026). Multi-solution inverse kinematics for robotic manipulators via permutation-invariant set prediction. *IEEE Robotics and Automation Letters*, 11(8), 9803–9810. https://doi.org/10.1109/LRA.2026.3703280
 
+Oelerich, T., Hartl-Nesic, C., Beck, F. and Kugi, A. (2025). BoundPlanner: A convex-set-based approach to bounded manipulator trajectory planning. *IEEE Robotics and Automation Letters*, 10(6), 5393–5400. https://doi.org/10.1109/LRA.2025.3558450
+
 Oelerich, T., Beck, F., Hartl-Nesic, C. and Kugi, A. (2025). BoundMPC: Cartesian path following with error bounds based on model predictive control in the joint space. *The International Journal of Robotics Research*, 44(8), 1287–1316. https://doi.org/10.1177/02783649241309354
 
 Patkó, D. and Zelei, A. (2021). Velocity and acceleration level inverse kinematic calculation alternatives for redundant manipulators. *Meccanica*, 56, 887–900. https://doi.org/10.1007/s11012-020-01305-z
@@ -329,6 +333,8 @@ Wenger, P. and Chablat, D. (2023). A review of cuspidal serial and parallel mani
 
 Yin, Z., Wu, F., Wang, Z., Yang, J., Tan, J. and Kong, D. (2025). Dynamic programming-based offline redundancy resolution of redundant manipulators along prescribed paths with real-time adjustment. *arXiv preprint* arXiv:2411.17052v2. https://doi.org/10.48550/arXiv.2411.17052
 
+Yoshizawa, M., Terui, A. and Mikawa, M. (2023). Inverse kinematics and path planning of manipulator using real quantifier elimination based on Comprehensive Gröbner Systems. *arXiv preprint* arXiv:2305.12451. https://doi.org/10.48550/arXiv.2305.12451
+
 Zeng, Z., Guo, J., Chen, J., Li, Y., Peng, S. and Pan, Y. (2026). Reliable 7-DOF manipulator execution via arm-angle selection and trajectory retiming. *IEEE Robotics and Automation Letters*, 11(11), 12919–12926. https://doi.org/10.1109/LRA.2026.3732902
 
 Zhang, L., Du, H., Qin, Z., Zhao, Y.-J. and Yang, G. (2024). Real-time optimized inverse kinematics of redundant robots under inequality constraints. *Scientific Reports*, 14, 29754. https://doi.org/10.1038/s41598-024-81174-8
@@ -336,6 +342,8 @@ Zhang, L., Du, H., Qin, Z., Zhao, Y.-J. and Yang, G. (2024). Real-time optimized
 Zhang, M., Mei, S., He, H., Han, X. and Li, Z. (2026). Analytical inverse kinematics solution and global arm angle optimization method for 7-DOF redundant robotic arms without offset. *ISA Transactions*, 173, 425–436. https://doi.org/10.1016/j.isatra.2026.03.028
 
 Zhang, Y. and Kikuuwe, R. (2026). Ensuring viability: A QP-based inverse kinematics for handling joint range, velocity and acceleration limits, as well as whole-body collision avoidance. *Journal of Intelligent & Robotic Systems*, 112(1). https://doi.org/10.1007/s10846-025-02335-z
+
+Zhang, Y. and Wang, H. (2025). Redundancy-based motion planning with task constraints for robot manipulators. *Sensors*, 25(6), 1900. https://doi.org/10.3390/s25061900
 
 Zhang, Y., Xiao, Q., Wan, L. and Jiang, B. (2026). Collision-free robot pose optimization method based on improved algorithms. *Machines*, 14(1), 65. https://doi.org/10.3390/machines14010065
 
@@ -359,24 +367,11 @@ The later **TCIK-specific** source is the separate frozen repository `Satoru-100
 
 The `exports/corpus_summary.json` in the frozen screening package reflects an **earlier interim full-text count**; final 87/17 full-text statuses should be taken from the later dated `FULLTEXT_READING_LOG.csv` and its 2026-10-03 README reconciliation rather than interpreted as an inconsistency in title/abstract selection. Search terms, export counts, provenance strings, DOI normalization, abstract status, and decision rationale are traceable in the named TCIK artifacts. There is no claim of exhaustive multi-database search saturation or full formal systematic-review screening.
 
-### S1.2. R4 manuscript DOI-reference audit (2026-10-11)
+### S1.2. R5 manuscript DOI-reference audit (2026-10-11)
 
-R3's **28-reference** crosswalk is retained as an historical baseline: 11 CORE_INCLUDE, seven ADJACENT, two UNCERTAIN_FULLTEXT, eight outside the 179 DOI table. R4 adds twelve bibliographically identified works. A direct exact-DOI reconciliation against the frozen 179-row TCIK `SCREENING.csv` gives the following **unchanged historical statuses**, without claiming that a newly discussed paper was screened-in back in September:
+The frozen original 179-row TCIK SCREENING.csv is unchanged. R4 contained 40 DOI-identified references, 28 matched to the original 179 and 12 outside, with 21 historically READ_COMPLETE entries cited. R5 adds four already READ_COMPLETE studies: Dulęba and Karcz-Dulęba (2018), Yoshizawa et al. (2023), Zhang and Wang (2025), and Oelerich et al. (2025; *BoundPlanner*). These were not discovered through a claimed new systematic search. The current bibliography has **44 unique DOI references: 32 original matched, 12 external**. Of the 87 historical READ_COMPLETE entries, **25** are cited and **62** remain uncited.
 
-| Original 179-row screening category of formally cited R4 references | Count |
-|---|---:|
-| CORE_INCLUDE | **15** |
-| ADJACENT | **7** |
-| UNCERTAIN_FULLTEXT | **6** |
-| EXCLUDE | **0** |
-| Cited but outside historical TCIK screening table | **12** |
-| **Unique R4 reference DOIs** | **40** |
-
-Four R4-referenced methods newly drawn from the 87 earlier completed reading records are Tringali and Cocuzza (2020), Safeea et al. (2021), Malhan et al. (2023) and Oelerich et al. (2025). Four previously undecided TCIK records newly examined for source relevance are Miyata et al. (2017), Milenkovic (2022), Patkó and Zelei (2021), and Li and Wang (2024); original decision flags remain UNCERTAIN_FULLTEXT, despite the separate R4 provisional classification in S1.6. Four completely new 2026 citations (Milenkovic, Zeng, M. Zhang, Y. Zhang) lie outside the frozen 179-row DOI table and are not retroactively included in 104.
-
-Of the 87 READ_COMPLETE records, 21 are formally cited and 66 are uncited. The three selected outside-corpus anchor cases (STAMPEDE, Elias–Wen, Weingartshofer) remain six-case supplements rather than a representative 6/104 sample; the six-case selection was retrospective. The bibliographic inclusion of an abstract-only source does not certify its full text or all guarantee claims.
-
-The five DOI/abstract evidence exceptions originally identified in S1.5 and newly examined 2026 candidates are followed by the R4 decision-and-impact ledger in S1.6. The full original search route for every supplement is not reconstructed; no invented source counts or PRISMA funnel are asserted.
+Historical screening dispositions, subsequent relevance assessments and verified source depths are distinct. The six anchors remain purposive examples. The original outside-corpus anchors (STAMPEDE, Elias–Wen, Weingartshofer) have not been silently backfilled into the 104. Four additional 2026 near-neighbor DOIs remain outside the frozen 179. No unperformed full 179-row rescreen is represented as completed.
 
 ### S1.3. Bounded reproducibility and unresolved history
 
@@ -423,11 +418,11 @@ Of five **MISSING + EXCLUDE** records, four have an apparently reasonable **titl
 
 These ten exception annotations repair the **manuscript's evidence-state interpretation**; they do **not** silently rewrite the frozen 179 historical decisions. Formal re-screening outcome counts remain **NOT_ASSESSED**, pending saved DOI-specific decisions. This distinction prevents mixing an auditable correction queue with an unperformed screening round.
 
-**Reading-to-claim audit.** Among 104 retained DOIs there are 87 READ_COMPLETE and 17 PAYWALLED_OR_UNAVAILABLE. Under R3's original 28-reference bibliography 17 READ_COMPLETE were cited; the R4 bibliography now cites 21 READ_COMPLETE and leaves **66** READ_COMPLETE not formally referenced. Historical flags and current post-hoc scientific relevance assessments are distinct. Their logging does not prove that all their mechanisms entered the synthesis. The evidence-promoting rule is source-specific: record the method, assumptions, mathematical/verification domain, validation type and exact support for each major claim before using a source to support, contradict, or generalize a conclusion.
+**Reading-to-claim audit.** Among 104 retained DOIs there are 87 READ_COMPLETE and 17 PAYWALLED_OR_UNAVAILABLE. Under R3's 28-reference bibliography 17 READ_COMPLETE entries were cited; R4 cited 21 and left 66 uncited; R5 now cites 25 and leaves **62**. Historical flags and current post-hoc scientific relevance assessments are distinct. Their logging does not prove that all their mechanisms entered the synthesis. The evidence-promoting rule is source-specific: record the method, assumptions, mathematical/verification domain, validation type and exact support for each major claim before using a source to support, contradict, or generalize a conclusion.
 
 
 
-### S1.6. R4 targeted screening correction and 2026 full-text impact boundary
+### S1.6. Historical R4 targeted screening correction and 2026 full-text impact boundary
 
 **Separate evidence/decision layers.** Original `SCREENING.csv` decisions remain a dated historical ledger; this R4 correction **does not** overwrite them. The following judgments are **post-hoc provisional topic-aligned dispositions**, not an independent 179-record prospective screen, and were applied to the frozen fixed-base serial pathwise-IK review question. Full-text inspected indicates accessible publisher HTML with substantial article content, not independently reproduced experiments or full equation-by-equation mathematical proof.
 
@@ -451,7 +446,13 @@ Four `MISSING + EXCLUDE` entries about hybrid, continuum, space dual-arm and par
 | 10.1016/j.mechmachtheory.2025.106314, Milenkovic et al. | Elsevier publisher abstract and highlights **only** | Encircling singularities suggests alternative IK path connectivity; precise event proof/collision domain PENDING |
 | 10.1109/ICRA57385.2026.11696479, viability-control work | Indexed conference metadata **only**, not cited as IK-core | Control/viability comparator; indexed after the 29 September frozen date; not a core branch-selection claim |
 
-**Consequence for manuscript claims.** The R4 main text gives positive credit to reported cyclic, multi-constraint, semi-constrained-path and arm-angle/retiming integrations. It narrows the proposed open problem to compatibility of task specifications, reconstructed trajectory and verification domain, rather than asserting that graph-plus-collision or T1/T2 integration is absent. **FULLTEXT_VERIFIED is NOT claimed for the three abstract-only 2026 references or the two publisher-abstract-only 2017/2022 works.** The present revision materially strengthens evidence triangulation but does not certify recall, inter-sample feasibility or cross-platform method dominance. Independent full-text study of these pending candidates remains required before any stronger comparative ranking.
+**Consequence for manuscript claims.** The R5 main text gives positive credit to reported cyclic, multi-constraint, semi-constrained-path and arm-angle/retiming integrations. It narrows the proposed open problem to compatibility of task specifications, reconstructed trajectory and verification domain, rather than asserting that graph-plus-collision or T1/T2 integration is absent. **FULLTEXT_VERIFIED is NOT claimed for the three abstract-only 2026 references or the two publisher-abstract-only 2017/2022 works.** The present revision materially strengthens evidence triangulation but does not certify recall, inter-sample feasibility or cross-platform method dominance. Independent full-text study of these pending candidates remains required before any stronger comparative ranking.
+
+### S1.7. R5 new-evidence ledger and explicit non-execution boundary
+
+The four newly cited, already READ_COMPLETE papers address distinct propositions: Dulęba and Karcz-Dulęba (2018) on repeatable closed-path IK, Yoshizawa et al. (2023) on pathwise IK solution existence in a restricted 3-DOF model, Zhang and Wang (2025) on collision-aware task-constrained 7-DOF motion planning, and Oelerich et al. (2025; *BoundPlanner*) on bounded convex corridors and collision-aware model-predictive trajectory planning. None is stated to certify an exact UR5e path with continuous swept-link and dynamic bounds.
+
+The bounded October 11 S01–S04 public-web update is the only actual targeted supplemental search claimed here. **Native Scopus/WoS/IEEE export = NOT_DONE; complete 62-article uncited claim-impact review = NOT_DONE; three 2026 abstract-only published article audits = NOT_DONE; common-robot experimental comparison = NOT_DONE.** These bounds preserve useful narrative synthesis without inventing experiments or exhaustive field absence.
 
 ## Supplementary Note S2. Claim-to-source locators and source-version distinctions
 
@@ -469,6 +470,8 @@ An evidence key denotes **one source proposition** irrespective of how many tabl
 
 
 **R4 complementary-source locator ledger (distinct from six anchor case source keys).** This section records what was actually consulted rather than assigning invented equation locators to a secondary abstract. Tringali and Cocuzza (2020): historical READ_COMPLETE log, article Sections 3–5, DOI 10.3390/robotics9030061; Safeea et al. (2021): historical READ_COMPLETE log, Sec. III and simulation/hardware discussion, DOI 10.1109/TII.2021.3060019; Malhan et al. (2023): historical READ_COMPLETE log, graph/formulation and evaluation sections, DOI 10.1109/TASE.2022.3144673; Oelerich et al. (2025): historical READ_COMPLETE log, online bounded-path formulation and evaluation, DOI 10.1177/02783649241309354. Patkó and Zelei (2021): Springer published article Secs. 2–4; Li and Wang (2024): SAGE published article method/simulation/conclusion; Y. Zhang et al. (2026): *Machines* publisher full text Sections 3–4. Miyata et al. (2017), Milenkovic (2022), Zeng et al. (2026), M. Zhang et al. (2026), Milenkovic et al. (2026): **publisher/indexed abstracts and metadata only**, with detailed source-level theorem and numerical checks NOT_ASSESSED.
+
+**R5 complementary-source locators.** Dulęba and Karcz-Dulęba (2018): *Archives of Control Sciences*, 28(1), 5–18, DOI 10.24425/119074, published comparison of repeatable IK methods. Yoshizawa et al. (2023): arXiv:2305.12451 abstract and historical full-text reading-log record; equation numbers not independently re-verified. Zhang and Wang (2025): *Sensors* 25(6), 1900, published open HTML on redundancy-based task-constrained planning. Oelerich et al. (2025; *BoundPlanner*): *IEEE RA-L* 10(6), 5393–5400, university/publisher summary and archived reading record; full journal equation-by-equation assessment was not performed in R5.
 
 ## Supplementary Note S3. Three reporting examples
 
