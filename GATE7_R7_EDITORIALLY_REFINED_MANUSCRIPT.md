@@ -30,13 +30,13 @@ Recent work makes different parts of this construction explicit. Analytical desc
 
 ### 1.1. Related-review comparison and the location of the contribution
 
-Existing IK reviews offer complementary foundations for assessing fixed-base serial manipulators. Lakshmi Narayanan et al. (2026) organize a broad serial-manipulator literature around model-driven and data-driven solvers, limitations, and reported performance. Xing et al. (2026) relate analytical, numerical, optimization, and AI methods to redundancy resolution, task-priority strategies, and optimization objectives. Trullo and Alban (2025) systematically compare analytical, numerical, and learning-based IK approaches for fixed-base serial manipulators, emphasizing solution accuracy, response time, hybrid strategies, and method selection. Wenger and Chablat (2023) synthesize cuspidal-robot topology and nonsingular posture changes. Rudrasamudram and Malaichamee (2026), a non-peer-reviewed arXiv preprint, discuss formal versus empirical singularity-robustness evidence and present a position-only Panda comparison.
+Existing IK reviews offer complementary foundations for assessing fixed-base serial manipulators. Lakshmi Narayanan et al. (2026) organize a broad serial-manipulator literature around model-driven and data-driven solvers, limitations, and reported performance. Xing et al. (2026) relate analytical, numerical, optimization, and AI methods to redundancy resolution, task-priority strategies, and optimization objectives. Trullo and Vivas Alban (2025) systematically compare analytical, numerical, and learning-based IK approaches for fixed-base serial manipulators, emphasizing solution accuracy, response time, hybrid strategies, and method selection. Wenger and Chablat (2023) synthesize cuspidal-robot topology and nonsingular posture changes. Rudrasamudram and Malaichamee (2026), a non-peer-reviewed arXiv preprint, discuss formal versus empirical singularity-robustness evidence and present a position-only Panda comparison.
 
 | Related synthesis | Established contribution | Question examined in the present review |
 |---|---|---|
 | Lakshmi Narayanan et al. (2026) | Serial IK solver families, evidence breadth, and comparative performance | How does a sequence of valid solutions become a specified continuous joint-path realization? |
 | Xing et al. (2026) | Redundancy objectives, task priorities, constraint-aware optimization, and multiobjective methods | Are joint, collision, and dynamic claims made for compatible task specifications and checking domains? |
-| Trullo and Alban (2025) | Analytical, numerical, learning-based, and hybrid solver comparison for fixed-base serial robots | How do solver-level accuracy and response-time results relate to pathwise selection, event handling, and trajectory verification? |
+| Trullo and Vivas Alban (2025) | Analytical, numerical, learning-based, and hybrid solver comparison for fixed-base serial robots | How do solver-level accuracy and response-time results relate to pathwise selection, event handling, and trajectory verification? |
 | Wenger and Chablat (2023) | Cuspidal topology and nonsingular mode change | Under which robot topologies can nonsingular mode changes be compared with prescribed singular crossings? |
 | Rudrasamudram and Malaichamee (2026), preprint | Formal/empirical guarantee terminology and a position-only Panda comparison | How do evidence grades relate to full-pose task identity, reconstructed joint motion, and constraint verification? |
 
@@ -46,7 +46,7 @@ The present synthesis compares IK methods through five complementary axes and ev
 
 **Contribution 2 — Applicability-aware evidence comparison.** A T1/T2/T3 matrix evaluates six contrasting mechanism anchors alongside independently developed integration methods and near-neighbor cases, recording positive findings, applicability limits, and unassessed propositions.
 
-**Contribution 3 — Trajectory-level verification and reporting design.** A linked evidence-object chain and a proposed G0/G1/G2 common-task benchmark specify task equivalence, reconstruction, verification, and outcome reporting for future comparative work.
+**Contribution 3 — Trajectory-level verification and reporting design.** A linked evidence-object chain and a proposed G0/G1/G2E/G2T common-task benchmark specify task equivalence, reconstruction, verification, and outcome reporting for future comparative work.
 
 ## 2. Scope and Analytical Method
 
@@ -193,7 +193,7 @@ Node, edge and controller-step constraints can be powerful. STAMPEDE tests legal
 
 A minimal illustrative counterexample captures the distinction: two collision-free sampled configurations may be joined by an interpolated link motion that intersects an obstacle. Similarly, derivative and torque extrema can occur between time samples. This observation is a **geometric and numerical domain distinction**, not a claimed experimental failure of any named method. The expanded literature makes the distinction more specific: Zhang and Wang (2025) demonstrate task-constrained redundancy-based motion planning with collision handling, while Oelerich et al. (2025; *BoundPlanner*) use convex corridors for bounded predictive planning; neither should be retroactively interpreted as proving the same exact Cartesian path is feasible on every robot. Tringali and Cocuzza (2020) optimize whole-trajectory constraints with multistart numerical search, whereas Li and Wang (2024) report a combined avoidance control in simulation with tracking-error trade-offs. Neither the use of whole-path decision variables nor positive simulation clearance alone establishes a universal interpolated-path certificate. The natural engineering response is an explicit inter-sample check or bound, rather than declaring the sampled method ineffective.
 
-### 4.4. A proposed common-task benchmark: G0/G1/G2
+### 4.4. A proposed common-task benchmark: G0/G1/G2E/G2T
 
 The cross-study comparison motivates a common-task measurement design using a fixed-base **UR5e 6R** cell, for which UR-like branch/event behavior has been explicitly studied. This is a **proposed protocol**: model files, trajectories, controller assumptions, and validation settings must be fixed and published before comparative runs. No common-robot experiment has yet been performed.
 
@@ -214,7 +214,7 @@ G2E is deliberately distinguished from G2T: the latter changes the admissible ta
 
 **Stop and outcome semantics.** Prespecify termination for solver budget/time-out, IK infeasibility at exact/toleranced poses, inadmissible branch/singularity event, geometric collision/clearance failure, joint/time/dynamic limit violation, controller tracking abort and numerical/model inconsistency. Distinguish **SUCCESS_CHECKED_AT_STATED_RESOLUTION**, **SUCCESS_WITH_SOUND_INTERVAL_BOUNDS** (only if such bounds are actually produced), **INFEASIBLE_WITH_PROOF** (only with a real certificate), **NO_SOLUTION_FOUND_WITHIN_BUDGET**, **VERIFIER_REJECTED**, **EXECUTION_ABORTED**, **NOT_APPLICABLE**, and **NOT_ASSESSED**. A time-out is not proof of infeasibility; missing assessment is not failure. Every claimed certificate must identify its mathematical domain and assumptions.
 
-Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct robot and task conditions; their published outcomes cannot populate a common-dossier comparison, whose pass/fail cells remain **NOT_EVALUATED**. The proposed G0/G1/G2 benchmark provides a common-task design for evaluating path continuity, admissible transitions, constraint satisfaction, and verification of reconstructed joint trajectories under explicitly defined robot and task conditions.
+Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct robot and task conditions; their published outcomes cannot populate a common-dossier comparison, whose pass/fail cells remain **NOT_EVALUATED**. The proposed G0/G1/G2E/G2T benchmark provides a common-task design for evaluating path continuity, admissible transitions, constraint satisfaction, and verification of reconstructed joint trajectories under explicitly defined robot and task conditions.
 
 ### 4.5. Consequence for integrated methods: an object-identity requirement
 
@@ -255,7 +255,7 @@ The directions below follow **observed limitations of the heterogeneous evidence
 
 ### 5.3. Fair comparisons of exact-path and task-toleranced systems
 
-**Observed contrast:** Weingartshofer et al. accept specified process tolerances, Malhan et al. admit semi-constrained poses, BoundPlanner supplies bounded Cartesian corridors, and Elias and Wen optimize workpiece placement. **Research requirement:** benchmark these task freedoms as **distinct variants**, preserve the feasible-set definition, and explicitly flag 6R versus 7-DOF structural mismatch. The G0/G1/G2 dossier in Section 4.4 defines a candidate experiment but has not been executed.
+**Observed contrast:** Weingartshofer et al. accept specified process tolerances, Malhan et al. admit semi-constrained poses, BoundPlanner supplies bounded Cartesian corridors, and Elias and Wen optimize workpiece placement. **Research requirement:** benchmark these task freedoms as **distinct variants**, preserve the feasible-set definition, and explicitly flag 6R versus 7-DOF structural mismatch. The G0/G1/G2E/G2T dossier in Section 4.4 defines a candidate experiment but has not been executed.
 
 ### 5.4. An applicability-aware minimum reporting contract
 
@@ -364,7 +364,7 @@ Salunkhe, D. H., Marauli, T., Müller, A., Chablat, D. and Wenger, P. (2025). Ki
 
 Tringali, A. and Cocuzza, S. (2020). Globally optimal inverse kinematics method for a redundant robot manipulator with linear and nonlinear constraints. *Robotics*, 9(3), 61. https://doi.org/10.3390/robotics9030061
 
-Trullo, H. D. and Alban, O. A. (2025). A systematic review of inverse kinematics methods for fixed-base serial manipulators: Analytical, numerical, and machine learning methods. *International Journal of Robotics and Control Systems*, 5(3), 1808–1827. https://doi.org/10.31763/ijrcs.v5i3.1820
+Trullo, H. D. and Vivas Alban, O. A. (2025). A systematic review of inverse kinematics methods for fixed-base serial manipulators: Analytical, numerical, and machine learning methods. *International Journal of Robotics and Control Systems*, 5(3), 1808–1827. https://doi.org/10.31763/ijrcs.v5i3.1820
 
 Trutman, P., Safey El Din, M., Henrion, D. and Pajdla, T. (2022). Globally optimal solution to inverse kinematics of 7DOF serial manipulator. *IEEE Robotics and Automation Letters*, 7(3), 6012–6019. https://doi.org/10.1109/LRA.2022.3163444
 
@@ -372,7 +372,7 @@ Wang, Y., Sifferman, C. and Gleicher, M. (2024). IKLink: End-effector trajectory
 
 Weingartshofer, T., Bischof, B., Meiringer, M., Hartl-Nesic, C. and Kugi, A. (2023). Optimization-based path planning framework for industrial manufacturing processes with complex continuous paths. *Robotics and Computer-Integrated Manufacturing*, 82, 102516. https://doi.org/10.1016/j.rcim.2022.102516
 
-Wenger, P. and Chablat, D. (2023). A review of cuspidal serial and parallel manipulators. *Journal of Mechanisms and Robotics*, 15(4). https://doi.org/10.1115/1.4055677
+Wenger, P. and Chablat, D. (2023). A review of cuspidal serial and parallel manipulators. *Journal of Mechanisms and Robotics*, 15(4), 040801. https://doi.org/10.1115/1.4055677
 
 Xing, H., Huang, R., Yang, Y., Chen, J., Li, W., Yao, C., Shi, C. and Ding, L. (2026). Inverse kinematics and redundancy resolution in manipulators: Methods, optimization objectives, and future trends. *Biomimetic Intelligence and Robotics*, 6(2), 100339. https://doi.org/10.1016/j.birob.2026.100339
 
@@ -386,7 +386,7 @@ Zhang, L., Du, H., Qin, Z., Zhao, Y.-J. and Yang, G. (2024). Real-time optimized
 
 Zhang, M., Mei, S., He, H., Han, X. and Li, Z. (2026). Analytical inverse kinematics solution and global arm angle optimization method for 7-DOF redundant robotic arms without offset. *ISA Transactions*, 173, 425–436. https://doi.org/10.1016/j.isatra.2026.03.028
 
-Zhang, Y. and Kikuuwe, R. (2026). Ensuring viability: A QP-based inverse kinematics for handling joint range, velocity and acceleration limits, as well as whole-body collision avoidance. *Journal of Intelligent & Robotic Systems*, 112(1). https://doi.org/10.1007/s10846-025-02335-z
+Zhang, Y. and Kikuuwe, R. (2026). Ensuring viability: A QP-based inverse kinematics for handling joint range, velocity and acceleration limits, as well as whole-body collision avoidance. *Journal of Intelligent & Robotic Systems*, 112(1), 16. https://doi.org/10.1007/s10846-025-02335-z
 
 Zhang, Y. and Wang, H. (2025). Redundancy-based motion planning with task constraints for robot manipulators. *Sensors*, 25(6), 1900. https://doi.org/10.3390/s25061900
 
