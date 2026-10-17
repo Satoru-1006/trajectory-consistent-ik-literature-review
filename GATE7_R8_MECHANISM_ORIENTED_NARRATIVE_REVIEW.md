@@ -548,7 +548,7 @@ The tags apply to an individual claim or subclaim in Tables 1A–1B, not to a pa
 | **U — Unassessed** | The claim was not assessed, or the necessary detail was not present in the source material inspected | U is not evidence of failure |
 | **N — Not applicable** | The issue does not apply to the paper's stated task or principal claim | N is not a negative result and must not be used when evidence is merely missing |
 
-These five tags replace the earlier mixture of REPORTED, CONDITIONAL, FINITE_RESOLUTION, NOT_APPLICABLE, NOT_ASSESSED and shorthand variants in the evidence matrix. They are descriptive labels, not ordinal levels, scores, or a ranking. The outcome labels in the proposed G0/G1/G2E/G2T benchmark (for example, SUCCESS_CHECKED_AT_STATED_RESOLUTION or NO_SOLUTION_FOUND_WITHIN_BUDGET) serve a different purpose: they describe possible results of a future benchmark run and must not be mixed with the T1–T3 evidence tags.
+These five tags are the only evidence-status codes used in Tables 1A–1B; earlier variants have been normalized to this legend. They are descriptive labels, not ordinal levels, scores, or a ranking. The outcome labels in the proposed G0/G1/G2E/G2T benchmark (for example, SUCCESS_CHECKED_AT_STATED_RESOLUTION or NO_SOLUTION_FOUND_WITHIN_BUDGET) serve a different purpose: they describe possible results of a future benchmark run and must not be mixed with the T1–T3 evidence tags.
 
 ### S4.2. T1–T3 coding instructions
 
