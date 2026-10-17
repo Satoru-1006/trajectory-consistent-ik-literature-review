@@ -48,85 +48,7 @@ The inclusion focus is work on fixed-base serial manipulators that informs at le
 
 The synthesis uses five descriptive axes—solution-state representation, singularity/mode response, constraint scope, guarantee or optimization object, and validation setting—and a T1/T2/T3 protocol for path selection/events, constraint enforcement, and verification. These are **proposed comparison aids, not a validated rating scale**. The six mechanism anchors were selected purposively, with additional studies included to test whether broad interpretations had obvious counterexamples. No field-wide method frequencies or cross-platform performance ranking is inferred.
 
-### 2.2. Solution representation and pathwise selection
 
-Analytical branch labels, redundancy coordinates, and sampled solution nodes describe different states. In architecture-specific analytical models, a branch or posture index can explain why joint solutions differ and where that description degenerates (Gong et al., 2019). Hauser and Emmons (2018) address global redundancy resolution through configuration-sheet and pseudoinverse constructions, shifting the problem from isolated IK queries toward an assignment over the task workspace. Such descriptions reveal connectivity that independent pose solutions may miss, but they do not alone determine obstacle-aware timed execution. Faria et al. (2018) similarly illustrate architecture-aware configuration control with joint-limit and singularity avoidance. By contrast, pointwise global optimality, as studied by Trutman et al. (2022), concerns a different object from a pathwise lift.
-
-STAMPEDE (Rakita et al., 2019) makes the decision pathwise by constructing layers of candidate IK configurations for successive Cartesian samples. Nodes represent feasible configurations; edges represent permitted inter-layer motion, including joint-motion rules. Dynamic programming selects an optimum among the paths represented in the constructed graph. Both node feasibility and edge legality matter: independent pose checks would misstate the method. The sampling strategy also limits what can be selected, because configurations absent from the graph are unavailable to the optimizer.
-
-Elias and Wen (2025) also use a sampled graph of IK solutions, with edge weights based on wrapped joint movement and the prescribed path increment. Their analysis of cuspidal manipulators makes solution connectivity central: a pose may have multiple IK solutions, while a continuous feasible lift depends on which connected solutions are selected. The graph minimizes cost within its represented candidates and edges. Their workpiece-relative placement optimization can also change the robot-base location of a specified toolpath, so it should not be conflated with selection along a completely fixed Cartesian path.
-
-Other studies add distinct path-state requirements. Safeea et al. (2021) address cyclic drift in conventional damped-least-squares IK and report a controlled cyclic scheme, including a KUKA iiwa experiment. Tringali and Cocuzza (2020) use multistart whole-trajectory optimization with constraints; multiple numerical starts, however, are not a general certificate of global optimality. Malhan et al. (2023) build layered configuration graphs for semi-constrained Cartesian paths and multiple tool-center-point options, where connectivity is defined relative to an admissible task set rather than one fixed pose curve. Dulęba and Karcz-Dulęba (2018) treat return to the initial joint configuration after a closed Cartesian circuit as a separate repeatability requirement. Yoshizawa et al. (2023) examine existence of IK solutions over an entire parameterized path in a restricted three-degree-of-freedom model; pointwise existence at every parameter does not by itself construct one continuous joint-space selection.
-
-IKLink (Wang et al., 2024), offline/online redundancy adjustment (Yin et al., 2025), and temporal multi-solution selection (Nguyen et al., 2026) offer further computational perspectives. Their results are best compared by asking **which state is preserved and what continuity claim is supported**, rather than treating every method that produces visually smooth motion as equivalent.
-
-### 2.3. Singularity and solution-mode transitions
-
-A singular configuration is a rank-deficient point of a kinematic mapping. Its significance for a path depends on robot architecture, the selected task, and the direction of passage. Continuation methods have long addressed singular events along prescribed end-effector trajectories (Kieffer, 1992), while singularity-theoretic analyses distinguish geometric structure from numerical conditioning alone (Donelan, 2007; Dulęba and Karcz-Dulęba, 2023). Three responses should be distinguished.
-
-**Singularity-consistent tracking** can deliberately address paths for which rank loss cannot simply be avoided. Miyata, Miyahara and Nenchev (2017) propose a structure-specific right-pseudoinverse construction for a degenerate singular path, with numerical demonstrations on representative redundant limbs; the complete proof was not independently assessed for this review. Milenkovic (2022) studies path reversal and orientation deviation near an offset-wrist singularity, as described in the accessible publisher abstract. This is not the same event model as a branch-index transition for a UR-like robot.
-
-**Avoidance and regularization** restrict the trajectory or numerical behavior near rank loss. These strategies are useful where a nonsingular route exists or where modest task variation is permitted (Beck et al., 2023; Milenkovic et al., 2023). Colomé and Torras (2012) experimentally compare redundant-IK methods and introduce Jacobian singular-value filtering with task-priority and selective-damping enhancements. Such methods address conditioning and motion behavior; they do not, by themselves, establish that a specified branch transition is admissible. Avoidance may also rule out a necessary exact-path crossing, so its suitability depends on whether the task path may change.
-
-**Nonsingular mode change** is possible in suitable cuspidal manipulators. Wenger and Chablat (2023), Salunkhe et al. (2025), and Elias and Wen (2025) distinguish this topology-dependent mechanism from passage through a Jacobian rank-loss point. In Elias and Wen's graph construction, restricting edges to preserve the sign of \(\det J\) implements a sampled nonsingularity policy; allowing edges across sign changes does not, by itself, establish the regularity of every interpolated configuration.
-
-**Singular crossing with branch transition** is addressed by Boschi et al. (2026) for UR-like non-cuspidal structures. The authors factor the Jacobian determinant into posture-related factors and associate their signs with branch indices. For an admissible task path passing through a singular configuration, the appropriate post-event branch may differ from the pre-event branch. Their threshold is a switching/detection mechanism, not a general certificate of joint-velocity bounds. UR5e peg-in-hole and pick-and-place cases demonstrate the intended continuous joint evolution, with applicability conditioned on kinematically admissible paths.
-
-These mechanisms solve different problems. The meaningful question is not which singularity strategy is universally best, but whether the robot topology and task specification permit avoidance, a nonsingular mode change, or an explicitly admissible singular event.
-
-### 2.4. Geometric, dynamic, and process constraints
-
-Constraint claims depend on their variables and checking domain. Joint positions can be bounded during geometric IK construction. Velocity, acceleration, jerk, torque, and torque rate require a timing law and relevant model assumptions. Collision clearance depends on the occupied geometry of all relevant links along the realized path, not just end-effector pose. Collision-avoiding continuation was already considered by Müller (2004); newer constrained formulations make different trade-offs among geometry, dynamics, and computational scope.
-
-Ferrentino et al. (2024) integrate redundancy resolution and time-related limits through dynamic programming. Their formulation encodes admissible states, joint velocity/acceleration/jerk, and torque/torque-rate bounds, then evaluates transitions on a finite discretization. Experiments on the Franka Emika Panda support the reported hardware case. The optimized object remains discretized, and the authors note that checking some higher-order constraints without augmenting state can limit an unrestricted global-optimality interpretation.
-
-Zhang and Kikuuwe (2026) address differential IK through a discrete-time viability construction. Their modeled joint and collision inequalities provide feasibility reasoning for the stated discrete model, which is stronger than merely adding soft penalties to a tracking cost. It remains distinct from continuous-time swept-volume or torque-bound verification. Weingartshofer et al. (2023) formulate manufacturing-process-toleranced joint-path optimization with hard joint-position and collision inequalities, alongside soft penalties for clearance, neighboring-joint motion, and joint-limit proximity. They reconstruct paths using cubic Hermite segments and evaluate KUKA LBR iiwa drawing on hardware and KUKA KR8 spraying in simulation. This is useful integration evidence, while continuous swept-link clearance and timed dynamic extrema would require corresponding checks.
-
-Other constrained approaches include velocity- and acceleration-level IK (Patkó and Zelei, 2021), combined obstacle/singularity/joint-limit avoidance (Li and Wang, 2024), Cartesian path-error windows in joint-space MPC (Oelerich et al., 2025; BoundMPC), task-constrained redundancy-based planning (Zhang and Wang, 2025), and bounded convex-corridor planning (Oelerich et al., 2025; BoundPlanner). They operate on different task sets and checking domains. In particular, allowing bounded task deviation changes the feasible set rather than proving feasibility of the unrelaxed exact path.
-
-**TOPP is a connected but distinct layer.** Time-optimal path parameterization assumes a geometric path has already been specified and computes a timing law subject to velocity, acceleration, torque, or higher-order constraints. TOPP-RA uses reachability analysis to compute a time-optimal parameterization under its modeled constraints (Pham and Pham, 2018); TOPP3 studies third-order constraints such as jerk and torque rate (Pham and Pham, 2017), while sampling-based TOPP variants further address jerk-bounded manipulation (Huang et al., 2023). These methods are directly relevant to the timed-execution stage of the proposed G2E benchmark, but they do not replace pathwise IK branch selection. If the geometric joint path is discontinuous or event-inadmissible, timing alone does not repair it; conversely, a valid geometric lift does not imply dynamic feasibility under a chosen timing law.
-
-Sampling-based motion planning is similarly related but broader than pathwise IK. The constrained-planning literature distinguishes sampling valid configurations from constructing constraint-satisfying continuous motion (Kingston et al., 2018). This distinction helps situate graph-based IK methods and continuation methods without treating all sampling-based planners as equivalent to a branch-selection algorithm. The present scope includes their mechanisms where they bear directly on pathwise IK, while general obstacle-avoidance planning without a relevant IK/path-lift claim remains contextual.
-
-## 3. Key methodological controversies
-
-The following are **technical disputes about assumptions and evaluation**, not claims that the field has reached a single formal controversy or consensus on every point. Published studies often solve different tasks; apparent disagreement can disappear once the task and evidence domain are made explicit.
-
-### 3.1. Is sampled feasibility sufficient to claim a valid continuous trajectory?
-
-Graph nodes, graph edges, controller steps, and reconstructed continuous segments are different mathematical objects. A path whose sampled configurations satisfy joint limits and collision checks may still have an interpolation that violates a limit between samples. Conversely, finite-resolution checking can be appropriate for a method whose claim is explicitly restricted to the discrete model. The disagreement is therefore not whether sampling is useful, but whether the evidence is being used to support a stronger claim than the method checked.
-
-STAMPEDE's legal graph edges and Ferrentino et al.'s discretized dynamic-programming transitions support claims about the represented graph or discretization. Weingartshofer et al.'s reconstructed Hermite path creates a different object to validate. A system claiming continuous execution should specify the actual interpolant or controller command and check that object at a declared resolution or with a sound bound. This is a verification requirement, not evidence that a named study necessarily experienced an inter-sample failure.
-
-### 3.2. Should singularities be avoided, crossed, or traversed through a nonsingular mode change?
-
-These strategies optimize for different task conditions. Avoidance is appropriate when a feasible nonsingular route exists or task deviation is permitted. A cuspidal robot may admit a nonsingular mode change because of its configuration-space topology. A non-cuspidal robot following a fixed, admissible path may instead require an explicit singular-event transition rule. None is universally superior: the relevant choice depends on the robot's architecture, the prescribed path, the allowed task deviation, and the continuity/regularity property required.
-
-A comparison that ranks these approaches without freezing those conditions risks comparing different feasible sets. The proper question is whether a method's preconditions match the intended application and whether its reported evidence supports the specific event claim.
-
-### 3.3. Can exact-path and toleranced-path results be compared directly?
-
-An exact Cartesian path fixes the required end-effector pose at each path parameter. A semi-constrained path may permit orientation freedom; a bounded-error corridor permits a specified deviation; workpiece-placement optimization may move the robot-relative location of a nominal process path. These are distinct problem formulations, not interchangeable implementation details.
-
-Tolerances can make a process feasible where an exact path is not, but a toleranced-path success cannot be reported as an exact-path success. Likewise, a workpiece-placement variable must be declared rather than silently treated as fixed-frame IK. Meaningful comparisons therefore require the feasible task set, initial joint state, robot model, obstacle scene, and timing assumptions to be frozen in advance.
-
-### 3.4. Does integration of IK and constraints imply end-to-end verified motion?
-
-The reviewed literature includes genuine integration: graph-based selection with geometric filtering, kineto-dynamic planning, task-constrained redundancy resolution, collision-aware optimization, and predictive control with bounded path error. It would be inaccurate to claim that IK selection and constraint handling are generally absent from integrated systems.
-
-However, the presence of modules does not automatically make their claims compositional. If one module selects a solution under model \(M_A\), another reconstructs or retimes a modified path, and a verifier checks a different object under model \(M_C\), system-level feasibility follows only if the relation between these objects and assumptions is established. This does not require literal byte identity: a justified approximation or robustness bound can connect them. What is required is a traceable link between the task, selected solution, reconstructed path, timed controller command, and claim-specific verification.
-
-### 3.5. Where does IK end and time parameterization begin?
-
-Geometric path selection and timing are conceptually separable, but their constraints interact. TOPP generally parameterizes a given path under dynamic limits; pathwise IK determines whether a compatible joint path exists in the first place. A discontinuous or inadmissible joint path cannot be made valid simply by assigning it a time law. In the other direction, geometric continuity alone does not establish that a timing law satisfies joint-velocity, acceleration, torque, jerk, or torque-rate bounds.
-
-For this reason, the review treats TOPP as an adjacent layer rather than a substitute for IK. An integrated pipeline may alternate path selection and timing or feed dynamic infeasibility back into path selection, but it should report which stage owns each constraint and which final object is checked.
-
-## 4. Research progress: cross-study synthesis
-
-### 4.1. Evidence matrix
-
-**Table 1A** operationalizes the five axes through T1/T2/T3 on detailed mechanism anchors and complementary integration/validation cases. It is a purposive mechanism sample, not a representative count of methods or a reproducible ranking of runtime or success. “FR” means finite resolution; “NA” means not applicable to the paper's stated claim; “NAS” means not assessed in the source depth reviewed; “COND” means subject to stated structural or path preconditions. Source depth records the material actually consulted.
 
 ### 2.2. Solution representation and pathwise selection
 
@@ -176,9 +98,9 @@ Additional constrained numerical approaches include higher-order IK and time-opt
 
 #
 
-## 2.5. Scope boundary: TOPP and constrained sampling-based planning
+### 2.5. Scope boundary: TOPP and constrained sampling-based planning
 
-TOPP and constrained sampling-based planning are adjacent literatures, not synonyms for pathwise IK. TOPP assumes a geometric path and computes a timing law under dynamic constraints; constrained sampling-based planning concerns how valid configurations and constraint-satisfying motions are generated. Both affect an end-to-end pipeline, but neither automatically establishes branch continuity for a prescribed Cartesian path. The relevant relationship is treated explicitly in Section 3.5 and the proposed G2E benchmark.
+TOPP and constrained sampling-based planning are adjacent literatures, not synonyms for pathwise IK. TOPP assumes a geometric path and computes a timing law under dynamic constraints; constrained sampling-based planning concerns how valid configurations and constraint-satisfying motions are generated. Both affect an end-to-end pipeline, but neither automatically establishes branch continuity for a prescribed Cartesian path. The relationship is treated explicitly in Section 3.5 and in the proposed G2E benchmark.
 
 ## 3. Key methodological controversies
 
@@ -212,17 +134,11 @@ However, the presence of modules does not automatically make their claims compos
 
 Geometric path selection and timing are conceptually separable, but their constraints interact. TOPP generally parameterizes a given path under dynamic limits; pathwise IK determines whether a compatible joint path exists in the first place. A discontinuous or inadmissible joint path cannot be made valid simply by assigning it a time law. In the other direction, geometric continuity alone does not establish that a timing law satisfies joint-velocity, acceleration, torque, jerk, or torque-rate bounds.
 
-For this reason, the review treats TOPP as an adjacent layer rather than a substitute for IK. An integrated pipeline may alternate path selection and timing or feed dynamic infeasibility back into path selection, but it should report which stage owns each constraint and which final object is checked.
-
-## 4. Research progress: cross-study synthesis
-
-### 4.1. Evidence matrix
-
-**Table 1A** operationalizes the five axes through T1/T2/T3 on detailed mechanism anchors and complementary integration/validation cases. It is a purposive mechanism sample, not a representative count of methods or a reproducible ranking of runtime or success. “FR” means finite resolution; “NA” means not applicable to the paper's stated claim; “NAS” means not assessed in the source depth reviewed; “COND” means subject to stated structural or path preconditions. Source depth records the material actually consulted.
+TOPP-RA uses reachability analysis to parameterize a specified path under modeled dynamic constraints (Pham and Pham, 2018), while TOPP3 addresses third-order constraints such as jerk and torque rate (Pham and Pham, 2017). Sampling-based TOPP has also been studied for jerk-bounded manipulation (Huang et al., 2023). These are relevant to timed execution but do not replace IK branch selection. An integrated pipeline may alternate path selection and timing or feed dynamic infeasibility back into path selection; it should state which stage owns each constraint and which final object is checked.
 
 ### 4.1. Cross-study evidence matrix
 
-**Table 1AA** compares studies for which the reviewed source provides detailed methodological or experimental material. The rows are a purposive mechanism sample, not a representative survey or performance ranking. **Table 1AB** separately records three 2026 studies available here only through publisher abstracts or previews; those records are contextual leads and are excluded from the evidential basis of Findings F1–F3. Source depth indicates what was actually inspected, not an inferred level of scientific quality.
+**Table 1A** compares studies for which the reviewed source provides detailed methodological or experimental material. The rows are a purposive mechanism sample, not a representative survey or performance ranking. **Table 1B** separately records three 2026 studies available here only through publisher abstracts or previews; these records are contextual leads and are excluded from the evidential basis of Findings F1–F3. Source depth indicates what was actually inspected, not an inferred level of scientific quality.
 | Case: robot/task | T1: selected object, event, scope | T2: enforced/optimized constraint and domain | T3: checked realization and evidence | Source depth / inference limit |
 |---|---|---|---|---|
 | **Rakita et al. (2019), STAMPEDE**, multiple manipulators | Layered sampled IK graph; admissible edges and finite-graph optimum; crossing theorem **NA** | Legal nodes/edges and modeled collisions at graph resolution; **FR** | Numerical multi-robot comparisons; continuous swept extrema **NAS** | Author full PDF; finite graph is not continuous-path certification |
@@ -239,7 +155,7 @@ For this reason, the review treats TOPP as an adjacent layer rather than a subst
 | **Caballero-Mora et al. (2026)**, UR3 full-pose IK benchmarks | Multiple metaheuristics/LM compared at poses; representative multi-pose tracking has empirical sequential stability, **not** a branch-continuity theorem | Smooth Jacobian-conditioning **penalty**, not a full swept-trajectory hard safety specification | Statistical pose-level trials, RoboDK and selected real-UR3 multi-pose tests; continuous-time safety **NAS** | Open published *Applied System Innovation* HTML + archived reading log; method-comparison validation, not certified path lift |
 | **Y. Zhang et al. (2026)**, FANUC M-20iA grinding simulation | Sampled pose-graph/A* with configuration filtering; **FR** | GJK-style clearance and joint/singularity tests in sampled modeled evaluation; continuous link sweep **NAS** | Author-reported simulation; clearance/path-cost trade-off below | Published *Machines* HTML methods/results inspected |
 
-**Table 1AB. Abstract/preview-only candidates (contextual evidence; not used to support F1–F3)**
+**Table 1B. Abstract/preview-only candidates (contextual evidence; not used to support F1–F3)**
 
 | Case: robot/task | Reported mechanism in accessible summary | What remains unassessed | Source depth |
 |---|---|---|---|
@@ -255,7 +171,7 @@ For this reason, the review treats TOPP as an adjacent layer rather than a subst
 
 **Finding F1 — continuation/event/repeatability form distinct properties.** STAMPEDE's edge-connected finite candidate graph (Rakita et al., 2019), the conditional singular transition of Boschi et al. (2026), and cuspidal nonsingular graph transitions of Elias and Wen (2025) answer different path-lifting questions. Safeea et al. (2021) and Dulęba and Karcz-Dulęba (2018) additionally study cyclic return, which does not follow from open-path continuity. Thus a conventional solver-family label or a generic "smooth" score cannot order these results along one axis.
 
-**Finding F2 — integrated methods exist, but their feasible sets are not interchangeable.** Ferrentino et al. combine redundancy planning with discretized kineto-dynamic constraints; Weingartshofer et al. combine process-toleranced manufacturing paths with joint and collision constraints; STAMPEDE and Y. Zhang et al. use graph transitions with geometric filtering; BoundPlanner combines bounded-error corridors with predictive collision handling; Malik et al. include collision and effort objectives in a trajectory-generation study; and Peidro and Haug study manifold-based obstacle-aware continuation. These examples refute a blanket claim that IK selection and constraint handling are never integrated. They do not establish a common ranking: exact Cartesian poses, semi-constrained tool frames, bounded-error corridors, and workpiece-placement optimization define different feasible sets. The three abstract-only studies in Table 1AB are not counted as decisive evidence for this finding.
+**Finding F2 — integrated methods exist, but their feasible sets are not interchangeable.** Ferrentino et al. combine redundancy planning with discretized kineto-dynamic constraints; Weingartshofer et al. combine process-toleranced manufacturing paths with joint and collision constraints; STAMPEDE and Y. Zhang et al. use graph transitions with geometric filtering; BoundPlanner combines bounded-error corridors with predictive collision handling; Malik et al. include collision and effort objectives in trajectory generation; and Peidro and Haug study manifold-based obstacle-aware continuation. These examples refute a blanket claim that IK selection and constraint handling are never integrated. They do not establish a common ranking: exact Cartesian poses, semi-constrained tool frames, bounded-error corridors, and workpiece-placement optimization define different feasible sets. The three abstract-only studies in Table 1B are not counted as decisive evidence for this finding.
 
 **Finding F3 — T2 enforcement and T3 evidence are independently graded by domain.** A legal graph edge, hard optimizer inequality, approximate discrete-time viability condition, and experimental trajectory-tracking result establish different propositions (Rakita et al., 2019; Weingartshofer et al., 2023; Zhang and Kikuuwe, 2026; Ferrentino et al., 2024). The collision-distance/path-cost example in Y. Zhang et al. (2026) further shows that optimizing one geometric criterion can worsen another path-cost metric. These results motivate checking the **same reconstructed and timed motion**, but they do **not** establish that the cited papers actually experienced inter-sample failure.
 
@@ -265,7 +181,7 @@ For this reason, the review treats TOPP as an adjacent layer rather than a subst
 
 ## 5. Future outlook
 
-The next step is not to add another universal solver taxonomy, but to test the interfaces that the evidence matrix leaves unresolved. Three priorities follow: formalize event semantics and cyclic conditions; verify the reconstructed and timed motion rather than only intermediate planning objects; and compare methods under explicitly frozen exact or toleranced task specifications. The benchmark below is a proposal for future work, not an experiment reported by this review.
+The next step is not to add another universal solver taxonomy, but to test the interfaces that the evidence matrix leaves unresolved. Priorities are to formalize event semantics and cyclic conditions; verify the reconstructed and timed motion rather than only intermediate planning objects; and compare methods under explicitly frozen exact or toleranced task specifications. The benchmark below is a proposal for future work, not an experiment reported by this review.
 
 ### 5.1. A proposed common-task benchmark: G0/G1/G2E/G2T
 
