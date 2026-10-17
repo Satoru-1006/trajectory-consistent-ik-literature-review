@@ -161,7 +161,7 @@ TOPP-RA uses reachability analysis to parameterize a specified path under modele
 
 | Case: robot/task | T1: reported mechanism | T2: reported constraints | T3: validation stated | Source depth / unassessed claims |
 |---|---|---|---|---|
-| **Zeng et al. (2026)**, SRS-like 7-DOF humanoid arm | Arm-angle interval continuity within a posture branch; near-singularity traversal reported; **COND** | Velocity/acceleration limit enforcement via look-ahead bisection retiming/finite horizon | Humanoid-platform experiments **reported**; full theorem, exact interval guarantee and other-robot transfer **NAS** | **IEEE abstract/publisher metadata only**; positive T1+T2 evidence but no fresh full-text proof audit |
+| **Zeng et al. (2026)**, SRS-like 7-DOF humanoid arm | Arm-angle interval continuity within a posture branch; near-singularity traversal reported; **COND** | Velocity/acceleration limit enforcement via look-ahead bisection retiming/finite horizon | Humanoid-platform experiments **reported**; full theorem, exact interval guarantee and other-robot transfer **NAS** | **IEEE abstract/publisher metadata only**; reported T1/T2 claims not independently verified |
 | **M. Zhang et al. (2026)**, offset-free 7-DOF | Arm-angle analytic selection, boundary/singularity handling reported | EWMA smoothing and kinematic boundary selection; full hard-constraint equations **NAS** | Simulations in publisher description; interval certificate **NAS** | **Publisher abstract/preview only** |
 | **Milenkovic et al. (2026)**, serial robot near singularity | Alternative IK solutions from singularity encircling reported; topology/event conditions **NAS** | Collision/dynamic claim **NA** to inspected summary | Published theorem/evaluation detail **NAS** | **Publisher abstract/metadata only**; older SSRN not presumed journal-identical |
 
@@ -285,9 +285,9 @@ Hauser, K. and Emmons, S. (2018). Global redundancy resolution via continuous ps
 
 Huang, H., Liu, H., Xia, C., Mei, H., Gao, X. and Liang, B. (2023). Sampling-based time-optimal path parameterization with jerk constraints for robotic manipulation. *Robotics and Autonomous Systems*, 170, 104530. https://doi.org/10.1016/j.robot.2023.104530
 
-Kingston, Z., Moll, M. and Kavraki, L. E. (2018). Sampling-based methods for motion planning with constraints. *Annual Review of Control, Robotics, and Autonomous Systems*, 1, 159–185. https://doi.org/10.1146/annurev-control-060117-105226
-
 Kelemen, M., Virgala, I., Lipták, T., Miková, Ľ., Filakovský, F. and Bulej, V. (2018). A novel approach for an inverse kinematics solution of a redundant manipulator. *Applied Sciences*, 8(11), 2229. https://doi.org/10.3390/app8112229
+
+Kingston, Z., Moll, M. and Kavraki, L. E. (2018). Sampling-based methods for motion planning with constraints. *Annual Review of Control, Robotics, and Autonomous Systems*, 1, 159–185. https://doi.org/10.1146/annurev-control-060117-105226
 
 Kieffer, J. (1992). Manipulator inverse kinematics for untimed end-effector trajectories with ordinary singularities. *The International Journal of Robotics Research*, 11(3), 225–237. https://doi.org/10.1177/027836499201100305
 
