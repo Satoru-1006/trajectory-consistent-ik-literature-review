@@ -46,7 +46,7 @@ The inclusion focus is work on fixed-base serial manipulators that informs at le
 | Wenger and Chablat (2023) | Cuspidal topology and nonsingular mode changes | When can a mode change occur without a Jacobian-singular crossing? |
 | Rudrasamudram and Malaichamee (2026), preprint | Formal and empirical singularity-robustness terminology | What does each evidence type establish for the specified task? |
 
-The synthesis uses five descriptive axes—solution-state representation, singularity/mode response, constraint scope, guarantee or optimization object, and validation setting—and a T1/T2/T3 protocol for path selection/events, constraint enforcement, and verification. These are **proposed comparison aids, not a validated rating scale**. The six mechanism anchors were selected purposively, with additional studies included to test whether broad interpretations had obvious counterexamples. No field-wide method frequencies or cross-platform performance ranking is inferred.
+The synthesis uses five descriptive axes—solution-state representation, singularity/mode response, constraint scope, guarantee or optimization object, and validation setting. T1 records pathwise selection and event rules; T2 identifies hard constraints, soft objectives, and their checking domain; T3 records verification of reconstructed geometry and timed execution. These are **proposed comparison aids, not a validated rating scale**; the codes are categorical descriptions, not numerical grades. The six mechanism anchors were selected purposively, with additional studies included to test whether broad interpretations had obvious counterexamples. No field-wide method frequencies or cross-platform performance ranking is inferred.
 
 
 
@@ -100,7 +100,7 @@ Additional constrained numerical approaches include higher-order IK and time-opt
 
 ### 2.5. Scope boundary: TOPP and constrained sampling-based planning
 
-TOPP and constrained sampling-based planning are adjacent literatures, not synonyms for pathwise IK. TOPP assumes a geometric path and computes a timing law under dynamic constraints; constrained sampling-based planning concerns how valid configurations and constraint-satisfying motions are generated. Both affect an end-to-end pipeline, but neither automatically establishes branch continuity for a prescribed Cartesian path. The relationship is treated explicitly in Section 3.5 and in the proposed G2E benchmark.
+TOPP and constrained sampling-based planning are adjacent literatures, not synonyms for pathwise IK. TOPP assumes a geometric path and computes a timing law under dynamic constraints; constrained sampling-based planning concerns how valid configurations and constraint-satisfying motions are generated (Kingston et al., 2018). Both affect an end-to-end pipeline, but neither automatically establishes branch continuity for a prescribed Cartesian path. The relationship is treated explicitly in Section 3.5 and in the proposed G2E benchmark.
 
 ## 3. Key methodological controversies
 
@@ -136,6 +136,8 @@ Geometric path selection and timing are conceptually separable, but their constr
 
 TOPP-RA uses reachability analysis to parameterize a specified path under modeled dynamic constraints (Pham and Pham, 2018), while TOPP3 addresses third-order constraints such as jerk and torque rate (Pham and Pham, 2017). Sampling-based TOPP has also been studied for jerk-bounded manipulation (Huang et al., 2023). These are relevant to timed execution but do not replace IK branch selection. An integrated pipeline may alternate path selection and timing or feed dynamic infeasibility back into path selection; it should state which stage owns each constraint and which final object is checked.
 
+## 4. Research progress: cross-study synthesis
+
 ### 4.1. Cross-study evidence matrix
 
 **Table 1A** compares studies for which the reviewed source provides detailed methodological or experimental material. The rows are a purposive mechanism sample, not a representative survey or performance ranking. **Table 1B** separately records three 2026 studies available here only through publisher abstracts or previews; these records are contextual leads and are excluded from the evidential basis of Findings F1–F3. Source depth indicates what was actually inspected, not an inferred level of scientific quality.
@@ -157,8 +159,8 @@ TOPP-RA uses reachability analysis to parameterize a specified path under modele
 
 **Table 1B. Abstract/preview-only candidates (contextual evidence; not used to support F1–F3)**
 
-| Case: robot/task | Reported mechanism in accessible summary | What remains unassessed | Source depth |
-|---|---|---|---|
+| Case: robot/task | T1: reported mechanism | T2: reported constraints | T3: validation stated | Source depth / unassessed claims |
+|---|---|---|---|---|
 | **Zeng et al. (2026)**, SRS-like 7-DOF humanoid arm | Arm-angle interval continuity within a posture branch; near-singularity traversal reported; **COND** | Velocity/acceleration limit enforcement via look-ahead bisection retiming/finite horizon | Humanoid-platform experiments **reported**; full theorem, exact interval guarantee and other-robot transfer **NAS** | **IEEE abstract/publisher metadata only**; positive T1+T2 evidence but no fresh full-text proof audit |
 | **M. Zhang et al. (2026)**, offset-free 7-DOF | Arm-angle analytic selection, boundary/singularity handling reported | EWMA smoothing and kinematic boundary selection; full hard-constraint equations **NAS** | Simulations in publisher description; interval certificate **NAS** | **Publisher abstract/preview only** |
 | **Milenkovic et al. (2026)**, serial robot near singularity | Alternative IK solutions from singularity encircling reported; topology/event conditions **NAS** | Collision/dynamic claim **NA** to inspected summary | Published theorem/evaluation detail **NAS** | **Publisher abstract/metadata only**; older SSRN not presumed journal-identical |
@@ -167,7 +169,9 @@ TOPP-RA uses reachability analysis to parameterize a specified path under modele
 
 **Tables 1A–1B interpretation.** "NAS" denotes an unresolved evaluation and never a failed study. A reported hardware experiment does not imply a theorem. Similarly, a graph or controller paper's failure to examine a singular crossing is not a negative T1b result unless it claims that event.
 
-**Three cross-study findings (bounded to the evaluated cases).**
+### 4.2. Three bounded findings from the evaluated cases
+
+The following findings summarize the selected mechanisms; they are not estimates of prevalence across the full IK literature.
 
 **Finding F1 — continuation/event/repeatability form distinct properties.** STAMPEDE's edge-connected finite candidate graph (Rakita et al., 2019), the conditional singular transition of Boschi et al. (2026), and cuspidal nonsingular graph transitions of Elias and Wen (2025) answer different path-lifting questions. Safeea et al. (2021) and Dulęba and Karcz-Dulęba (2018) additionally study cyclic return, which does not follow from open-path continuity. Thus a conventional solver-family label or a generic "smooth" score cannot order these results along one axis.
 
@@ -212,15 +216,15 @@ Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct 
 
 **Observed contrast:** sampled graph connectivity (Rakita et al., 2019), architecture-conditioned UR-like singular switches (Boschi et al., 2026), and cuspidal nonsingular mode changes (Elias and Wen, 2025) cannot be collapsed into one kind of branch continuity; Safeea et al. (2021) additionally study repeatable closed-loop IK. **Research requirement:** log incoming/outgoing solution state, admissibility of the event, regularity and whether a closed Cartesian circuit returns to the initial joint state. Unknown switching feasibility must produce an explicit rejection rather than an invented uninterrupted path.
 
-#### 5.3. Reconstructed-trajectory verification and checking domains
+### 5.3. Reconstructed-trajectory verification and checking domains
 
 **Observed contrast:** discrete QP viability (Zhang and Kikuuwe, 2026), sampled graph collision tests (Rakita et al., 2019; Y. Zhang et al., 2026) and nonlinear hard constraints plus Hermite reconstruction (Weingartshofer et al., 2023) refer to different intermediate mathematical objects. **Research requirement:** report the real interpolant, controller step, link pairs, model, checking resolution/validated interval bounds, and time-domain extrema. Inter-sample checks should be evaluated as additional system-level evidence rather than demanded from a geometric paper whose goal is not continuous-time certification.
 
-#### 5.4. Fair comparisons of exact-path and task-toleranced systems
+### 5.4. Fair comparisons of exact-path and task-toleranced systems
 
 **Observed contrast:** Weingartshofer et al. accept specified process tolerances, Malhan et al. admit semi-constrained poses, BoundPlanner supplies bounded Cartesian corridors, and Elias and Wen optimize workpiece placement. **Research requirement:** benchmark these task freedoms as **distinct variants**, preserve the feasible-set definition, and explicitly flag 6R versus 7-DOF structural mismatch. The G0/G1/G2E/G2T dossier in Section 4.4 defines a candidate experiment but has not been executed.
 
-#### 5.5. An applicability-aware minimum reporting contract
+### 5.5. An applicability-aware minimum reporting contract
 
 | Capability actually claimed | Fields necessary to interpret or reproduce that claim |
 |---|---|
@@ -233,7 +237,7 @@ Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct 
 
 These are **reporting recommendations illustrated by the reviewed cases**, not a validated standard or an experimentally verified T1/T2/T3 scoring rubric. A meaningful future test would preregister inter-rater coding rules and independently assess agreement on a larger, prospectively sampled literature set.
 
-#### 5.6. Targeted verification priorities
+### 5.6. Targeted verification priorities
 
 Further source checks should prioritize the complete mathematical assumptions and experiment settings of Zeng et al. (2026), M. Zhang et al. (2026), and Milenkovic et al. (2026), together with archived papers flagged by the 62-record triage for potential impact on cross-study interpretation. Broader database-native retrieval and citation chaining could expand the comparison, while shared-robot tests would evaluate whether the proposed T1/T2/T3 reporting criteria discriminate reliably among methods. These are specific evidence-development priorities arising from the current synthesis.
 
@@ -279,6 +283,10 @@ Gong, M., Li, X. and Zhang, L. (2019). Analytical inverse kinematics and self-mo
 
 Hauser, K. and Emmons, S. (2018). Global redundancy resolution via continuous pseudoinversion of the forward kinematic map. *IEEE Transactions on Automation Science and Engineering*, 15(3), 932–944. https://doi.org/10.1109/TASE.2018.2805878
 
+Huang, H., Liu, H., Xia, C., Mei, H., Gao, X. and Liang, B. (2023). Sampling-based time-optimal path parameterization with jerk constraints for robotic manipulation. *Robotics and Autonomous Systems*, 170, 104530. https://doi.org/10.1016/j.robot.2023.104530
+
+Kingston, Z., Moll, M. and Kavraki, L. E. (2018). Sampling-based methods for motion planning with constraints. *Annual Review of Control, Robotics, and Autonomous Systems*, 1, 159–185. https://doi.org/10.1146/annurev-control-060117-105226
+
 Kelemen, M., Virgala, I., Lipták, T., Miková, Ľ., Filakovský, F. and Bulej, V. (2018). A novel approach for an inverse kinematics solution of a redundant manipulator. *Applied Sciences*, 8(11), 2229. https://doi.org/10.3390/app8112229
 
 Kieffer, J. (1992). Manipulator inverse kinematics for untimed end-effector trajectories with ordinary singularities. *The International Journal of Robotics Research*, 11(3), 225–237. https://doi.org/10.1177/027836499201100305
@@ -310,6 +318,12 @@ Oelerich, T., Hartl-Nesic, C., Beck, F. and Kugi, A. (2025). BoundPlanner: A con
 Patkó, D. and Zelei, A. (2021). Velocity and acceleration level inverse kinematic calculation alternatives for redundant manipulators. *Meccanica*, 56, 887–900. https://doi.org/10.1007/s11012-020-01305-z
 
 Peidro, A. and Haug, E. J. (2024). Obstacle avoidance in operational configuration space kinematic control of redundant serial manipulators. *Machines*, 12(1), 10. https://doi.org/10.3390/machines12010010
+
+Pham, H. and Pham, Q.-C. (2014). A general, fast, and robust implementation of the time-optimal path parameterization algorithm. *IEEE Transactions on Robotics*, 30(6), 1533–1540. https://doi.org/10.1109/TRO.2014.2351113
+
+Pham, H. and Pham, Q.-C. (2017). On the structure of the time-optimal path parameterization problem with third-order constraints. In *2017 IEEE International Conference on Robotics and Automation (ICRA)*, 679–686. https://doi.org/10.1109/ICRA.2017.7989084
+
+Pham, H. and Pham, Q.-C. (2018). A new approach to time-optimal path parameterization based on reachability analysis. *IEEE Transactions on Robotics*, 34(3), 645–659. https://doi.org/10.1109/TRO.2018.2819195
 
 Rakita, D., Mutlu, B. and Gleicher, M. (2019). STAMPEDE: A discrete-optimization method for solving pathwise-inverse kinematics. In *2019 International Conference on Robotics and Automation (ICRA)*, 3507–3513. https://doi.org/10.1109/ICRA.2019.8793617
 
@@ -352,16 +366,6 @@ Zhang, Y. and Kikuuwe, R. (2026). Ensuring viability: A QP-based inverse kinemat
 Zhang, Y. and Wang, H. (2025). Redundancy-based motion planning with task constraints for robot manipulators. *Sensors*, 25(6), 1900. https://doi.org/10.3390/s25061900
 
 Zhang, Y., Xiao, Q., Wan, L. and Jiang, B. (2026). Collision-free robot pose optimization method based on improved algorithms. *Machines*, 14(1), 65. https://doi.org/10.3390/machines14010065
-Pham, H. and Pham, Q.-C. (2014). A general, fast, and robust implementation of the time-optimal path parameterization algorithm. *IEEE Transactions on Robotics*, 30(6), 1533–1540. https://doi.org/10.1109/TRO.2014.2351113
-
-Pham, H. and Pham, Q.-C. (2017). On the structure of the time-optimal path parameterization problem with third-order constraints. In *2017 IEEE International Conference on Robotics and Automation (ICRA)*, 679–686. https://doi.org/10.1109/ICRA.2017.7989084
-
-Pham, H. and Pham, Q.-C. (2018). A new approach to time-optimal path parameterization based on reachability analysis. *IEEE Transactions on Robotics*, 34(3), 645–659. https://doi.org/10.1109/TRO.2018.2819195
-
-Kingston, Z., Moll, M. and Kavraki, L. E. (2018). Sampling-based methods for motion planning with constraints. *Annual Review of Control, Robotics, and Autonomous Systems*, 1, 159–185. https://doi.org/10.1146/annurev-control-060117-105226
-
-Huang, H., Liu, H., Xia, C., Mei, H., Gao, X. and Liang, B. (2023). Sampling-based time-optimal path parameterization with jerk constraints for robotic manipulation. *Robotics and Autonomous Systems*, 170, 104530. https://doi.org/10.1016/j.robot.2023.104530
-
 
 
 ## Supplementary Note S1. Search provenance, screening units, and citation-to-corpus reconciliation
