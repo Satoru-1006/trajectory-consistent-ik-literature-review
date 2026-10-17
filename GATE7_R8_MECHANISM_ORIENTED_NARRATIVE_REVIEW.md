@@ -233,7 +233,7 @@ G2E is deliberately distinguished from G2T: the latter changes the admissible ta
 
 **Stop and outcome semantics.** Prespecify termination for solver budget/time-out, IK infeasibility at exact or toleranced poses, an inadmissible branch/singularity event, geometric collision/clearance failure, joint/time/dynamic-limit violation, controller-tracking abort, and numerical/model inconsistency. Report outcomes in plain language: success checked at the stated resolution; success with sound interval bounds (only when such bounds are produced); infeasibility with a valid proof; no solution found within budget; verifier rejection; execution abort; not applicable; or not assessed. A time-out is not proof of infeasibility, and an unassessed requirement is not a failure. Every claimed certificate must identify its mathematical domain and assumptions.
 
-Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct robot and task conditions; their published outcomes cannot populate a common-dossier comparison, whose pass/fail cells remain **NOT_EVALUATED**. The proposed G0/G1/G2E/G2T benchmark provides a common-task design for evaluating path continuity, admissible transitions, constraint satisfaction, and verification of reconstructed joint trajectories under explicitly defined robot and task conditions.
+Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct robot and task conditions; their published outcomes cannot populate a common-dossier comparison. The proposed G0/G1/G2E/G2T benchmark provides a common-task design for evaluating path continuity, admissible transitions, constraint satisfaction, and verification of reconstructed joint trajectories under explicitly defined robot and task conditions; its pass/fail outcomes remain unfilled because the benchmark has not been run.
 
 #
 
@@ -258,7 +258,7 @@ Existing UR5e, Panda, iiwa, KR8, FANUC, and 7-DOF platform studies use distinct 
 | Collision-constrained motion | Hard inequality versus penalty, self/environment model and excluded pairs, sample/edge/interpolant domain, margins and resolution |
 | Timed dynamic feasibility | Controller command and \(s(t)\), payload/model, derivative and torque limits, checked extrema and interval/discrete assumptions |
 | Hardware evidence | Robot, calibration, task and controller settings, execution/abort record, measured versus planned motion, tracking error and transfer restrictions |
-| Evidence provenance | Full published text, accepted manuscript, preprint, archived reading record or abstract; theorem/simulation/hardware; **NOT_APPLICABLE** versus **NOT_ASSESSED** |
+| Evidence provenance | Identify the source type and whether evidence is theoretical, simulated, or experimental; state plainly when a requirement is outside scope or has not been assessed |
 
 These are **reporting recommendations illustrated by the reviewed cases**, not a validated standard or an experimentally verified T1/T2/T3 scoring rubric. A meaningful future test would preregister inter-rater coding rules and independently assess agreement on a larger, prospectively sampled literature set.
 
@@ -470,7 +470,7 @@ The tags apply to an individual claim or subclaim in Tables 1A–1B, not to a pa
 | **U — Unassessed** | The claim was not assessed, or the necessary detail was not present in the source material inspected | U is not evidence of failure |
 | **N — Not applicable** | The issue does not apply to the paper's stated task or principal claim | N is not a negative result and must not be used when evidence is merely missing |
 
-These five tags are the only evidence-status codes used in Tables 1A–1B; earlier variants have been normalized to this legend. They are descriptive labels, not ordinal levels, scores, or a ranking. The outcome labels in the proposed G0/G1/G2E/G2T benchmark (for example, SUCCESS_CHECKED_AT_STATED_RESOLUTION or NO_SOLUTION_FOUND_WITHIN_BUDGET) serve a different purpose: they describe possible results of a future benchmark run and must not be mixed with the T1–T3 evidence tags.
+These five tags are the only evidence-status codes used in Tables 1A–1B; earlier variants have been normalized to this legend. They are descriptive labels, not ordinal levels, scores, or a ranking. The benchmark's outcome descriptions serve a different purpose: they describe possible results of a future run and must not be mixed with the T1–T3 evidence tags.
 
 ### S4.2. T1–T3 coding instructions
 
