@@ -2,13 +2,14 @@
 
 Literature screening corpus for **solution-branch tracking, singularity transitions, and joint constraints**. Search window: 2016-01-01 through 2026-09-29.
 
-## Latest review manuscript — Gate 7-R7 (2026-10-11)
+## Latest review manuscript — Gate 7-R8 (2026-10-17)
 
-- [Gate 7-R7 editorially refined complete English manuscript](GATE7_R7_EDITORIALLY_REFINED_MANUSCRIPT.md) — current scientific-review draft. Implements M01 (Trullo and Alban; Colomé and Torras), M02 (unregistered G0/G1/G2 benchmark terminology), and removes redundant defensive language while retaining F1–F3, method applicability, five axes, T1/T2/T3 comparisons and source-depth classifications.
-- [Google Drive R7 document](https://docs.google.com/document/d/1zvy8OECRcouQtwBPxWydjJfXdtOPRGGjz9m8KJe6vWQ/edit) — text verified to match GitHub R7 after normalization of Google Docs spacing.
+- [Gate 7-R8 structurally revised complete English manuscript](GATE7_R8_STRUCTURE_AND_SYNTHESIS_REVISED_MANUSCRIPT.md) — restructured into **6 numbered sections and 13 body subsections**, with **4 supplementary subsections** (17 total); abstract **236 words**; **6 keywords**; Table 1A reduced to four columns; Table 1B removed; full G0/G1/G2E/G2T protocol moved to Supplementary S5. F1–F3 remain as bounded cross-study findings in Section 4.2. The benchmark remains **proposed, not executed**. **READY_FOR_SUBMISSION: NO** pending final source/technical checks and journal-specific preparation.
+- [Google Drive R8 document](https://docs.google.com/document/d/1LglC-mBr044GNUryfsoQhEBIaLn8UPrl4ksICMn_WGw/edit) — content verified against GitHub R8 after normalizing Google Docs spacing.
+- [Gate 7-R7 preserved baseline](GATE7_R7_EDITORIALLY_REFINED_MANUSCRIPT.md) and [Google Drive R7 document](https://docs.google.com/document/d/1zvy8OECRcouQtwBPxWydjJfXdtOPRGGjz9m8KJe6vWQ/edit) — retained for comparison; not overwritten.
 - [Gate 7-R6 preserved baseline](GATE7_R6_APPLICABILITY_AWARE_SYNTHESIS_MANUSCRIPT.md) and [Google Drive R6 baseline](https://docs.google.com/document/d/18GDD2eS8FoEw9tKwX3qp3eJU_wVf2nZbKb_z4aUePik/edit) — superseded for editing, retained for comparison.
 - [62 historical READ_COMPLETE, R5-uncited rapid impact triage](GATE7_R6_62_UNCITED_RECORDS_RAPID_IMPACT_TRIAGE.csv) — based on archived reading notes and targeted public checks, not a new full-text audit of all 62.
-- Evidence scope: **50 DOI-bearing references**; **30** of 87 historically READ_COMPLETE records cited and **57** uncited after R6; Zeng, M. Zhang and Milenkovic 2026 full mathematics remain **NOT_ASSESSED** at publisher-preview depth. The common-task benchmark is **proposed, not executed**. **READY_FOR_SUBMISSION: NO** pending final source/technical checks and journal-specific preparation.
+- Evidence scope remains **50 DOI-bearing references**. Zeng, M. Zhang and Milenkovic 2026 full mathematical assumptions remain **NOT_ASSESSED** at publisher-preview depth. The manuscript does not claim a field-wide prevalence estimate or universal method ranking.
 
 ## Screening result
 
