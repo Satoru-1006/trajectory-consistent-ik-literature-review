@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "exports" / "records_with_abstracts.csv"
 OUT = ROOT / "SCREENING.csv"
 
-# The lists encode the frozen title/abstract rubric in SEARCH_PROTOCOL.md.
+# The lists encode the frozen title/abstract rubric in SCREENING_PROTOCOL.md.
 # CORE is limited to path-/trajectory-level behavior or a direct solution to
 # branch, singularity-transition, or along-path joint-constraint handling.
 CORE = [

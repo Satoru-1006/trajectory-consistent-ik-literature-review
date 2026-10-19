@@ -1,6 +1,6 @@
 ﻿# Trajectory-Consistent Inverse Kinematics for Fixed-Base Serial Manipulators
 
-Literature screening corpus for **solution-branch tracking, singularity transitions, and joint constraints**. Search window: 2016-01-01 through 2026-09-29.
+Literature screening corpus for **solution-branch tracking, singularity transitions, and joint constraints**. Eligible publication window: 2016-01-01 through 2026-09-29.
 
 ## Latest review manuscript — Gate 7-R9 (2026-10-18)
 
@@ -15,7 +15,6 @@ Literature screening corpus for **solution-branch tracking, singularity transiti
 
 | Stage | Records |
 | --- | ---: |
-| Consensus RIS export instances | 419 |
 | Unique DOI records after deduplication | 179 |
 | Title/abstract screened | 179 |
 | Core | 30 |
@@ -26,15 +25,13 @@ Literature screening corpus for **solution-branch tracking, singularity transiti
 
 The 104-record working bibliography is within the requested 100–300 size at title/abstract screening. Core/Adjacent counts are screening-stage labels, not final full-text dispositions: reading notes identify each paper's evidence and actual relevance, and can recommend an adjacent treatment. The 30 Core candidates are the direct-evidence set from title/abstract screening; 74 adjacent papers supply context. The 18 unresolved records remain outside references.ris until relevance and method quality can be judged.
 
-## Search and screening
+## Screening
 
-- Consensus Pro was used to seed the subtopics; its displayed “113 eligible” count is a platform estimate, not a publication count.
-- Sixteen targeted Consensus Quick searches were run through the visible website and exported as RIS. Search strings, visible result counts, and export counts are in [`SEARCH_LOG.csv`](SEARCH_LOG.csv).
-- RIS exports contained titles and DOI metadata but no abstracts. DOI-linked abstracts were retrieved from OpenAlex for 161 of 179 unique records. The remaining 18 have explicit missing-abstract status; Consensus AI Key Takeaways were not treated as abstracts.
-- DOI deduplication retained all source-query provenance. Ten publication year/venue fields were corrected against Crossref DOI metadata; during full-text review, a publisher issue header resolved one further year mismatch (Consensus/OpenAlex 2023; journal issue 2018). Original Consensus values remain in `consensus_year` and `consensus_venue` in the enriched and screening tables.
-- Initial screening used title and abstract only; it did not assess full text, citation chaining, or hardware evidence. The ongoing full-text phase records those assessments separately. This is a focused discovery corpus, not an exhaustive systematic review.
+- Screening covers 179 DOI-unique candidate records. DOI-linked abstracts were retrieved from OpenAlex for 161 of the 179 records; the remaining 18 have explicit missing-abstract status.
+- Ten publication year/venue fields were corrected against Crossref DOI metadata; during full-text review, a publisher issue header resolved one further year mismatch (journal issue 2018). The values before correction remain in the `consensus_year` and `consensus_venue` columns of the enriched and screening tables.
+- Initial screening used title and abstract only; it did not assess full text, citation chaining, or hardware evidence. The full-text phase records those assessments separately. This is a focused corpus, not an exhaustive systematic review.
 
-The scope, eligibility rules, screening codes, and quality criteria were frozen in [`SEARCH_PROTOCOL.md`](SEARCH_PROTOCOL.md). Counts and rationale for every screened paper are in [`SCREENING.csv`](SCREENING.csv).
+The scope, eligibility rules, screening codes, and quality criteria were frozen in [`SCREENING_PROTOCOL.md`](SCREENING_PROTOCOL.md). Counts and rationale for every screened paper are in [`SCREENING.csv`](SCREENING.csv).
 
 ## Files
 

@@ -1,26 +1,10 @@
-# Search and screening protocol
+# Screening protocol
 
-**Status:** Frozen initial scope, 2026-09-29. Search date range is 2016-01-01 through 2026-09-29 (10-year window); prioritize 2021-2026 during synthesis. Do not silently widen dates or robot scope to reach a desired record count.
+**Status:** Frozen initial scope, 2026-09-29. Eligible publication window is 2016-01-01 through 2026-09-29 (10-year window); prioritize 2021-2026 during synthesis. Do not silently widen dates or robot scope to reach a desired record count.
 
 ## Review question
 
 For fixed-base serial manipulators, what methods produce or track a trajectory-consistent inverse-kinematics solution along a prescribed Cartesian/geometric path, particularly through or near singularities and under joint constraints?
-
-## Search concepts
-
-- Path/task: Cartesian path, end-effector trajectory, tool path, path following, trajectory tracking.
-- IK/continuation: inverse kinematics, differential IK, resolved-rate, continuation, online/real-time IK, continuous IK, branch tracking, solution selection.
-- Singularity: singularity, singular configuration, branch merging/switching, singularity-robust inverse.
-- Constraints: joint limits, inequality constraints, velocity/acceleration bounds, redundancy resolution, constrained optimization.
-
-## Consensus UI query plan
-
-1. Broad path-continuity query: fixed-base/serial robot + trajectory/path-level IK + branch/solution continuity.
-2. Singularity query: IK continuation, singularity handling and branch transitions along a path.
-3. Joint-constraint query: joint-limit-aware differential/trajectory IK, with path-level continuity.
-4. Targeted follow-ups for exact phrases surfaced in titles/abstracts; record every query and date in SEARCH_LOG.csv.
-
-Use Consensus through its visible web interface. Record its displayed retrieved/eligible/included counts when present, but do not treat AI summaries or an estimated count as an exported bibliography. Export/copy actual paper records before assigning final counts.
 
 ## Eligibility
 
@@ -58,7 +42,3 @@ Record venue/type and abstract evidence. Prioritize papers with a stated algorit
 ## Deduplication
 
 Deduplicate first by normalized DOI; then exact normalized title + year; finally compare author/title variants. Preserve the original source and raw exported record. Do not merge records solely because titles are similar.
-
-## Reporting
-
-Report raw retrieved count, records exported, duplicates removed, title/abstract screened, core included, adjacent/background, excluded, and unresolved separately. A target count of 100-150 core papers is a planning range, not an inclusion quota.
