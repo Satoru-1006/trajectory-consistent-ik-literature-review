@@ -28,6 +28,7 @@ The 104-record working bibliography is within the requested 100–300 size at ti
 
 ## Search and screening
 
+- Some literature was identified with assistance from GPT. Links in [`CONSENSUS_ABSTRACT_REVIEW.md`](CONSENSUS_ABSTRACT_REVIEW.md) contain a `utm_source=chatgpt` referral parameter; this parameter alone does not establish the extent of AI involvement in screening, reading, or writing.
 - Consensus Pro was used to seed the subtopics; its displayed “113 eligible” count is a platform estimate, not a publication count.
 - Sixteen targeted Consensus Quick searches were run through the visible website and exported as RIS. Search strings, visible result counts, and export counts are in [`SEARCH_LOG.csv`](SEARCH_LOG.csv).
 - RIS exports contained titles and DOI metadata but no abstracts. DOI-linked abstracts were retrieved from OpenAlex for 161 of 179 unique records. The remaining 18 have explicit missing-abstract status; Consensus AI Key Takeaways were not treated as abstracts.
