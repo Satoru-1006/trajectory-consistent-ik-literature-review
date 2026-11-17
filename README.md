@@ -1,15 +1,20 @@
-﻿# Trajectory-Consistent Inverse Kinematics for Fixed-Base Serial Manipulators
+# Trajectory-Consistent Inverse Kinematics for Fixed-Base Serial Manipulators
 
 Literature screening corpus for **solution-branch tracking, singularity transitions, and joint constraints**. Search window: 2016-01-01 through 2026-09-29.
 
-## Latest review manuscript — Gate 7-R9 (2026-10-18)
+## Supplementary materials for the manuscript
 
-- [Gate 7-R9 table and evidence compression manuscript](GATE7_R9_TABLE_AND_EVIDENCE_COMPRESSION.md) — current editing version. Table 1A now contains only the **six mechanism anchors**, with status codes only; seven additional contextual cases are in Supplementary Table S2A. The A1–A5 table and duplicated comparison sentence are removed; Section 2.1 retains only T1–T3. Abstract: **216 words**; keywords: **6**. Supplementary S1 has three parts (search methods, eligibility, limitations); evidence codes are unified in S4.1/S4.2. Data availability now points to this public repository. Figure 1 is placed at the start of Section 3.3. The G0/G1/G2E/G2T benchmark remains **proposed, not executed**. **READY_FOR_SUBMISSION: NO** pending source-level and journal-specific checks.
-- [Google Drive R9 document](https://docs.google.com/document/d/1WuSxECFxn1278bbuEOb0Zav1r2OTWq2X36uBE5TvQv0/edit) — content verified against GitHub R9 after normalizing Google Docs spacing.
-- [Gate 7-R8 preserved baseline](GATE7_R8_STRUCTURE_AND_SYNTHESIS_REVISED_MANUSCRIPT.md) and [Google Drive R8 document](https://docs.google.com/document/d/1LglC-mBr044GNUryfsoQhEBIaLn8UPrl4ksICMn_WGw/edit) — retained for comparison; not overwritten.
-- [Gate 7-R7 preserved baseline](GATE7_R7_EDITORIALLY_REFINED_MANUSCRIPT.md) and [Google Drive R7 document](https://docs.google.com/document/d/1zvy8OECRcouQtwBPxWydjJfXdtOPRGGjz9m8KJe6vWQ/edit) — retained for comparison.
-- [Gate 7-R6 preserved baseline](GATE7_R6_APPLICABILITY_AWARE_SYNTHESIS_MANUSCRIPT.md) and [Google Drive R6 baseline](https://docs.google.com/document/d/18GDD2eS8FoEw9tKwX3qp3eJU_wVf2nZbKb_z4aUePik/edit) — retained for comparison.
-- Evidence scope remains **50 DOI-bearing references**. Zeng, M. Zhang and Milenkovic 2026 full mathematical assumptions remain **NOT_ASSESSED** at publisher-preview depth. The manuscript does not claim a field-wide prevalence estimate or universal method ranking.
+This repository accompanies the review "Trajectory-Consistent Inverse Kinematics for Fixed-Base Serial Manipulators". The materials that the manuscript's data availability statement refers to are in [`supplementary/`](supplementary/):
+
+| Folder | Content |
+| --- | --- |
+| [`supplementary/evidence_matrix/`](supplementary/evidence_matrix/) | The evidence matrix of the 73 pathwise IK studies (`matrix_coding.csv`, 100 coded references in total: 73 matrix studies, 7 reviews, 20 background), the coding rules (`coding_rules.md`), every count of Figure 8 with its paper list (`counts_with_lists.csv`, `heatmap_cells.csv`), the script that regenerates them (`matrix_summary.py`), the coding table of the 12 additional methods (`twelve_further_methods_table.csv`), the six core cases of Table 3 (`core_cases_table3.csv`) and four removed candidates (`excluded_R155.csv`). |
+| [`supplementary/ur5e_kinematic_verification/`](supplementary/ur5e_kinematic_verification/) | The UR5e kinematic verification (Levels 1 and 2): solver and methods M1 to M3, the sufficient-condition bounds (`prop_check.py`), the adversarial-obstacle test and the M2 candidate tests (`extra_tests.py`), results, logs and figure scripts. Its own README gives the commands. |
+| [`supplementary/figure_scripts/`](supplementary/figure_scripts/) | Scripts of the schematic figures (pipeline and overview). `make_fig2_R130.py` takes the variant letter `A` or `B` as its argument. |
+
+Screening and search records of the literature corpus (`SEARCH_LOG.csv`, `SCREENING.csv`, `exports/`, `READING_NOTES/` and the protocol files) are in the repository root and are described below. The reading notes in `READING_NOTES/` cover the first corpus; the coding file lists the note used for each study in its `note_files` column.
+
+Notes on scope: `matrix_coding.csv` does not contain six cited background references (the five interval-certification studies of Section 3.1 and Schreiber and Gosselin, 2022). The root-level manuscript drafts `GATE7_R2` to `GATE7_R9` and the 50-reference counts in the sections below describe an earlier stage of the work and are kept only as history; the submitted manuscript is the reference for all numbers.
 
 ## Screening result
 

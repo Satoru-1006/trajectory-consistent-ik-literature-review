@@ -1,0 +1,7 @@
+case,DOF,mechanism,constraint_domain,guarantee_as_proved_by_source,verified_object,evidence
+Rakita 2019,"6, 7, 8",Layered-graph DP,Nodes; edge velocity,Nodes and edges,Samples,Simulation
+Ferrentino 2024,7,Grid DP on redundancy,Discrete grid,Grid-level optimality,Timed motion,"Hardware, quantitative"
+Elias and Wen 2025a,"6, 3",Graph over all analytical IK; det J filter,Edge joint step,Nodes and edges,Graph edges,Simulation
+Boschi 2026,6,Analytical branch switching,Singular crossings,Continuity for admissible trajectories,Samples (singular crossings),"Hardware, qualitative"
+Weingartshofer 2023,"7, 6","Toleranced-path optimization, Hermite fit",Planning nodes,None stated (interpolant),Samples,"Hardware, qualitative; simulation"
+Y. Zhang and Kikuuwe 2026,"1, 2",Local QP differential IK,Discrete steps,Recursive feasibility (discrete model),Simulation steps,Simulation

@@ -1,0 +1,43 @@
+python 3.13.16 numpy 2.5.3 seed 20261020
+FK/IK check on 2000 random poses: failures 0, solutions per pose min/max 2/8, max position error 1.70e-15 m, max rotation error 3.65e-08 rad
+[regular] q_init=[-0.3051, -3.3638, 1.5507, 0.2423, -1.5708, 1.2657]  reference max joint step 0.0007 rad  min|q5| on ref 1.57e+00
+[regular] obstacle centre [0.2456, 0.5153, 0.4496] (offset 0.4496 m), reference min clearance 0.02000 m
+  regular  N=  5 M1: step 0.367 wp pos 4.3e-16 m rot 0.0e+00 rad | curve pos 5.843 mm rot 0.00e+00 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N=  5 M2: step 0.367 wp pos 4.3e-16 m rot 0.0e+00 rad | curve pos 5.843 mm rot 0.00e+00 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N=  5 M3: step 0.367 wp pos 8.6e-12 m rot 0.0e+00 rad | curve pos 5.843 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N= 10 M1: step 0.164 wp pos 4.3e-16 m rot 2.1e-08 rad | curve pos 1.187 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N= 10 M2: step 0.164 wp pos 4.3e-16 m rot 2.1e-08 rad | curve pos 1.187 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N= 10 M3: step 0.164 wp pos 1.6e-10 m rot 0.0e+00 rad | curve pos 1.187 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 False L2 False
+  regular  N= 20 M1: step 0.078 wp pos 5.2e-16 m rot 0.0e+00 rad | curve pos 0.269 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N= 20 M2: step 0.078 wp pos 5.2e-16 m rot 0.0e+00 rad | curve pos 0.269 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N= 20 M3: step 0.078 wp pos 1.0e-11 m rot 0.0e+00 rad | curve pos 0.269 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N= 50 M1: step 0.030 wp pos 5.4e-16 m rot 2.1e-08 rad | curve pos 0.041 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N= 50 M2: step 0.030 wp pos 5.4e-16 m rot 2.1e-08 rad | curve pos 0.041 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N= 50 M3: step 0.030 wp pos 7.1e-10 m rot 2.1e-08 rad | curve pos 0.041 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=100 M1: step 0.015 wp pos 5.2e-16 m rot 2.1e-08 rad | curve pos 0.010 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=100 M2: step 0.015 wp pos 5.2e-16 m rot 2.1e-08 rad | curve pos 0.010 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=100 M3: step 0.015 wp pos 1.7e-10 m rot 2.1e-08 rad | curve pos 0.010 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=200 M1: step 0.007 wp pos 6.7e-16 m rot 3.0e-08 rad | curve pos 0.002 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=200 M2: step 0.007 wp pos 6.7e-16 m rot 3.0e-08 rad | curve pos 0.002 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  regular  N=200 M3: step 0.007 wp pos 4.2e-11 m rot 2.1e-08 rad | curve pos 0.002 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+[wrist] q_init=[0.201, -1.3303, 1.2627, 0.0676, -0.199, -0.6]  reference max joint step 0.5520 rad  min|q5| on ref 0.00e+00
+[wrist] obstacle centre [-0.4632, 0.0162, 0.5473] (offset 0.2620 m), reference min clearance 0.02000 m
+  wrist    N=  5 M1: step 0.689 wp pos 9.8e-11 m rot 0.0e+00 rad | curve pos 5.642 mm rot 1.48e-02 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.6030 rad | L1 False L2 False
+  wrist    N=  5 M2: no admissible path
+  wrist    N=  5 M3: step 0.100 wp pos 8.8e-10 m rot 0.0e+00 rad | curve pos 0.686 mm rot 7.30e-05 rad | clr wp 20.00 curve 20.00 mm | dev ref 1.2760 rad | L1 True L2 True
+  wrist    N= 10 M1: step 0.044 wp pos 9.8e-11 m rot 0.0e+00 rad | curve pos 0.138 mm rot 2.11e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 10 M2: step 0.044 wp pos 1.7e-09 m rot 3.0e-08 rad | curve pos 0.138 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 10 M3: step 0.044 wp pos 6.9e-10 m rot 2.1e-08 rad | curve pos 0.138 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 20 M1: step 0.021 wp pos 9.8e-11 m rot 0.0e+00 rad | curve pos 0.031 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 20 M2: step 0.021 wp pos 1.7e-09 m rot 2.1e-08 rad | curve pos 0.031 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 20 M3: step 0.021 wp pos 9.8e-10 m rot 0.0e+00 rad | curve pos 0.031 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 50 M1: step 0.008 wp pos 9.8e-11 m rot 2.1e-08 rad | curve pos 0.005 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 50 M2: step 0.008 wp pos 1.7e-09 m rot 3.0e-08 rad | curve pos 0.005 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N= 50 M3: step 0.008 wp pos 9.9e-10 m rot 2.1e-08 rad | curve pos 0.005 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.0000 rad | L1 True L2 True
+  wrist    N=100 M1: step 0.004 wp pos 9.8e-11 m rot 2.1e-08 rad | curve pos 0.001 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.5839 rad | L1 True L2 True
+  wrist    N=100 M2: step 0.004 wp pos 1.7e-09 m rot 3.0e-08 rad | curve pos 0.001 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.5839 rad | L1 True L2 True
+  wrist    N=100 M3: step 0.004 wp pos 8.8e-10 m rot 4.2e-08 rad | curve pos 0.001 mm rot 5.16e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 0.5839 rad | L1 True L2 True
+  wrist    N=200 M1: step 0.002 wp pos 9.8e-11 m rot 2.1e-08 rad | curve pos 0.000 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 1.2267 rad | L1 True L2 True
+  wrist    N=200 M2: step 0.002 wp pos 1.7e-09 m rot 3.0e-08 rad | curve pos 0.000 mm rot 2.98e-08 rad | clr wp 20.00 curve 20.00 mm | dev ref 1.2267 rad | L1 True L2 True
+  wrist    N=200 M3: step 0.002 wp pos 1.0e-09 m rot 1.7e-07 rad | curve pos 0.000 mm rot 1.99e-07 rad | clr wp 20.00 curve 20.00 mm | dev ref 1.2265 rad | L1 True L2 True
+done in 16.3 s

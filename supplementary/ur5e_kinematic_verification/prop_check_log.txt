@@ -1,0 +1,40 @@
+[regular] on reference lift: M_pos 0.778 m/rad^2, M_rot 1.673 rad/rad^2, L_clear 0.671 m/rad, joint path length 1.916 rad
+  regular  N=  5 M1: h 0.526 | pos meas 5.8426 mm bound 24.697 mm | rot meas 0.00e+00 bound 5.73e-02 rad | clr meas 20.00 bound -113.31 mm | holds True
+  regular  N=  5 M2: h 0.526 | pos meas 5.8426 mm bound 24.697 mm | rot meas 0.00e+00 bound 5.73e-02 rad | clr meas 20.00 bound -113.31 mm | holds True
+  regular  N=  5 M3: h 0.526 | pos meas 5.8426 mm bound 24.697 mm | rot meas 2.45e-10 bound 5.82e-02 rad | clr meas 20.00 bound -113.31 mm | holds True
+  regular  N= 10 M1: h 0.238 | pos meas 1.1868 mm bound 4.893 mm | rot meas 8.25e-16 bound 1.18e-02 rad | clr meas 20.00 bound -38.81 mm | holds True
+  regular  N= 10 M2: h 0.238 | pos meas 1.1868 mm bound 4.893 mm | rot meas 8.25e-16 bound 1.18e-02 rad | clr meas 20.00 bound -38.81 mm | holds True
+  regular  N= 10 M3: h 0.238 | pos meas 1.1868 mm bound 4.893 mm | rot meas 8.80e-09 bound 1.75e-02 rad | clr meas 20.00 bound -38.81 mm | holds True
+  regular  N= 20 M1: h 0.113 | pos meas 0.2692 mm bound 1.101 mm | rot meas 4.75e-16 bound 2.65e-03 rad | clr meas 20.00 bound -7.94 mm | holds True
+  regular  N= 20 M2: h 0.113 | pos meas 0.2692 mm bound 1.101 mm | rot meas 4.75e-16 bound 2.65e-03 rad | clr meas 20.00 bound -7.94 mm | holds True
+  regular  N= 20 M3: h 0.113 | pos meas 0.2692 mm bound 1.101 mm | rot meas 3.90e-10 bound 2.70e-03 rad | clr meas 20.00 bound -7.94 mm | holds True
+  regular  N= 50 M1: h 0.044 | pos meas 0.0407 mm bound 0.165 mm | rot meas 1.01e-15 bound 3.98e-04 rad | clr meas 20.00 bound 9.13 mm | holds True
+  regular  N= 50 M2: h 0.044 | pos meas 0.0407 mm bound 0.165 mm | rot meas 1.01e-15 bound 3.98e-04 rad | clr meas 20.00 bound 9.13 mm | holds True
+  regular  N= 50 M3: h 0.044 | pos meas 0.0407 mm bound 0.165 mm | rot meas 9.62e-11 bound 3.98e-04 rad | clr meas 20.00 bound 9.13 mm | holds True
+  regular  N=100 M1: h 0.022 | pos meas 0.0100 mm bound 0.040 mm | rot meas 6.83e-16 bound 9.75e-05 rad | clr meas 20.00 bound 14.62 mm | holds True
+  regular  N=100 M2: h 0.022 | pos meas 0.0100 mm bound 0.040 mm | rot meas 6.83e-16 bound 9.75e-05 rad | clr meas 20.00 bound 14.62 mm | holds True
+  regular  N=100 M3: h 0.022 | pos meas 0.0100 mm bound 0.040 mm | rot meas 9.78e-09 bound 1.42e-04 rad | clr meas 20.00 bound 14.62 mm | holds True
+  regular  N=200 M1: h 0.011 | pos meas 0.0025 mm bound 0.010 mm | rot meas 1.16e-15 bound 2.41e-05 rad | clr meas 20.00 bound 17.32 mm | holds True
+  regular  N=200 M2: h 0.011 | pos meas 0.0025 mm bound 0.010 mm | rot meas 1.16e-15 bound 2.41e-05 rad | clr meas 20.00 bound 17.32 mm | holds True
+  regular  N=200 M3: h 0.011 | pos meas 0.0025 mm bound 0.010 mm | rot meas 2.95e-09 bound 2.72e-05 rad | clr meas 20.00 bound 17.32 mm | holds True
+[regular] required h: pos 0.1014 rad, rot 0.0691 rad, clearance 0.0298 rad -> N >= 29 (pose), N >= 66 (clearance)
+[wrist] on reference lift: M_pos 0.968 m/rad^2, M_rot 3.700 rad/rad^2, L_clear 0.802 m/rad, joint path length 0.600 rad
+  wrist    N=  5 M1: h 0.977 | pos meas 5.6419 mm bound 121.114 mm | rot meas 1.48e-02 bound 1.63e-01 rad | clr meas 20.00 bound -283.56 mm | holds True
+  wrist    N=  5 M3: h 0.158 | pos meas 0.6864 mm bound 3.010 mm | rot meas 7.30e-05 bound 4.22e-03 rad | clr meas 20.00 bound -33.56 mm | holds True
+  wrist    N= 10 M1: h 0.071 | pos meas 0.1383 mm bound 0.612 mm | rot meas 2.12e-15 bound 7.81e-04 rad | clr meas 20.00 bound -3.54 mm | holds True
+  wrist    N= 10 M2: h 0.071 | pos meas 0.1383 mm bound 0.612 mm | rot meas 2.12e-15 bound 7.81e-04 rad | clr meas 20.00 bound -3.54 mm | holds True
+  wrist    N= 10 M3: h 0.071 | pos meas 0.1383 mm bound 0.612 mm | rot meas 8.97e-09 bound 1.16e-03 rad | clr meas 20.00 bound -3.54 mm | holds True
+  wrist    N= 20 M1: h 0.034 | pos meas 0.0313 mm bound 0.139 mm | rot meas 3.95e-15 bound 1.77e-04 rad | clr meas 20.00 bound 8.89 mm | holds True
+  wrist    N= 20 M2: h 0.034 | pos meas 0.0313 mm bound 0.139 mm | rot meas 3.95e-15 bound 1.77e-04 rad | clr meas 20.00 bound 8.89 mm | holds True
+  wrist    N= 20 M3: h 0.034 | pos meas 0.0313 mm bound 0.139 mm | rot meas 1.46e-08 bound 3.58e-04 rad | clr meas 20.00 bound 8.89 mm | holds True
+  wrist    N= 50 M1: h 0.013 | pos meas 0.0047 mm bound 0.021 mm | rot meas 6.32e-15 bound 2.69e-05 rad | clr meas 20.00 bound 15.70 mm | holds True
+  wrist    N= 50 M2: h 0.013 | pos meas 0.0047 mm bound 0.021 mm | rot meas 6.32e-15 bound 2.69e-05 rad | clr meas 20.00 bound 15.70 mm | holds True
+  wrist    N= 50 M3: h 0.013 | pos meas 0.0047 mm bound 0.021 mm | rot meas 2.67e-08 bound 5.25e-05 rad | clr meas 20.00 bound 15.70 mm | holds True
+  wrist    N=100 M1: h 0.007 | pos meas 0.0012 mm bound 0.005 mm | rot meas 2.07e-14 bound 6.60e-06 rad | clr meas 20.00 bound 17.88 mm | holds True
+  wrist    N=100 M2: h 0.007 | pos meas 0.0012 mm bound 0.005 mm | rot meas 2.07e-14 bound 6.60e-06 rad | clr meas 20.00 bound 17.88 mm | holds True
+  wrist    N=100 M3: h 0.007 | pos meas 0.0012 mm bound 0.005 mm | rot meas 4.92e-08 bound 1.62e-05 rad | clr meas 20.00 bound 17.88 mm | holds True
+  wrist    N=200 M1: h 0.003 | pos meas 0.0003 mm bound 0.001 mm | rot meas 2.14e-14 bound 1.64e-06 rad | clr meas 20.00 bound 18.94 mm | holds True
+  wrist    N=200 M2: h 0.003 | pos meas 0.0003 mm bound 0.001 mm | rot meas 2.14e-14 bound 1.64e-06 rad | clr meas 20.00 bound 18.94 mm | holds True
+  wrist    N=200 M3: h 0.003 | pos meas 0.0003 mm bound 0.001 mm | rot meas 1.98e-07 bound 4.25e-06 rad | clr meas 20.00 bound 18.94 mm | holds True
+[wrist] required h: pos 0.0909 rad, rot 0.0465 rad, clearance 0.0249 rad -> N >= 14 (pose), N >= 26 (clearance)
+all bounds hold: True (35 cases), 118.0 s
