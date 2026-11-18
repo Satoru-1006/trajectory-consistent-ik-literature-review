@@ -23,7 +23,7 @@ Six further background references (the five interval-certification studies of Se
 Counting never infers: any code that could not be established is `unverified` and counted separately. In the released matrix no class-M code is `unverified`.
 
 ## Evidence and procedure
-- Source of codes: reading notes written from the full text of each paper. The columns `loc_*` give the place in the source (section, page, table or figure) that supports each yes/no code; `class_basis` states why the paper has its class; `flags` records low-confidence or overridden codes; `note_files` names the reading note.
+- Source of codes: reading notes written from the full text of each paper. The columns `loc_*` give the place in the source (section, page, table or figure) that supports each yes/no code; `class_basis` states why the paper has its class; `flags` records low-confidence or overridden codes; `note_files` names the reading note; and `note_status` records whether the note is archived in this repository (`archived_in_repo`: 44 class-M, 4 class-R, 4 class-B), stored in an external working folder not yet archived here (`external_unarchived`: 28 class-M, 12 class-B; original filenames under `reference-notes/` are retained in `note_files` for provenance), or absent (`missing`: 1 class-M [Zeng 2026], 3 class-R, 4 class-B). For `external_unarchived` and `missing` rows, the coding basis and source locations remain documented in `class_basis` and `loc_*`.
 - Coding was done by a single coder from the reading notes. There was no second coder and no agreement statistic.
 - Override recorded in `flags`: Dulęba et al. (2018), `verification` = `none` (the evaluation examines joint-loop length, not the task error of the reconstructed curve).
 

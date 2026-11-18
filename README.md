@@ -12,9 +12,33 @@ This repository accompanies the review "Trajectory-Consistent Inverse Kinematics
 | [`supplementary/ur5e_kinematic_verification/`](supplementary/ur5e_kinematic_verification/) | The UR5e kinematic verification (Levels 1 and 2): solver and methods M1 to M3, the sufficient-condition bounds (`prop_check.py`), the adversarial-obstacle test and the M2 candidate tests (`extra_tests.py`), results, logs and figure scripts. Its own README gives the commands. |
 | [`supplementary/figure_scripts/`](supplementary/figure_scripts/) | Scripts of the schematic figures (pipeline and overview). `make_fig2_R130.py` takes the variant letter `A` or `B` as its argument. |
 
-Screening and search records of the literature corpus (`SEARCH_LOG.csv`, `SCREENING.csv`, `exports/`, `READING_NOTES/` and the protocol files) are in the repository root and are described below. The reading notes in `READING_NOTES/` cover the first corpus; the coding file lists the note used for each study in its `note_files` column.
+Screening and search records of the literature corpus (`SEARCH_LOG.csv`, `SCREENING.csv`, `exports/`, `READING_NOTES/` and the protocol files) are in the repository root and are described below. In `matrix_coding.csv`, `note_status` distinguishes notes archived in this repository (`archived_in_repo`, including 44 of 73 class-M studies in `READING_NOTES/` / `FULLTEXT_READING_LOG.csv`), external reading notes not yet archived in this repository (`external_unarchived`, 28 class-M and 12 class-B rows retaining their original `reference-notes/` filenames), and entries without a separate note file (`missing`, 1 class-M [Zeng 2026], 3 class-R, 4 class-B).
 
-Notes on scope: `matrix_coding.csv` does not contain six cited background references (the five interval-certification studies of Section 3.1 and Schreiber and Gosselin, 2022). The root-level manuscript drafts `GATE7_R2` to `GATE7_R9` and the 50-reference counts in the sections below describe an earlier stage of the work and are kept only as history; the submitted manuscript is the reference for all numbers.
+## Quick reproduction
+
+Install Python dependencies (`Python >= 3.10` recommended; tested on `3.13.16`):
+
+```bash
+pip install -r requirements.txt
+```
+
+- **Regenerate evidence matrix counts and Figure 8 data**:
+  ```bash
+  cd supplementary/evidence_matrix
+  python matrix_summary.py
+  ```
+- **Re-run UR5e kinematic verification (Levels 1 & 2, bounds, adversarial obstacle, M2 sensitivity, parameter-sync)**:
+  ```bash
+  cd supplementary/ur5e_kinematic_verification
+  python ur5e_minimal.py
+  python reference_clearance_profile.py
+  python prop_check.py
+  python extra_tests.py
+  python param_sync_check.py
+  python make_figure.py
+  ```
+
+Notes on scope: `matrix_coding.csv` does not contain six cited background references (the five interval-certification studies of Section 3.1 and Schreiber and Gosselin, 2022). The root-level manuscript drafts `GATE7_R2` to `GATE7_R9` and the 50-reference counts in the sections below describe an earlier stage of the work and are kept only as history; the submitted manuscript is the reference for all numbers. Native database export records (Web of Science, Scopus, IEEE Xplore) and citation-chaining logs referenced in the manuscript are pending upload by the author to supplement `SEARCH_LOG.csv` and `TARGETED_SEARCH_UPDATE.csv`.
 
 ## Screening result
 
