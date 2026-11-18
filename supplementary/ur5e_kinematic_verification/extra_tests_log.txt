@@ -1,0 +1,28 @@
+== Test A: adversarial obstacle, Level 2 ==
+[regular] N=5 (M3): waypoint clearance 26.02 mm, dense-reference clearance 10.51 mm, interpolated-curve clearance 5.00 mm (c_min 10 mm) centre [0.5396, 0.1175, 0.4374]
+   N=  5: waypoints   26.02 mm  curve    5.00 mm  waypoint check passes True  curve check passes False
+   N= 10: waypoints   15.84 mm  curve    9.36 mm  waypoint check passes True  curve check passes False
+   N= 20: waypoints   11.39 mm  curve   10.26 mm  waypoint check passes True  curve check passes True
+   N= 50: waypoints   10.52 mm  curve   10.49 mm  waypoint check passes True  curve check passes True
+   N=100: waypoints   10.53 mm  curve   10.50 mm  waypoint check passes True  curve check passes True
+   N=200: waypoints   10.51 mm  curve   10.51 mm  waypoint check passes True  curve check passes True
+[wrist] no adversarial placement found
+== Test B: M2 at the wrist singularity ==
+dense reference lift (continuous, 2001 waypoints): max joint step 0.0002 rad; min |q5| 1.60e-08 -> a continuous path through the singular pose exists
+(i) N=5, edge limit 0.5 rad, standard candidates: no path
+(i) N=5, edge limit 0.7 rad, standard candidates: path found, max step 0.689 rad
+(i) N=5, edge limit 1.0 rad, standard candidates: path found, max step 0.689 rad
+(i) N=5, edge limit 1.5 rad, standard candidates: path found, max step 0.689 rad
+(i) N=5, edge limit 2.0 rad, standard candidates: path found, max step 0.689 rad
+(ii) N=5, edge limit 0.5 rad, 8 self-motion candidates: path found, max step 0.204 rad, curve pos 1.031 mm, rot 4.59e-03 rad, Level 1 False
+(ii) N=5, edge limit 0.5 rad, 24 self-motion candidates: path found, max step 0.100 rad, curve pos 0.737 mm, rot 1.89e-03 rad, Level 1 False
+(ii) N=5, edge limit 0.5 rad, 72 self-motion candidates: path found, max step 0.100 rad, curve pos 0.686 mm, rot 2.69e-04 rad, Level 1 True
+(iii) N= 5, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.69 mm / 2.7e-04 rad, step 0.100
+(iii) N= 6, edge limit 0.5 rad | standard candidates: path, Level 1 True, curve 0.44 mm / 2.1e-08 rad, step 0.080 | + 72 self-motion candidates: path, Level 1 True, curve 0.44 mm / 2.1e-08 rad, step 0.080
+(iii) N= 7, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.31 mm / 1.8e-04 rad, step 0.067
+(iii) N= 8, edge limit 0.5 rad | standard candidates: path, Level 1 True, curve 0.23 mm / 2.1e-08 rad, step 0.057 | + 72 self-motion candidates: path, Level 1 True, curve 0.23 mm / 2.1e-08 rad, step 0.057
+(iii) N= 9, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.17 mm / 1.3e-04 rad, step 0.050
+(iii) N=10, edge limit 0.5 rad | standard candidates: path, Level 1 True, curve 0.14 mm / 2.1e-08 rad, step 0.044 | + 72 self-motion candidates: path, Level 1 True, curve 0.14 mm / 2.1e-08 rad, step 0.044
+(iii) N=11, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.11 mm / 1.1e-04 rad, step 0.040
+(iii) N=21, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.03 mm / 5.3e-05 rad, step 0.020
+(iii) N=51, edge limit 0.5 rad | standard candidates: no path | + 72 self-motion candidates: path, Level 1 True, curve 0.01 mm / 2.1e-05 rad, step 0.012

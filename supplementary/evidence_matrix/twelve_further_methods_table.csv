@@ -1,0 +1,13 @@
+case,DOF,selection_and_events,constraints,verification
+"Wang et al. (2024), IKLink, trajectory tracking","7 (iiwa, Sawyer, Panda); 6 (UR5)",Dynamic programming over IK samples; fewest reconfigurations,Joint limits; edge velocity; no acceleration bound,"Waypoint error, edge velocity; one qualitative run"
+"Morgan et al. (2024), CppFlow, Cartesian path planning","7 (Fetch, Panda); 8 (Fetch with torso)","Learned IK candidates, dynamic programming, then optimization","Pose, limits, collision at time steps; no timing",Time-step configurations; no hardware
+"Holladay et al. (2019), Fréchet-error graph search",7 (HERB arm),Layered IK graph; Fréchet-error search,Edge collision; no velocity bounds,Subdivided edges; no hardware
+"Hauser and Emmons (2018), global redundancy resolution","Planar 3R, 20R; 6–7 (positions)",Workspace roadmap; fewest discontinuous edges,"Joint limits, self-collision at samples","Graph edges; offline, no hardware"
+"Yin et al. (2024), breakpoints",7 (Franka),Dynamic programming on q7 grid; fewest breakpoints,"Position, velocity, acceleration on grid",Grid; simulated commands; photos only
+"Yin et al. (2025), real-time adjustment",7 (Franka),"Dynamic programming on (q7, offset) grid","Position, velocity; online acceleration, jerk",Franka hardware; position error
+"L. Zhang et al. (2025), optimal arm angle",7 (spherical–revolute–spherical),"Arm angle per point, particle-swarm search","Limits, singular angles, collision at points; no timing",Path points; qualitative robot run
+"Oelerich et al. (2025a), BoundMPC",7 (iiwa),Joint-space predictive control; no branch handling,"Position to jerk bounds, path corridors","Timed commands; iiwa, some simulated"
+"Fried and Paternain (2024), bi-level trajectory optimization","3 (planar, simulated); 6 (UR10e)",Joint curve and speed together; initial IK sets branch,Limits and path error at 500 points,"Timed motion; UR10e, error above specification once"
+"Rice and Schimmels (2020), homotopy classes",Planar 3R,Homotopy classes; branch-and-bound,Task equality only,Dense-grid task error; simulation
+"Okazaki et al. (2026), myCobot line segments",6 (myCobot 280),All IK solutions; Dijkstra over layered graph,No limits or collision,Waypoint poses; curves still jump; no hardware
+"Razjigaev et al. (2025), FRIK","6 (IRB4600), 5-DOF task",Local damped least squares; depends on initial state,None in solver,Samples; qualitative ABB comparison

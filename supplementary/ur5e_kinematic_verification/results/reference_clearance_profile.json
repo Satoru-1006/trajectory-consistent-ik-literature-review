@@ -1,0 +1,20 @@
+{
+ "regular": {
+  "min_clearance": 0.019999999999999962,
+  "s_at_min": 1.0,
+  "max_clearance": 0.6022730743221181,
+  "s_at_max": 0.0,
+  "clearance_at_s0": 0.6022730743221181,
+  "clearance_at_s1": 0.019999999999999962,
+  "clearance_at_s05": 0.2829529293161703
+ },
+ "wrist": {
+  "min_clearance": 0.020000000000000004,
+  "s_at_min": 0.0,
+  "max_clearance": 0.20657884943976124,
+  "s_at_max": 1.0,
+  "clearance_at_s0": 0.020000000000000004,
+  "clearance_at_s1": 0.20657884943976124,
+  "clearance_at_s05": 0.11444256196405837
+ }
+}
